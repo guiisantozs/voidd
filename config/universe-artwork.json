@@ -1,0 +1,452 @@
+{
+  "/universos/jogos/the-legend-of-zelda/hero.jpg": {
+    "width": 3840,
+    "height": 2765,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-0-8337edb9abd6-960.webp",
+        "width": 960,
+        "bytes": 179666
+      },
+      {
+        "src": "/universos/optimized/universe-0-8337edb9abd6-1920.webp",
+        "width": 1920,
+        "bytes": 615254
+      },
+      {
+        "src": "/universos/optimized/universe-0-8337edb9abd6-2560.webp",
+        "width": 2560,
+        "bytes": 1075468
+      },
+      {
+        "src": "/universos/optimized/universe-0-8337edb9abd6-3840.webp",
+        "width": 3840,
+        "bytes": 2393960
+      }
+    ]
+  },
+  "/universos/jogos/the-legend-of-zelda/about.jpg": {
+    "width": 4096,
+    "height": 2304,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-1-5d73e4cb4ad4-960.webp",
+        "width": 960,
+        "bytes": 173794
+      },
+      {
+        "src": "/universos/optimized/universe-1-5d73e4cb4ad4-1920.webp",
+        "width": 1920,
+        "bytes": 626102
+      },
+      {
+        "src": "/universos/optimized/universe-1-5d73e4cb4ad4-2560.webp",
+        "width": 2560,
+        "bytes": 1102588
+      },
+      {
+        "src": "/universos/optimized/universe-1-5d73e4cb4ad4-3840.webp",
+        "width": 3840,
+        "bytes": 2357900
+      }
+    ]
+  },
+  "/universos/jogos/grand-theft-auto/hero.webp": {
+    "width": 2400,
+    "height": 1350,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-2-255c06596a17-960.webp",
+        "width": 960,
+        "bytes": 87594
+      },
+      {
+        "src": "/universos/optimized/universe-2-255c06596a17-1920.webp",
+        "width": 1920,
+        "bytes": 220992
+      },
+      {
+        "src": "/universos/jogos/grand-theft-auto/hero.webp",
+        "width": 2400,
+        "bytes": 289910
+      }
+    ]
+  },
+  "/universos/jogos/grand-theft-auto/about-jason-lucia.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-3-d3664044aae1-960.webp",
+        "width": 960,
+        "bytes": 70286
+      },
+      {
+        "src": "/universos/optimized/universe-3-d3664044aae1-1920.webp",
+        "width": 1920,
+        "bytes": 180704
+      },
+      {
+        "src": "/universos/optimized/universe-3-d3664044aae1-2560.webp",
+        "width": 2560,
+        "bytes": 267388
+      },
+      {
+        "src": "/universos/optimized/universe-3-d3664044aae1-3840.webp",
+        "width": 3840,
+        "bytes": 478764
+      }
+    ]
+  },
+  "/universos/jogos/god-of-war/hero.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-4-7bd6b505b10e-960.webp",
+        "width": 960,
+        "bytes": 97574
+      },
+      {
+        "src": "/universos/optimized/universe-4-7bd6b505b10e-1920.webp",
+        "width": 1920,
+        "bytes": 342988
+      },
+      {
+        "src": "/universos/optimized/universe-4-7bd6b505b10e-2560.webp",
+        "width": 2560,
+        "bytes": 502970
+      },
+      {
+        "src": "/universos/optimized/universe-4-7bd6b505b10e-3840.webp",
+        "width": 3840,
+        "bytes": 905032
+      }
+    ]
+  },
+  "/universos/jogos/god-of-war/about.jpg": {
+    "width": 5398,
+    "height": 2976,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-5-a7d31eeae32c-960.webp",
+        "width": 960,
+        "bytes": 63036
+      },
+      {
+        "src": "/universos/optimized/universe-5-a7d31eeae32c-1920.webp",
+        "width": 1920,
+        "bytes": 207732
+      },
+      {
+        "src": "/universos/optimized/universe-5-a7d31eeae32c-2560.webp",
+        "width": 2560,
+        "bytes": 331038
+      },
+      {
+        "src": "/universos/optimized/universe-5-a7d31eeae32c-3840.webp",
+        "width": 3840,
+        "bytes": 630420
+      }
+    ]
+  },
+  "/games/heroes/the-last-of-us-part-ii.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-6-86255a1dd50f-960.webp",
+        "width": 960,
+        "bytes": 169266
+      },
+      {
+        "src": "/universos/optimized/universe-6-86255a1dd50f-1920.webp",
+        "width": 1920,
+        "bytes": 641834
+      },
+      {
+        "src": "/universos/optimized/universe-6-86255a1dd50f-2560.webp",
+        "width": 2560,
+        "bytes": 940668
+      },
+      {
+        "src": "/universos/optimized/universe-6-86255a1dd50f-3840.webp",
+        "width": 3840,
+        "bytes": 1595730
+      }
+    ]
+  },
+  "/universos/jogos/the-last-of-us-about.jpg": {
+    "width": 1919,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-7-220b34803804-960.webp",
+        "width": 960,
+        "bytes": 50722
+      },
+      {
+        "src": "/universos/optimized/universe-7-220b34803804-1919.webp",
+        "width": 1919,
+        "bytes": 178820
+      }
+    ]
+  },
+  "/universos/marvel/doomsday.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-8-58cf00f6e470-960.webp",
+        "width": 960,
+        "bytes": 71266
+      },
+      {
+        "src": "/universos/optimized/universe-8-58cf00f6e470-1920.webp",
+        "width": 1920,
+        "bytes": 356802
+      },
+      {
+        "src": "/universos/optimized/universe-8-58cf00f6e470-2560.webp",
+        "width": 2560,
+        "bytes": 680462
+      },
+      {
+        "src": "/universos/optimized/universe-8-58cf00f6e470-3840.webp",
+        "width": 3840,
+        "bytes": 1695928
+      }
+    ]
+  },
+  "/universos/marvel/spider-man.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-9-7439288a673d-960.webp",
+        "width": 960,
+        "bytes": 60870
+      },
+      {
+        "src": "/universos/optimized/universe-9-7439288a673d-1920.webp",
+        "width": 1920,
+        "bytes": 188322
+      },
+      {
+        "src": "/universos/optimized/universe-9-7439288a673d-2560.webp",
+        "width": 2560,
+        "bytes": 281840
+      },
+      {
+        "src": "/universos/optimized/universe-9-7439288a673d-3840.webp",
+        "width": 3840,
+        "bytes": 516556
+      }
+    ]
+  },
+  "/universos/star-wars/hero.webp": {
+    "width": 2200,
+    "height": 1238,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-10-4d6ed0393f2b-960.webp",
+        "width": 960,
+        "bytes": 172348
+      },
+      {
+        "src": "/universos/optimized/universe-10-4d6ed0393f2b-1920.webp",
+        "width": 1920,
+        "bytes": 517688
+      },
+      {
+        "src": "/universos/star-wars/hero.webp",
+        "width": 2200,
+        "bytes": 599422
+      }
+    ]
+  },
+  "/universos/star-wars/about.webp": {
+    "width": 1800,
+    "height": 1013,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-11-e2ad676464ed-960.webp",
+        "width": 960,
+        "bytes": 113596
+      },
+      {
+        "src": "/universos/star-wars/about.webp",
+        "width": 1800,
+        "bytes": 223406
+      }
+    ]
+  },
+  "/universos/harry-potter/hero.jpg": {
+    "width": 5032,
+    "height": 2831,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-12-b552726f99bf-960.webp",
+        "width": 960,
+        "bytes": 80356
+      },
+      {
+        "src": "/universos/optimized/universe-12-b552726f99bf-1920.webp",
+        "width": 1920,
+        "bytes": 394766
+      },
+      {
+        "src": "/universos/optimized/universe-12-b552726f99bf-2560.webp",
+        "width": 2560,
+        "bytes": 704418
+      },
+      {
+        "src": "/universos/optimized/universe-12-b552726f99bf-3840.webp",
+        "width": 3840,
+        "bytes": 1364560
+      }
+    ]
+  },
+  "/universos/harry-potter/about.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-13-1c383b008655-960.webp",
+        "width": 960,
+        "bytes": 156896
+      },
+      {
+        "src": "/universos/optimized/universe-13-1c383b008655-1920.webp",
+        "width": 1920,
+        "bytes": 474588
+      }
+    ]
+  },
+  "/universos/dc/hero.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-14-3353ab268bdc-960.webp",
+        "width": 960,
+        "bytes": 72534
+      },
+      {
+        "src": "/universos/optimized/universe-14-3353ab268bdc-1920.webp",
+        "width": 1920,
+        "bytes": 344000
+      },
+      {
+        "src": "/universos/optimized/universe-14-3353ab268bdc-2560.webp",
+        "width": 2560,
+        "bytes": 627322
+      },
+      {
+        "src": "/universos/optimized/universe-14-3353ab268bdc-3840.webp",
+        "width": 3840,
+        "bytes": 1411932
+      }
+    ]
+  },
+  "/universos/dc/about.jpg": {
+    "width": 3840,
+    "height": 2160,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-15-4afd64ccfe81-960.webp",
+        "width": 960,
+        "bytes": 38466
+      },
+      {
+        "src": "/universos/optimized/universe-15-4afd64ccfe81-1920.webp",
+        "width": 1920,
+        "bytes": 166510
+      },
+      {
+        "src": "/universos/optimized/universe-15-4afd64ccfe81-2560.webp",
+        "width": 2560,
+        "bytes": 330192
+      },
+      {
+        "src": "/universos/optimized/universe-15-4afd64ccfe81-3840.webp",
+        "width": 3840,
+        "bytes": 875714
+      }
+    ]
+  },
+  "/universos/terra-media/hero.jpg": {
+    "width": 3840,
+    "height": 2130,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-16-88b508684208-960.webp",
+        "width": 960,
+        "bytes": 62400
+      },
+      {
+        "src": "/universos/optimized/universe-16-88b508684208-1920.webp",
+        "width": 1920,
+        "bytes": 212004
+      },
+      {
+        "src": "/universos/optimized/universe-16-88b508684208-2560.webp",
+        "width": 2560,
+        "bytes": 418746
+      },
+      {
+        "src": "/universos/optimized/universe-16-88b508684208-3840.webp",
+        "width": 3840,
+        "bytes": 1112250
+      }
+    ]
+  },
+  "/universos/terra-media/about.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-17-93b7d7b89e69-960.webp",
+        "width": 960,
+        "bytes": 65748
+      },
+      {
+        "src": "/universos/optimized/universe-17-93b7d7b89e69-1920.webp",
+        "width": 1920,
+        "bytes": 197132
+      }
+    ]
+  },
+  "/universos/jurassic/hero.jpg": {
+    "width": 1920,
+    "height": 1249,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-18-4380336d5fb4-960.webp",
+        "width": 960,
+        "bytes": 51322
+      },
+      {
+        "src": "/universos/optimized/universe-18-4380336d5fb4-1920.webp",
+        "width": 1920,
+        "bytes": 142722
+      }
+    ]
+  },
+  "/universos/jurassic/about.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/universos/optimized/universe-19-f402f3b2eb6c-960.webp",
+        "width": 960,
+        "bytes": 166040
+      },
+      {
+        "src": "/universos/optimized/universe-19-f402f3b2eb6c-1920.webp",
+        "width": 1920,
+        "bytes": 770210
+      }
+    ]
+  }
+}

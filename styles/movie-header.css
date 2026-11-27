@@ -1,0 +1,63 @@
+/* One navigation across the film catalogue, movie, reviews and universes. */
+/* Shared compact navigation; the film hero starts below this solid band. */
+body:has(.movie-site-header) .account-bar{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);column-gap:20px;min-height:46px;background:#0d0b12;border:0}
+body:has(.movie-site-header) .account-bar-links{grid-column:1;grid-row:1;justify-self:start}
+body:has(.movie-site-header) .account-bar-right{grid-column:3;grid-row:1;justify-self:end}
+body:has(.movies-home) .account-bar{position:relative;inset:auto;z-index:30}
+body:has(.movies-home) .account-bar-links{grid-column:1;grid-row:1;justify-self:start}
+body:has(.movies-home) .account-bar-right{grid-column:3;grid-row:1;justify-self:end}
+body:has(.movies-home) .account-bar :is(.account-bar-links>a,.account-bar-status,.header-account-settings,.void-people-menu-button){color:#f4effa;text-shadow:0 1px 6px #000b}
+.movie-top-nav{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:center;gap:10px;min-width:0}
+.account-bar .movie-top-nav a{display:inline-flex;align-items:center;gap:4px;flex-shrink:0;min-height:34px;font-size:10px;color:#f4effa;text-decoration:none;white-space:nowrap;text-shadow:0 1px 6px #000b}
+.account-bar .movie-top-nav a:hover,.account-bar .movie-top-nav a[aria-current=page]{color:#e1bfff}
+.account-bar .movie-top-nav a:focus-visible{outline:2px solid #e1bfff;outline-offset:2px}
+.movies-home .movie-site-header .logo{color:#f4effa;text-shadow:0 1px 6px #000b}
+@media(max-width:1279px){
+ body:has(.movie-site-header) .account-bar{grid-template-columns:minmax(0,1fr) auto;row-gap:0}
+ body:has(.movie-site-header) .account-bar-right{grid-column:2}
+ body:has(.movies-home) .account-bar{grid-template-columns:minmax(0,1fr) auto;row-gap:0}
+ body:has(.movies-home) .account-bar-right{grid-column:2}
+ .movie-top-nav{grid-column:1/-1;grid-row:2;min-height:38px}
+}
+@media(max-width:900px){
+ .movie-top-nav{overflow-x:auto;justify-content:flex-start;max-width:100%;gap:18px;scrollbar-width:none}
+ .movie-top-nav::-webkit-scrollbar{display:none}
+ .account-bar .movie-top-nav a{min-height:38px}
+}
+.header .home-nav-soon{display:inline-flex;align-items:center;gap:7px;padding:10px 14px;min-height:40px;font-size:13px;color:#80778b;white-space:nowrap;flex-shrink:0;cursor:default}
+.home-nav-soon>small{border:1px solid #6c50c926;background:#6c50c90a;border-radius:20px;padding:3px 6px;font-size:8px;line-height:1.4;color:#796b93}
+@media(max-width:650px){.header .home-nav-soon{padding:9px 10px;font-size:12px;gap:6px}}
+.movies-page .movie-site-header{display:flex;align-items:center;gap:22px;min-height:78px;padding:12px 5%;position:relative;background:#100d16;border-bottom:1px solid #d1adeb1a;flex-wrap:nowrap}
+.movies-page .movie-site-header .logo{font-size:30px;flex-shrink:0}
+.movies-page .movie-site-header .m-header-divider{flex-shrink:0;height:25px}
+.movies-page .movie-site-header nav{display:flex;align-items:center;justify-content:flex-start;gap:22px;margin:0;padding:0;min-width:0;max-width:100%;flex:1;order:initial;width:auto;overflow-x:auto;white-space:nowrap;scrollbar-width:none;border:0;font-size:11px;color:#bfb1ce}
+.movies-page .movie-site-header nav::-webkit-scrollbar{display:none}
+.movies-page .movie-site-header nav>a{display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:8px 0;flex-shrink:0;position:relative;line-height:1.4}
+.movies-page .movie-site-header nav>a:hover{color:#ead6ff}
+.movies-page .movie-site-header nav>a[aria-current=page]{color:#d9b5ff;font-weight:600}
+.movies-page .movie-site-header nav>a[aria-current=page]:after{content:'';position:absolute;bottom:3px;left:0;right:0;height:2px;background:#ac7ae3;border-radius:2px}
+.movies-page .movie-site-header a:focus-visible{outline:2px solid #d5b6ff;outline-offset:-2px;border-radius:4px}
+.movie-header-back{display:inline-flex;align-items:center;gap:6px;font-size:10px;color:#ba9ad8;flex-shrink:0;min-height:44px}
+.movie-detail .movie-site-header.md-header{position:absolute;inset:0 0 auto;z-index:5;background:linear-gradient(#100b1ae6,#100b1a66);border-bottom-color:#ddc6fa17}
+.vr-cinematic .movie-site-header{background:linear-gradient(#0b090fd9,#0b090f30)}
+@media(max-width:1200px){.movies-page .movie-site-header{flex-wrap:wrap;gap:8px 18px;padding:12px 5% 0}.movies-page .movie-site-header .m-header-divider{display:none}.movies-page .movie-site-header nav{order:3;flex:0 0 100%;width:100%;border-top:1px solid #d1adeb1a;padding:3px 0;gap:22px}.movie-header-back{margin-left:auto}.movies-page .movie-site-header nav>a{font-size:11px;min-height:44px}}
+@media(max-width:600px){.movies-page .movie-site-header{padding-top:10px;gap:4px 16px}.movies-page .movie-site-header .logo{font-size:28px}.movies-page .movie-site-header nav{gap:20px}.movies-page .movie-site-header nav>a{font-size:11px}.movie-header-back{font-size:10px}}
+
+/* The brand lives beside Home; utility navigation adds no second header row. */
+.account-bar .account-bar-logo{display:inline-flex;align-items:center;flex-shrink:0;font-size:28px;letter-spacing:-2px;line-height:1;color:#f4effa;text-decoration:none}
+.account-bar .account-bar-logo>span{font-size:9px;margin-left:3px;color:#b69ade;max-width:none}
+.movies-page .movie-site-header.movie-utility-header{position:relative;inset:auto;min-height:0;padding:0 5%;background:transparent;border:0}
+.movies-page .movie-site-header.movie-utility-header:empty{display:none}
+@media(min-width:1280px) and (max-width:1599px){
+ body:has(.movie-site-header) .account-bar-status{display:none}
+}
+@media(min-width:1280px) and (max-width:1439px){
+ body:has(.movie-site-header) .account-bar-links{gap:10px}
+ body:has(.movie-site-header) .void-people-menu-button kbd{display:none}
+}
+.movie-top-nav{align-self:center}
+.account-bar .home-top-nav-soon{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:10px;color:#8e819f}
+.account-bar .home-top-nav-soon>small{font-size:7px;border:1px solid #b69ade26;border-radius:20px;padding:2px 5px;color:#a395b5}
+.header .home-nav-games{cursor:pointer}
+.header .home-nav-games:hover{color:#d9b5ff}
+.header .home-nav-games:focus-visible{outline:2px solid #b69ade;outline-offset:3px;border-radius:4px}

@@ -1,0 +1,41 @@
+/* Games share one navigation row on discovery, details, reviews and lists. */
+.games-site-header:empty{display:none}
+body:has(.games-site-header) .account-bar{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);column-gap:20px;row-gap:0;position:relative;inset:auto;z-index:30;min-height:56px;background:#0d0b12;border:0}
+body:has(.games-site-header) .account-bar-links{grid-column:1;grid-row:1;justify-self:start}
+body:has(.games-site-header) .account-bar-right{grid-column:3;grid-row:1;justify-self:end}
+.games-top-nav{grid-column:2;grid-row:1;align-self:center;justify-content:center;gap:12px;flex-wrap:nowrap}
+.account-bar .games-top-nav a{font-size:10px;min-height:34px;padding:0}
+.account-bar .games-top-nav a[aria-current=page]{color:#e1bfff}
+body:has(.games-home .games-site-header) .account-bar{position:absolute;inset:0 0 auto;background:transparent}
+@media(min-width:1280px) and (max-width:1599px){body:has(.games-site-header) .account-bar-status{display:none}}
+@media(min-width:1280px) and (max-width:1439px){body:has(.games-site-header) .account-bar-links{gap:10px}body:has(.games-site-header) .void-people-menu-button kbd{display:none}}
+@media(max-width:1279px){body:has(.games-site-header) .account-bar{grid-template-columns:minmax(0,1fr) auto}body:has(.games-site-header) .account-bar-right{grid-column:2}.games-top-nav{grid-column:1/-1;grid-row:2;width:100%;min-height:38px}}
+@media(max-width:700px){.games-top-nav{overflow-x:auto;justify-content:flex-start;gap:18px;scrollbar-width:none;overscroll-behavior-x:contain;max-width:100%}.games-top-nav::-webkit-scrollbar{display:none}.account-bar .games-top-nav a{font-size:10px;min-height:38px;flex-shrink:0}}
+.game-lists-page{--m-purple:#b69ade;background:radial-gradient(ellipse at 80% 0,#58298b1f,transparent 38%),#0d0b12;min-height:100vh}
+.game-lists-heading{position:relative;padding:35px 0 26px;border-bottom:1px solid #b69ade22}
+.game-lists-heading h1{font-size:clamp(30px,4vw,48px);letter-spacing:-1.5px}
+.game-lists-heading .vl-overline{display:flex;align-items:center;gap:8px;font-size:10px;color:#c3a3e8;letter-spacing:1.8px;margin-bottom:10px}
+.game-lists-page .vl-card--featured{background:linear-gradient(140deg,#2c1d3e,#17121f);border-color:#aa75da50;box-shadow:0 10px 40px #0002}
+.game-lists-page .vl-default-tag{background:#b985ed22;color:#dfbcff}
+.game-lists-page .vl-card{transition:transform .2s,border-color .2s}
+.game-lists-page .vl-card:hover{transform:translateY(-3px);border-color:#b69ade77}
+.game-lists-page .vl-grid+.vl-grid{margin-top:24px}
+.vl-cover-poster>.game-portrait-cover{width:100%;height:100%}
+.game-wishlist-grid .vl-work-poster>.game-portrait-cover{width:100%;height:100%}
+.vl-work-poster>.game-portrait-cover{width:100%;height:100%}
+.game-wishlist-grid .vl-work-poster{aspect-ratio:2/3;overflow:hidden}
+.game-wishlist-search{display:flex;flex-direction:column;gap:8px;font-size:12px;color:#bfaace;width:min(360px,100%)}
+.game-wishlist-search input{width:100%;border:1px solid #b69ade40;background:#18121f;color:#f3eafb;border-radius:8px;padding:12px;font:inherit}
+.game-lists-page .games-footer{margin-top:60px}
+.game-wishlist-grid{--vc-muted:var(--game-muted,#b7a8c7)}
+.game-wishlist-grid .vc-work-body{display:flex;flex-direction:column;align-items:stretch}
+.game-wishlist-status{display:grid;gap:8px;margin:16px 0 0;min-width:0;font-size:10px;color:var(--vc-muted)}
+.game-wishlist-status select{width:100%;min-width:0;min-height:44px;padding:10px 30px 10px 12px;border:1px solid #b39ae940;border-radius:8px;background:var(--game-bg,#101014);color:#e9dcf7;font:inherit;font-size:11px;color-scheme:dark}
+.game-wishlist-grid .game-wishlist-actions{margin-top:auto;padding-top:16px;gap:8px}
+.game-wishlist-grid .game-wishlist-actions :is(a,button){display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:9px 10px;border:1px solid #b39ae935;border-radius:7px;font-size:11px;text-decoration:none}
+.game-wishlist-grid .game-wishlist-actions .vl-primary{background:#8050ac;border-color:#ad84cf;color:#fff}
+.game-wishlist-grid .game-wishlist-actions button{background:#ffffff04;color:#cbbad9}
+.game-wishlist-grid .game-wishlist-rating{flex-wrap:wrap;color:#e1b8ff;background:#b39ae912}
+.game-wishlist-rating .void-rating-stars{font-size:9px;gap:1px}
+.game-wishlist-hint{margin-block:0 24px}
+@media(prefers-reduced-motion:reduce){.game-lists-page .vl-card{transition:none}}

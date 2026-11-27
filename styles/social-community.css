@@ -1,0 +1,51 @@
+/* Social additions are scoped; existing catalogue/list/review layouts stay intact. */
+.vs-modal{width:min(600px,calc(100vw - 32px));max-height:calc(100dvh - 32px)}
+.vs-modal-body,.vs-invite{padding:24px;min-width:0}
+.vc-modal-body>.vs-invite{padding:0}
+.vs-modal-body,.vs-invite,.vs-shared-create,.vs-invite-preview,.vs-suggestions,.vs-blocked{--vs-line:#c2a4e82e;--vs-muted:#c4b9d3;--vs-accent:#c5a0f2;color:#f5f0fc;font-size:14px;line-height:1.6}
+.vs-muted{color:var(--vs-muted,#c4b9d3);font-size:12px}
+.vs-create-actions,.vs-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.vs-create-actions{justify-content:flex-end}.vs-create-actions .vs-create-shared{background:#251a34;color:#e5d3ff;border-color:#ad86de66}
+.vs-tabs{display:flex;gap:8px;border-bottom:1px solid var(--vs-line);padding-bottom:16px;margin-bottom:24px}
+.vs-tabs button{flex:1;padding:8px;border:1px solid transparent;border-radius:8px;background:transparent;color:#c4b9d3;font:inherit;font-size:12px;cursor:pointer}
+.vs-tabs button[aria-pressed=true]{background:#b68de625;border-color:#bd91f16b;color:#f2e8ff}
+.vs-picker label:not(.vs-selection),.vs-link-panel label,.vs-shared-create>label{display:flex;flex-direction:column;gap:8px;font-size:12px;color:#d2c8df;margin-bottom:16px}
+.vs-picker input[type=search],.vs-picker textarea,.vs-link-panel input,.vs-shared-create input,.vs-shared-create textarea,.vs-shared-create select{width:100%;min-width:0;box-sizing:border-box;border:1px solid var(--vs-line);border-radius:8px;padding:8px 16px;min-height:40px;background:#110c19;color:#f6efff;font:inherit;font-size:14px}
+.vs-picker textarea,.vs-shared-create textarea{resize:vertical}
+.vs-person-list,.vs-received-list,.vs-blocked ul{padding:0;margin:16px 0;list-style:none}
+.vs-person-list{max-height:320px;overflow:auto;overscroll-behavior:contain}
+.vs-person-list li,.vs-received-list li{display:flex;align-items:center;gap:16px;padding:16px 0;border-bottom:1px solid var(--vs-line)}
+.vs-person-list li>span,.vs-received-list li>div{flex:1;min-width:0;overflow-wrap:anywhere}
+.vs-person-list a,.vs-received-list a,.vs-suggestion-person{color:inherit;text-decoration:none}
+.vs-person-list .vp-avatar,.vs-received-list .vp-avatar{width:40px;height:40px;flex:0 0 40px}
+.vs-person-list small,.vs-received-list small,.vs-work-preview small{display:block;font-size:12px;color:var(--vs-muted)}
+.vs-selection{display:flex;align-items:center;gap:8px;font-size:12px;cursor:pointer;max-width:45%}.vs-selection input{accent-color:#bb91ec;width:16px;height:16px;flex:0 0 16px}
+.vs-selection:has(input:disabled){opacity:.65;cursor:default}
+.vs-paging{display:flex;justify-content:flex-end;gap:8px;margin-bottom:16px}
+.vs-picker button,.vs-link-panel button,.vs-modal-body>button,.vs-suggestions button,.vs-blocked button,.vs-notification-invite button{font-family:inherit;font-size:12px;line-height:1.5;color:#ece1ff;background:#ae85de14;border:1px solid #c2a4e840;border-radius:8px;padding:8px 16px;cursor:pointer;transition:background-color .2s,border-color .2s}
+button.vs-primary{background:#b496df;color:#170e25;border-color:#b496df;font-weight:600}
+.vs-picker button:hover,.vs-link-panel button:hover,.vs-suggestions button:hover,.vs-blocked button:hover{border-color:#d6b1ff;background:#ac83dc30}
+button.vs-primary:hover{background:#c9a9ef;color:#170e25}
+.vs-picker button:disabled,.vs-link-panel button:disabled,.vs-suggestions button:disabled{opacity:.55;cursor:default}
+.vs-link-panel{display:grid;gap:16px}.vs-link-panel>h3,.vs-link-panel>p{margin:0}.vs-link-panel>.void-icon{width:24px;height:24px;color:var(--vs-accent)}
+.vs-invite-preview{max-width:640px;margin:48px auto;padding:32px;border:1px solid var(--vs-line);background:linear-gradient(135deg,#291d3b77,#17111f);border-radius:16px}
+.vs-invite-preview .vp-avatar{width:48px;height:48px}.vs-invite-preview h1{font-size:clamp(24px,5vw,32px);line-height:1.3}
+.vs-shared-create{display:grid;gap:16px}.vs-shared-create>label{margin:0}.vs-shared-create h3{margin:0;font-size:24px;line-height:1.3}
+.vs-work-actions{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin:16px 0;max-width:100%}
+.vs-work-actions button.vs-recommend,.vs-work-actions button.vs-received{display:inline-flex;align-items:center;gap:8px;max-width:100%;font:inherit;font-size:12px;line-height:1.5;padding:8px 16px;min-height:40px;color:#dcc4fb;border:1px solid #b190d53b;background:#a77ac112;border-radius:24px;cursor:pointer;text-align:left;transition:background-color .2s,border-color .2s}
+.vs-work-actions button:hover{border-color:#c5a0f2;background:#ae82e124}
+.vs-work-actions button.vs-received{background:transparent;border-color:transparent;color:#d1c4df;padding-left:0}
+.vs-avatar-stack{display:flex;flex-shrink:0;padding-right:8px}.vs-avatar-stack .vp-avatar{width:24px;height:24px;margin-right:-8px;border:2px solid #171020}
+.vs-work-preview{display:flex;align-items:center;gap:16px;margin-bottom:24px}.vs-work-preview>.vp-poster,.vs-work-preview>.poster{width:48px;height:72px;flex:0 0 48px}.vs-work-preview strong{font-size:16px}
+.vs-received-list time{font-size:12px;color:var(--vs-muted)}.vs-received-list p{white-space:pre-wrap;overflow-wrap:anywhere}
+.vs-suggestions{padding:24px;margin:24px 0}.vs-suggestions header{display:flex;align-items:center;justify-content:space-between;gap:16px}.vs-suggestions h2{margin:0;font-size:20px}.vs-suggestions header button{white-space:nowrap;display:flex;align-items:center;gap:8px}
+.vs-suggestion-track{display:flex;gap:16px;overflow:auto;scroll-snap-type:x proximity;overscroll-behavior-x:contain;padding:16px 0 8px;margin:0;list-style:none}
+.vs-suggestion-track li{flex:0 0 200px;position:relative;border:1px solid var(--vs-line);border-radius:16px;padding:24px 16px 16px;display:flex;flex-direction:column;background:linear-gradient(145deg,#a47fd00d,#21182d)}
+.vs-suggestion-person{display:flex;flex-direction:column;gap:8px;align-items:flex-start}.vs-suggestion-person .vp-avatar{width:40px;height:40px}.vs-suggestion-person strong{font-size:14px;overflow-wrap:anywhere}.vs-suggestion-person small,.vs-suggestion-track p{font-size:12px;color:var(--vs-muted)}
+.vs-suggestion-track p{flex:1;margin:16px 0}.vs-suggestions button.vs-dismiss{position:absolute;right:8px;top:8px;display:grid;place-items:center;border:0;background:none;width:32px;height:32px;padding:8px}
+.vs-suggestion-skeleton{height:200px;border-radius:16px;margin-top:16px}.vs-blocked{margin:24px 0;padding:16px;border-top:1px solid var(--vs-line)}.vs-blocked summary{cursor:pointer;font-size:12px}.vs-blocked li{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:8px 0}
+.vs-notification-cover>*{width:100%;height:100%}.vs-notification-message{grid-column:1/-1;min-width:0;margin:0;line-height:1.6;font-size:12px;padding:0 16px 8px 64px;color:#d2c5de;white-space:pre-wrap;overflow-wrap:anywhere}.vs-notification-invite{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;padding:0 16px 16px 64px}
+:is(.vs-modal,.vs-invite,.vs-shared-create,.vs-invite-preview,.vs-suggestions,.vs-blocked,.vs-work-actions) :is(button,a,input,textarea,select):focus-visible{outline:2px solid #d2afff;outline-offset:4px}
+@media(max-width:600px){.vs-create-actions{width:100%;justify-content:flex-start}.vs-create-actions button{flex:1}.vs-modal-body,.vs-invite{padding:16px}.vs-tabs{gap:8px}.vs-person-list li{gap:8px}.vs-selection{font-size:12px}.vs-invite-preview{padding:24px;margin-block:24px}.vs-suggestions{padding:16px}.vs-suggestions h2{font-size:18px}.vs-suggestion-track li{flex-basis:184px}}
+@media(prefers-reduced-motion:reduce){.vs-picker button,.vs-link-panel button,.vs-work-actions button,.vs-suggestions button,.vs-blocked button{transition:none}}
+@media(forced-colors:active){.vs-tabs button[aria-pressed=true],button.vs-primary{border:2px solid Highlight}.vs-create-actions button,.vs-suggestion-track li,.vs-invite-preview{border:1px solid CanvasText}.vs-muted{color:CanvasText}}

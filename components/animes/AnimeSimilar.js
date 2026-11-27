@@ -1,0 +1,5 @@
+import {useState} from 'react';
+import {useAnimeResource} from '../../lib/use-anime-resource';
+import {useVisibleSection} from '../../lib/use-visible-section';
+import PosterRow from '../movies/PosterRow';
+export default function AnimeSimilar({item}){const [ref,visible]=useVisibleSection(),state=useAnimeResource(item.id,'similar',visible),[sort,setSort]=useState('relevance'),rows=[...state.data?.movies||[]];if(sort==='rating')rows.sort((a,b)=>(b.nota??-1)-(a.nota??-1));if(sort==='year')rows.sort((a,b)=>Number(b.ano||0)-Number(a.ano||0));return <div ref={ref} className="md-similar">{rows.length>0&&<><label className="md-similar-sort">Ordenar <select value={sort} onChange={e=>setSort(e.target.value)}><option value="relevance">Relevância</option><option value="rating">Nota</option><option value="year">Ano</option></select></label><PosterRow media="animes" title="Animes semelhantes" sectionKey="similar-detail" state={{movies:rows}}/></>}{!rows.length&&!state.loading&&(state.error||state.data?.retryable)&&<button className="md-text-action" onClick={state.retry}>Tentar novamente</button>}</div>;}

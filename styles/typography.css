@@ -1,0 +1,67 @@
+/* Geometria e pesos próximos da referência visual; arquivos servidos pelo próprio site. */
+body,
+.games-shell {
+  font-family: 'Poppins', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, textarea, select { font-family: inherit; }
+h1, h2, h3 { font-weight: 600; letter-spacing: -.025em; }
+.logo { font-family: Arial, Helvetica, sans-serif; }
+.hero h1 { font-weight: 700; letter-spacing: -.035em; }
+.hero h1 em { font-family: inherit; font-style: normal; font-weight: 600; }
+
+.games-hero h1,
+.game-cinematic h1 {
+  font-size: clamp(36px, 4.3vw, 56px);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -.03em;
+}
+.games-hero-copy > p:not(.game-eyebrow) { font-size: 13px; line-height: 1.8; }
+.games-wordmark { font-weight: 600; letter-spacing: .025em; }
+.games-wordmark span { font-size: 10px; letter-spacing: 0; }
+.games-header nav { font-size: 12px; }
+.games-personal { font-size: 11px; }
+.games-intro { padding-top: 25px; padding-bottom: 20px; letter-spacing: 0; }
+.games-intro p { font-size: 18px; font-weight: 600; color: #eee6f7; }
+.games-intro > span { font-size: 10px; letter-spacing: 0; }
+.game-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .025em; }
+.game-section-heading h2 { font-size: 23px; font-weight: 600; letter-spacing: -.025em; }
+.game-section-heading > p { font-size: 12px; }
+.platform-grid strong { font-size: 13px; font-weight: 500; }
+.platform-grid small { display: none; }
+.game-button, .game-button-outline { font-size: 12px !important; font-weight: 500 !important; }
+.games-view-toggle button { font-size: 11px; font-weight: 500; }
+.games-search input, .games-filters select { font-size: 12px; }
+.game-card-type { font-size: 10px; text-transform: none; letter-spacing: 0; }
+.game-card-body h3 { font-size: 16px; line-height: 1.5; font-weight: 600; letter-spacing: -.015em; }
+.game-card-bottom { font-size: 10px; }
+.game-card-bottom strong { font-size: 12px; font-weight: 500; }
+.game-hero-meta, .game-breadcrumb { font-size: 11px; letter-spacing: 0; }
+.game-cinematic-content > .game-eyebrow { font-size: 11px; }
+.game-cinematic-title > span { letter-spacing: .025em; }
+.game-cinematic-genres { font-style: normal; font-size: 11px; }
+.game-cinematic-description { font-size: 13px; line-height: 1.8; }
+.game-scenes h2 { font-style: normal; font-size: 14px; font-weight: 500; }
+.game-detail-panel h2 { font-size: 23px; font-weight: 600; letter-spacing: -.025em; }
+.game-detail-panel > p:not(.game-eyebrow) { font-size: 13px; }
+.game-facts dt { text-transform: none; font-size: 11px; letter-spacing: 0; }
+.game-facts dd { font-size: 13px; }
+.games-discover { margin-bottom: 45px; }
+
+@media (max-width: 700px) {
+  .games-hero h1, .game-cinematic h1 { font-size: 36px; line-height: 1.15; letter-spacing: -.025em; }
+  .games-hero-copy > .game-eyebrow, .game-cinematic-content > .game-eyebrow { font-size: 10px; }
+  .games-hero-copy > p:not(.game-eyebrow) { font-size: 12px; }
+  .game-section-heading h2, .game-detail-panel h2 { font-size: 21px; }
+  .games-header nav { font-size: 11px; }
+  .games-wordmark span { font-size: 9px; }
+  .platform-grid strong { font-size: 11px; }
+  .game-card-type { font-size: 9px; }
+  .game-card-body h3 { font-size: 13px; }
+  .game-card-bottom { font-size: 9px; }
+  .game-card-bottom strong { font-size: 11px; }
+  .games-search input, .games-filters select { font-size: 11px; }
+  .games-personal { display: none; }
+}

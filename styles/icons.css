@@ -1,0 +1,6 @@
+.void-icon{display:inline-block;flex-shrink:0;vertical-align:-.15em;pointer-events:none}
+.void-rating-stars{display:inline-flex;gap:2px;vertical-align:middle}
+.void-rating-star{display:inline-block;position:relative;width:1em;height:1em}
+.void-rating-star>span{position:absolute;inset:0 auto 0 0;overflow:hidden}
+.void-rating-star>span .void-icon{width:1em;max-width:none;fill:currentColor}
+.m-row-arrow .void-icon,.u-shortcuts-arrow .void-icon{width:22px;height:22px}

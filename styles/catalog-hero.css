@@ -1,0 +1,23 @@
+/* Share the homepage's composition, controls and exact entrance keyframes. */
+body:has(.movies-home .void-catalog-hero) .account-bar{position:absolute;inset:0 0 auto;background:transparent;border:0;z-index:30}
+.void-catalog-hero{--hero-accent:#d2c2f4;--bg:#0d0b12;touch-action:pan-y}
+.void-catalog-hero .void-home-hero-images{background:#0d0b12}
+.void-catalog-hero .void-home-hero-backdrop img{object-position:var(--catalog-art-position,center)}
+.void-catalog-hero .void-home-hero-backdrop>.game-image-empty,.void-catalog-hero .void-home-hero-backdrop>.m-missing-image{width:100%;height:100%;background:radial-gradient(ellipse at 65% 30%,#3f2955,#0d0b12 80%)}
+.void-catalog-hero .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#0d0b1280 18%,transparent 70%,#0d0b1255 100%),linear-gradient(90deg,#110b1bb0,transparent 75%)}
+.void-catalog-hero .void-home-hero-copy{width:100%;max-width:500px}
+.void-catalog-hero .void-home-hero-selection h1{font-size:clamp(32px,3vw,46px);line-height:1.12;margin:0 0 16px;animation:void-home-logo-emerge 1s .18s cubic-bezier(.16,1,.3,1) both}
+.void-catalog-hero .void-home-hero-selection h1:has(.game-highlight-logo){line-height:0;margin-bottom:10px}
+.void-catalog-hero .game-highlight-logo-frame{width:280px;max-width:100%}
+.void-catalog-hero .game-highlight-logo:not(.game-highlight-logo-frame){display:block;max-width:100%;width:280px;height:auto;max-height:220px;object-fit:contain;object-position:left center}
+.void-catalog-hero .void-home-hero-description{max-width:430px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.void-catalog-hero-meta{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 16px;color:#d8ccdf;font-size:11px;animation:void-home-content-emerge .8s .32s cubic-bezier(.16,1,.3,1) both}
+.void-catalog-hero-meta>span{display:inline-flex;align-items:center;gap:5px}
+.void-catalog-hero-credit{font-size:9px;line-height:1.5;color:#d4c9dd;margin-top:17px;animation:void-home-content-emerge .8s .58s cubic-bezier(.16,1,.3,1) both}
+.void-catalog-hero-credit a{display:inline-flex;align-items:center;gap:5px;color:inherit}
+.void-catalog-hero-loading{width:min(430px,80vw)}
+.void-catalog-hero-loading .m-skeleton{height:20px;margin:18px 0}
+.void-catalog-hero-loading .m-skeleton:first-child{height:72px}
+.void-catalog-hero-loading .m-skeleton:last-child{width:60%;height:44px}
+@media(max-width:700px){.void-catalog-hero .void-home-hero-selection h1{font-size:30px}.void-catalog-hero .void-home-hero-backdrop img{object-position:var(--catalog-art-mobile-position,center)}.void-catalog-hero .game-highlight-logo-frame{width:220px}.void-catalog-hero .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#0d0b12d0 26%,#0d0b1255 58%,transparent 90%)}.void-catalog-hero .void-home-hero-copy{max-width:430px}.void-catalog-hero-meta{font-size:10px;gap:8px 12px}.void-catalog-hero-credit{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.void-catalog-hero *{animation:none!important;transition:none!important}}

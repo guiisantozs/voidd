@@ -1,0 +1,53 @@
+-- Isolated Postgres fixtures only; the transaction always rolls back.
+begin;
+create function pg_temp.series_assert(ok boolean,message text) returns void language plpgsql as $$begin if ok is distinct from true then raise exception 'ASSERT: %',message;end if;end;$$;
+insert into auth.users(id) values('80000000-0000-4000-8000-000000000001'),('80000000-0000-4000-8000-000000000002');
+insert into public.void_community_profiles(user_id,username,display_name,visibility) select id,'series_'||right(id::text,4),'Series fixture','public' from auth.users where id::text like '80000000%';
+select set_config('request.jwt.claim.sub','80000000-0000-4000-8000-000000000001',true);
+set local role authenticated;
+insert into public.void_records(user_id,kind,item_key,payload) values
+ (auth.uid(),'watchlist','42','{"item":{"id":"42","categoria":"filmes","titulo":"Film"}}'),
+ (auth.uid(),'series_watchlist','42','{"item":{"id":"42","categoria":"series","titulo":"TV"}}');
+select set_config('test.series_default',public.void_series_watchlist_edit()::text,true);
+select set_config('test.film_default',public.void_watchlist_edit()::text,true);
+select pg_temp.series_assert(public.void_series_watchlist_edit()::text=current_setting('test.series_default'),'idempotent default');
+select pg_temp.series_assert(current_setting('test.series_default')<>current_setting('test.film_default'),'independent lists');
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.series_default')::uuid)->'items'->0->>'media_type'='series','series identity');
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.film_default')::uuid)->'items'->0->>'media_type'='filmes','film preserved');
+do $$begin
+ begin insert into public.void_records(user_id,kind,item_key,payload) values(auth.uid(),'series_watchlist','43','{"item":{"id":"43","categoria":"filmes","titulo":"Wrong"}}');raise exception 'wrong media accepted';exception when check_violation then null;end;
+ begin delete from public.lists where id=current_setting('test.series_default')::uuid;raise exception 'standard deleted';exception when raise_exception then if sqlerrm<>'STANDARD_LIST' then raise;end if;end;
+ begin perform public.void_list_item_toggle(current_setting('test.series_default')::uuid,'{"media_type":"series","external_id":"43","snapshot":{"titulo":"Wrong copy"}}',true);raise exception 'duplicated default source';exception when insufficient_privilege then null;when raise_exception then if sqlerrm<>'STANDARD_LIST' then raise;end if;end;
+end;$$;
+select public.void_list_write(current_setting('test.series_default')::uuid,'{"title":"Minha maratona","visibility":"public","ranked":true,"media_types":["filmes"]}',null,(select updated_at from public.lists where id=current_setting('test.series_default')::uuid));
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.series_default')::uuid)->'media_types'='["series"]','fixed TV category');
+select pg_temp.series_assert(not(public.void_list_detail(current_setting('test.series_default')::uuid)->>'ranked')::boolean,'standard not ranked');
+select set_config('test.series_shared',public.void_list_write_v3(null,'{"title":"Series group","visibility":"private","ranked":false,"media_types":["series"],"collaboration_enabled":true}',null,null)::text,true);
+select public.void_list_item_toggle(current_setting('test.series_shared')::uuid,'{"media_type":"series","external_id":"42","snapshot":{"id":"42","categoria":"series","titulo":"TV"}}',true);
+select public.void_list_invitation(current_setting('test.series_shared')::uuid,'80000000-0000-4000-8000-000000000002','invite');
+select set_config('request.jwt.claim.sub','80000000-0000-4000-8000-000000000002',true);
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.series_shared')::uuid) is null,'pending grants no private access');
+select public.void_list_invitation(current_setting('test.series_shared')::uuid,auth.uid(),'accept');
+select public.void_list_item_toggle(current_setting('test.series_shared')::uuid,'{"media_type":"series","external_id":"43","snapshot":{"id":"43","categoria":"series","titulo":"TV 2"}}',true);
+select public.void_list_item_toggle(current_setting('test.series_shared')::uuid,'{"media_type":"series","external_id":"43","snapshot":{"id":"43","categoria":"series","titulo":"TV 2"}}',true);
+select pg_temp.series_assert(jsonb_array_length(public.void_list_detail(current_setting('test.series_shared')::uuid)->'items')=2,'participant adds without duplicates');
+select public.void_list_complete(current_setting('test.series_shared')::uuid,'series','42',true);
+select pg_temp.series_assert((select count(*)=1 from public.list_progress where list_id=current_setting('test.series_shared')::uuid),'TV progress');
+select pg_temp.series_assert(jsonb_array_length(public.void_lists_page_v2('mine','recent',null,0,'series')->'rows')=1,'accepted TV list in mine');
+set local role anon;
+select set_config('request.jwt.claim.sub','',true);
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.film_default')::uuid) is null,'film default still private');
+select pg_temp.series_assert(jsonb_array_length(public.void_list_detail(current_setting('test.series_default')::uuid)->'items')=1,'public TV default');
+select pg_temp.series_assert(jsonb_array_length(public.void_lists_page_v2('discover','recent',null,0,'series')->'rows')=0,'default excluded from discovery');
+reset role;
+update public.void_community_profiles set visibility='private' where user_id='80000000-0000-4000-8000-000000000001';
+set local role anon;
+select pg_temp.series_assert(public.void_list_detail(current_setting('test.series_default')::uuid) is null,'private profile protects public default');
+select pg_temp.series_assert(not exists(select 1 from public.void_records where kind='series_watchlist'),'private TV not exposed');
+reset role;
+select set_config('request.jwt.claim.sub','80000000-0000-4000-8000-000000000001',true);
+set local role authenticated;
+update public.void_records set payload=null where user_id=auth.uid() and kind='series_watchlist' and item_key='42';
+select pg_temp.series_assert(jsonb_array_length(public.void_list_detail(current_setting('test.series_default')::uuid)->'items')=0,'TV tombstone');
+select pg_temp.series_assert(jsonb_array_length(public.void_list_detail(current_setting('test.film_default')::uuid)->'items')=1,'TV removal preserves film');
+rollback;

@@ -1,0 +1,170 @@
+/* Game universes share the film shortcut component and its interactions. */
+.games-shell .gu-shortcuts{padding-top:8px}
+.gu-shortcuts .u-shortcut{flex-basis:calc((100% - 42px)/4);min-height:152px;gap:16px}
+.gu-shortcuts .u-shortcut-logo{height:80px;max-width:160px}
+.gu-shortcuts .u-shortcut-god-of-war .u-shortcut-logo{max-width:80px}
+.gu-shortcuts .u-shortcut-the-last-of-us .u-shortcut-logo{max-width:64px}
+.gu-shortcuts .u-shortcut-explore{font-size:12px;letter-spacing:0}
+.gu-shortcuts .u-shortcuts-arrow{top:56px}
+.gu-shortcuts .u-shortcuts-heading>a{font-size:12px}
+.gu-logo-text{display:none}
+.game-universes{background:#0d0b12;color:#f1eaf9;min-height:100vh}
+.game-universes .m-container{width:88%;max-width:1280px}
+.gu-catalog h1{font-weight:700;line-height:1.25;letter-spacing:-.04em}
+.gu-catalog h1>span{color:#c6a4ed}
+.gu-universe-card{background:radial-gradient(ellipse at 85% 0,color-mix(in srgb,var(--universe-accent) 18%,transparent),transparent 65%),linear-gradient(135deg,#21192d,#141018);transition:border-color 250ms,box-shadow 250ms}
+.gu-universe-card>a{display:grid;grid-template-columns:176px minmax(0,1fr);align-items:center;gap:32px;padding:32px}
+.gu-universe-card .u-universe-card-copy{padding:0;min-height:0;justify-content:center}
+.gu-universe-card h2{font-size:26px;margin-top:0;font-weight:600;line-height:1.3}
+.gu-universe-card .u-universe-card-copy>p{font-size:12px;line-height:1.8;color:#beafce;margin:8px 0 24px}
+.gu-universe-logo{display:grid;place-items:center;width:176px;height:152px}
+.gu-universe-logo .u-shortcut-logo{width:100%;height:120px;max-width:176px}
+.gu-explore{display:inline-flex;align-items:center;gap:8px;color:#d2b4f1!important;font-size:12px!important}
+.gu-universe-card:after{display:none}
+.gu-back{display:inline-flex;gap:8px;align-items:center;margin-top:32px;font-size:12px;color:#d6b7f2}
+.gu-hero{background:radial-gradient(ellipse at 85% 20%,color-mix(in srgb,var(--universe-accent) 16%,transparent),transparent 65%),#16111e}
+.gu-hero::after{content:'';position:absolute;inset:0 0 auto;height:160px;background:linear-gradient(#0d0b12,transparent);pointer-events:none;z-index:-1}
+.gu-hero-logo{position:absolute;right:8%;top:144px;width:240px;height:192px;display:grid;place-items:center}
+.gu-hero-logo .u-shortcut-logo{width:100%;height:100%;max-width:240px}
+.game-universes .u-hero-copy{position:relative;padding-bottom:56px}
+.game-universes .u-hero-copy>p:not(.m-eyebrow){max-width:min(650px,65%)}
+.game-universes .u-hero h1{max-width:70%;font-weight:700;line-height:1.2}
+.gu-games{padding-block:40px 64px}
+.gu-games .game-section-heading{gap:24px;flex-wrap:wrap}
+.gu-games .game-section-heading p{font-size:12px;color:#bdadcd}
+.gu-selection-note{font-size:12px;color:#bdadcd;line-height:1.7;margin:-8px 0 24px}
+.gu-controls{display:flex;align-items:flex-end;gap:24px;justify-content:space-between;margin-bottom:32px}
+.gu-controls label{display:grid;gap:8px;color:#bdadcd;font-size:12px;min-width:0}
+.gu-controls label:first-child{width:352px;max-width:100%}
+.gu-controls label>span{position:relative}
+.gu-controls label>span>.void-icon{position:absolute;left:16px;top:16px;width:16px;height:16px;color:#ba97dc}
+.gu-controls input,.gu-controls select{min-height:48px;border:1px solid #b38cda38;border-radius:12px;background:#1a1422;color:#eee4f8;padding:8px 16px;font:inherit;color-scheme:dark}
+.gu-controls input{width:100%;padding-left:48px}
+.gu-game-grid{display:grid}
+.gu-game-card .upcoming-art{border-radius:12px}
+.gu-game-card h3{font-size:16px;line-height:1.5;margin-top:16px}
+.gu-game-card .game-cover-platforms{opacity:1}
+.gu-game-year{font-size:12px;color:#bbaacb;margin:8px 0 16px}
+.gu-game-card .game-status-compact label,.gu-game-card .game-status-compact select{font-size:12px}
+.gu-game-card .game-status-compact select{min-height:40px;border-radius:8px}
+.gu-cover-skeleton{aspect-ratio:2/3;border-radius:12px}
+.gu-empty p{font-size:12px}
+.gu-attribution{margin:40px 0 0;font-size:12px;line-height:1.7;color:#a895bc}
+.game-universes :is(a,button,input,select):focus-visible{outline:2px solid #d3b3f8;outline-offset:4px}
+@media(max-width:1100px){.gu-universe-card>a{grid-template-columns:112px minmax(0,1fr);gap:24px;padding:24px}.gu-universe-logo{width:112px}.gu-universe-card h2{font-size:22px}}
+@media(max-width:900px){.gu-universe-card>a{grid-template-columns:1fr;gap:24px}.gu-universe-logo{width:100%;height:96px}.gu-universe-logo .u-shortcut-logo{height:96px}.gu-hero-logo{width:160px;height:144px;right:0}.gu-controls{gap:16px}}
+@media(max-width:760px){.gu-shortcuts .u-shortcut{flex-basis:44%;min-height:144px}.gu-shortcuts .u-shortcut-logo{height:72px}.gu-hero-logo{position:static;width:144px;height:96px;margin:0 0 24px}.game-universes .u-hero-copy>a:first-child{margin-bottom:32px}.game-universes .u-hero h1{max-width:100%}.game-universes .u-hero-copy>p:not(.m-eyebrow){max-width:100%}.gu-controls{align-items:stretch;flex-direction:column}.gu-controls label:first-child{width:100%}}
+@media(max-width:600px){.gu-universe-card>a{grid-template-columns:112px minmax(0,1fr);padding:24px 16px;gap:16px}.gu-universe-card .u-universe-card-copy>p{margin-bottom:16px}.gu-game-card h3{font-size:14px}.gu-catalog{padding-top:40px}}
+@media(prefers-reduced-motion:reduce){.gu-universe-card{transition:none}.gu-universe-card:hover img{transform:none}.game-universes .m-skeleton{animation:none}.game-universes .m-skeleton::after{animation:none}}
+@media(forced-colors:active){.gu-universe-card,.gu-hero,.game-universes .u-hero-shade{background:Canvas;color:CanvasText}.gu-universe-card,.gu-controls input,.gu-controls select{border:1px solid CanvasText;background:Canvas;color:CanvasText}.gu-hero::after,.gu-shortcuts .u-shortcut-logo{display:none}.gu-shortcuts .gu-logo-text{display:block;color:LinkText;font-size:16px;font-weight:600}.gu-catalog h1>span,.gu-explore{color:LinkText!important}.game-universes :is(a,button,input,select):focus-visible{outline-color:Highlight}}
+
+/* Cinematic universe layer: reuse library cover treatments and status colors. */
+.game-universes{--library-surface:#0d0b12;--status-color:var(--universe-accent,#b69ade)}
+.game-universes .m-eyebrow{font-size:12px}
+.gu-hero{min-height:640px;isolation:isolate}
+.gu-hero>img{top:-48px;height:calc(100% + 96px);transform:translate3d(0,var(--gu-parallax,0px),0);object-position:center 30%}
+.game-universes .gu-hero .u-hero-shade{background:radial-gradient(ellipse at 80% 20%,color-mix(in srgb,var(--universe-accent) 18%,transparent),transparent 60%),linear-gradient(0deg,#0d0b12 0%,#0d0b12d9 18%,#0d0b1266 70%),linear-gradient(90deg,#0d0b12e6,#0d0b1270 60%,#0d0b1255)}
+.gu-hero-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:64px;align-items:center}
+.game-universes .gu-hero h1{font-size:clamp(40px,5vw,76px);max-width:none;position:relative;margin:16px 0 24px;padding-bottom:24px;letter-spacing:-.055em;line-height:1.2}
+.gu-hero h1:after{content:'';position:absolute;bottom:0;left:0;width:80px;height:3px;border-radius:8px;background:var(--universe-accent);box-shadow:0 0 24px color-mix(in srgb,var(--universe-accent) 35%,transparent)}
+.gu-description{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#d4c9df;font-size:14px;line-height:1.8;max-width:640px}
+.gu-hero-layout .gu-hero-logo{position:static;width:240px;height:176px;margin:0;filter:drop-shadow(0 8px 32px color-mix(in srgb,var(--universe-accent) 25%,transparent))}
+.game-universes .u-hero-copy{padding-block:32px 64px}
+.game-universes .u-hero-copy>a:first-child{display:inline-flex;gap:8px;align-items:center;font-size:12px;margin-bottom:48px}
+.game-universes .gu-facts{display:flex;flex-wrap:wrap;gap:8px;margin:32px 0 24px;font-size:12px}
+.gu-facts>span{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:8px 16px;border-radius:24px;background:#1d1727e6;border:1px solid #ffffff1f;color:#dfd3e9}
+.gu-facts .void-icon{width:16px;height:16px;color:var(--universe-accent)}
+.game-universes .gu-facts strong{font-size:16px;margin:0;color:#fff}
+.game-universes .u-progress{max-width:480px;margin-top:24px}
+.game-universes .u-progress>span{font-size:12px}
+.game-universes .u-progress>div{height:8px}.game-universes .u-progress>div>span{transition:width 300ms}
+.gu-start-invite{display:inline-flex;align-items:center;gap:16px;padding:16px 24px;border:1px solid color-mix(in srgb,var(--universe-accent) 50%,transparent);background:color-mix(in srgb,var(--universe-accent) 14%,#17121f);color:#f2e9ff;font-size:12px;border-radius:32px;margin-top:8px}
+.gu-control-panel{position:relative;top:auto;z-index:12;margin:0 0 40px;padding:16px;border:1px solid #c7a1e52b;border-radius:20px;background:#17121ff5;box-shadow:0 8px 32px #0005}
+.gu-control-panel .gu-controls{margin:0 0 16px;align-items:end}
+.gu-control-panel .gu-controls label:first-child{width:min(480px,65%)}
+.gu-control-bottom{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.gu-platform-chips{display:flex;flex-wrap:wrap;gap:8px}
+.gu-platform-chips>button{min-height:40px;padding:8px 16px;border:1px solid #c3a0e52b;border-radius:24px;background:#ffffff05;color:#cfc0dc;font:inherit;font-size:12px;transition:background-color 300ms,border-color 300ms}
+.gu-platform-chips>button[aria-pressed=true]{background:color-mix(in srgb,var(--universe-accent) 18%,transparent);border-color:var(--universe-accent);color:#fff}
+.gu-extra-toggle{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:#c5b5d2;cursor:pointer;line-height:1.5}
+.gu-extra-toggle input{appearance:none;position:relative;flex:0 0 40px;width:40px;height:24px;border:1px solid #b593d54d;border-radius:16px;background:#3a2b47;cursor:pointer;transition:background-color 300ms}
+.gu-extra-toggle input:after{content:'';position:absolute;left:3px;top:3px;width:16px;height:16px;border-radius:50%;background:#ded0ec;transition:transform 300ms}
+.gu-extra-toggle input:checked{background:color-mix(in srgb,var(--universe-accent) 60%,#2c213a)}.gu-extra-toggle input:checked:after{transform:translateX(16px);background:#fff}
+.gu-game-section{margin:48px 0}
+.gu-section-heading{display:flex;align-items:center;gap:16px;margin:0 0 24px}
+.gu-section-heading h2{font-size:22px;line-height:1.4;margin:0;font-weight:600;letter-spacing:-.025em}
+.gu-section-heading>span{min-width:32px;min-height:32px;display:grid;place-items:center;padding:0 8px;border-radius:16px;border:1px solid color-mix(in srgb,var(--universe-accent) 35%,transparent);background:color-mix(in srgb,var(--universe-accent) 10%,transparent);font-size:12px;color:#e4d6ef}
+.gu-section-heading>i{height:1px;flex:1;background:linear-gradient(90deg,var(--universe-accent),transparent);opacity:.4}
+.gu-timeline{display:flex;gap:32px;position:relative;list-style:none;margin:0 0 32px;padding:8px 0;overflow-x:auto;scrollbar-width:thin}
+.gu-timeline:before{content:'';position:absolute;inset:50% 0 auto;height:1px;background:linear-gradient(90deg,var(--universe-accent),#ffffff14);opacity:.4}
+.gu-timeline li{position:relative;font-size:12px;color:#c9b7d9;background:#0d0b12;padding:0 8px;font-variant-numeric:tabular-nums}
+.game-universes .library-cover-card:not([data-status]){--status-color:var(--universe-accent)}
+.game-universes .library-cover-card .upcoming-art{border-radius:12px;outline-color:color-mix(in srgb,var(--status-color) 30%,transparent)}
+.game-universes .library-cover-card .upcoming-card-footer{z-index:6;position:relative}
+.game-universes .library-cover-card h3{font-size:16px;line-height:1.5;margin-top:16px}
+.game-universes .gu-game-year{font-size:12px;line-height:1.5}
+.game-universes .gu-extra-badge{color:#e1d4eb;border-color:#cba8e438}
+.gu-extra-kind{position:absolute;z-index:5;bottom:8px;left:8px;border:1px solid #d0b5e540;border-radius:24px;padding:8px;background:#1d1429eb;color:#e5d8f0;font-size:12px;line-height:1.5}
+.gu-cover-placeholder{position:relative;background:radial-gradient(ellipse at 50% 25%,color-mix(in srgb,var(--universe-accent) 15%,transparent),transparent 65%),linear-gradient(150deg,#251b31,#15101c);padding:24px;gap:24px;align-content:center}
+.gu-cover-placeholder:before{content:'';display:block;width:64px;height:80px;border:1px solid #c6a7e838;border-radius:40px 40px 16px 16px;background:#b89bd60d;margin:auto}
+.gu-cover-placeholder>span{display:none}.gu-cover-placeholder>small{font-size:12px;line-height:1.7;color:#c7b6d6}
+.gu-start-section{margin:0 0 56px}
+.game-universes .gu-start-card{display:grid;grid-template-columns:224px minmax(0,1fr);grid-template-rows:auto auto auto auto 1fr auto;gap:16px 40px;padding:32px;border:1px solid color-mix(in srgb,var(--universe-accent) 30%,transparent);border-radius:24px;background:radial-gradient(ellipse at 80% 0,color-mix(in srgb,var(--universe-accent) 13%,transparent),transparent 65%),#17121e;max-width:960px}
+.gu-start-card .upcoming-cover-link{display:contents}
+.gu-start-card .upcoming-art{grid-column:1;grid-row:1/7;width:100%;align-self:start}
+.game-universes .gu-start-card h3{grid-column:2;grid-row:2;font-size:32px;line-height:1.3;min-height:0;margin:0}
+.game-universes .gu-start-card .gu-game-year{grid-column:2;grid-row:3;margin:0}
+.gu-start-kicker{grid-column:2;grid-row:1;align-self:end;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--universe-accent);margin:0}
+.gu-start-copy{grid-column:2;grid-row:4;font-size:14px;line-height:1.8;color:#c9b8d7;max-width:480px;margin:0}
+.gu-start-platforms{grid-column:2;grid-row:5;font-size:12px;line-height:1.7;color:#c5b1d7;margin:0}
+.gu-start-card .upcoming-card-footer{grid-column:2;grid-row:6;align-self:end}
+.game-universes .gu-status-only{position:relative;display:block}
+.game-universes .gu-status-trigger{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;width:100%;padding:8px 16px;border:1px solid #c7a2e83b;border-radius:24px;background:#251b30;color:#e8d8f7;font:inherit;font-size:12px;cursor:pointer;transition:background-color 300ms,border-color 300ms}
+.game-universes .gu-status-trigger:hover{background:#392549;border-color:#b493cf88}
+.game-universes .gu-status-trigger .void-icon{width:16px;height:16px}
+.game-universes.library-design .gu-game-card .gu-status-only .library-quick-status{display:grid;position:absolute;bottom:calc(100% + 8px);left:0;right:0;opacity:0;visibility:hidden;pointer-events:none;transform:none;transition:opacity 200ms,visibility 200ms;z-index:8}
+.game-universes.library-design .gu-game-card .gu-status-only[data-open=true] .library-quick-status{opacity:1;visibility:visible;pointer-events:auto}
+.gu-start-card .gu-status-only{max-width:240px}
+.gu-other-universes{padding:24px 0 40px;border-top:1px solid #bd95e91a}
+.gu-other-universes .m-eyebrow{font-size:12px;margin-bottom:24px}
+.gu-other-universes .u-shortcuts-heading h2{font-size:22px}
+.gu-other-universes .u-shortcut{flex-basis:calc((100% - 28px)/3)}
+.game-universes .gu-empty{display:flex;align-items:center;justify-content:center;gap:40px;padding:48px 32px;border:1px solid #bfa0df26;background:#17111f;border-radius:24px;text-align:left}
+.gu-empty-cover{flex:0 0 112px;aspect-ratio:2/3;display:grid;place-items:center;border:1px dashed var(--universe-accent);border-radius:12px;background:color-mix(in srgb,var(--universe-accent) 5%,transparent);color:var(--universe-accent)}
+.gu-empty-cover .void-icon{width:40px;height:40px}.gu-empty h3{font-size:22px;line-height:1.4;max-width:480px}.gu-empty p{font-size:12px;line-height:1.8;max-width:480px}
+.gu-cover-skeleton{overflow:hidden;position:relative;background:#241a30}.gu-cover-skeleton:after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,transparent,#d1b5ed14,transparent);animation:gu-shimmer 2400ms infinite;transform:translateX(-100%)}
+@keyframes gu-shimmer{to{transform:translateX(100%)}}
+.gu-catalog-header{position:relative;isolation:isolate;padding:16px 0 24px}
+.gu-catalog-header:before{content:'';position:absolute;inset:-64px -32px 0;z-index:-1;background:radial-gradient(ellipse at 18% 30%,#9a5ddb22,transparent 58%);filter:blur(32px);pointer-events:none}
+.gu-catalog-header .m-eyebrow{font-size:12px}
+.game-universes .gu-universe-card>a{display:flex;flex-direction:column;align-items:stretch;padding:32px;gap:24px;position:relative;overflow:hidden;isolation:isolate}
+.gu-index-backdrop{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;opacity:.2;filter:saturate(.6)}
+.gu-universe-card>a:before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 80% 0,color-mix(in srgb,var(--universe-accent) 18%,transparent),transparent 65%),linear-gradient(0deg,#130e1bf2,#130e1b60);pointer-events:none}
+.gu-universe-card .gu-universe-logo{width:100%;height:128px;filter:drop-shadow(0 8px 24px color-mix(in srgb,var(--universe-accent) 18%,transparent))}
+.gu-universe-card .u-universe-card-copy{height:auto;flex:1}
+.gu-index-facts{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.gu-index-facts>span{font-size:12px;color:#ddcce9;padding:8px 16px;background:#ffffff08;border:1px solid #ffffff14;border-radius:24px}
+@supports(backdrop-filter:blur(12px)){.gu-facts>span{background:#241a30b8;backdrop-filter:blur(12px)}.gu-control-panel{background:#17121feb;backdrop-filter:blur(16px)}}
+@media(hover:hover) and (pointer:fine){.game-universes .gu-game-card:not(.gu-start-card) .gu-status-trigger{opacity:0;transition:opacity 300ms,background-color 300ms}.game-universes .gu-game-card:hover .gu-status-trigger,.game-universes .gu-game-card:focus-within .gu-status-trigger{opacity:1}}
+@media(max-width:1000px){.gu-hero-layout{grid-template-columns:minmax(0,1fr) 176px;gap:32px}.gu-hero-layout .gu-hero-logo{width:176px;height:144px}.game-universes .gu-start-card{grid-template-columns:192px minmax(0,1fr);gap:16px 24px}}
+@media(max-width:760px){.gu-hero{min-height:0}.gu-hero-layout{grid-template-columns:1fr;gap:24px}.gu-hero-layout .gu-hero-logo{grid-row:1;width:144px;height:96px}.game-universes .gu-hero h1{font-size:40px}.game-universes .u-hero-copy{padding-bottom:40px}.gu-facts{margin-top:24px!important}.gu-control-panel{top:0;padding:16px;margin-inline:-8px;border-radius:16px}.gu-control-panel .gu-controls{flex-direction:row;gap:16px}.gu-control-panel .gu-controls label:first-child{width:auto;flex:1}.gu-control-panel .gu-controls label:last-child{max-width:45%}.gu-control-bottom{gap:16px}.gu-timeline{display:none}.game-universes .gu-start-card{grid-template-columns:144px minmax(0,1fr);padding:24px;gap:8px 24px}.game-universes .gu-start-card h3{font-size:24px}.gu-start-copy{font-size:12px}.gu-start-platforms{grid-column:1/-1;grid-row:7}.gu-start-card .upcoming-card-footer{grid-column:1/-1;grid-row:8}.gu-start-card .gu-status-only{max-width:none}.gu-other-universes .u-shortcut{flex-basis:44%}.game-universes .gu-empty{gap:24px;padding:32px 24px}.gu-empty-cover{flex-basis:80px}.gu-empty h3{font-size:20px}.game-universes .gu-universe-card>a{padding:24px}}
+@media(max-width:480px){.gu-control-panel .gu-controls{flex-direction:column;align-items:stretch}.gu-control-panel .gu-controls label:last-child{max-width:none}.gu-control-panel{position:relative}.game-universes .gu-start-card{grid-template-columns:112px minmax(0,1fr);gap:8px 16px;padding:24px 16px}.game-universes .gu-start-card h3{font-size:20px}.gu-start-copy{grid-column:1/-1;grid-row:9}.gu-empty-cover{display:none}.gu-hero-layout .gu-hero-logo{width:128px;height:88px}}
+@media(prefers-reduced-motion:reduce){.game-universes *,.game-universes *:before,.game-universes *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.gu-hero>img{transform:none}.gu-catalog-header:before{filter:none}}
+@media(forced-colors:active){.gu-hero h1:after,.gu-catalog-header:before,.gu-index-backdrop,.gu-universe-card>a:before,.gu-timeline:before{display:none}.gu-control-panel,.gu-facts>span,.gu-index-facts>span,.gu-start-card,.gu-status-trigger,.gu-platform-chips>button,.gu-start-invite,.gu-empty{background:Canvas!important;color:CanvasText!important;border-color:CanvasText!important;box-shadow:none!important;backdrop-filter:none!important}.gu-platform-chips>button[aria-pressed=true]{border:2px solid Highlight;color:Highlight!important}.gu-extra-toggle input{appearance:auto;width:24px;height:24px}.gu-extra-toggle input:after{display:none}.gu-empty-cover{border-color:CanvasText;background:Canvas}.gu-hero-layout .gu-hero-logo,.gu-universe-logo{filter:none}.game-universes .library-cover-card:focus-within .upcoming-art{outline-color:Highlight!important}}
+
+/* Same content width and shared grid as /jogos/biblioteca, including the featured cover. */
+.game-universes .gu-games{width:100%;max-width:1320px;padding-inline:5%;container-type:inline-size;--gu-cover-width:calc((100cqw - 72px)/4)}
+.game-universes .gu-start-card{grid-template-columns:var(--gu-cover-width) minmax(0,1fr)}
+@media(min-width:1440px){.game-universes .gu-games{--gu-cover-width:calc((100cqw - 120px)/6)}}
+@media(min-width:1600px){.game-universes .gu-games{padding-inline:55px}}
+@media(max-width:1023px){.game-universes .gu-games{--gu-cover-width:calc((100cqw - 32px)/3)}}
+@media(max-width:600px){.game-universes .gu-games{--gu-cover-width:calc((100cqw - 16px)/2)}}
+.gu-game-card .upcoming-card-footer:empty{display:none}
+.gu-catalog-detail .gu-detail-cover{width:240px;max-width:100%;justify-self:end}
+.gu-detail-cover .game-portrait-cover{aspect-ratio:2/3;border-radius:16px;overflow:hidden;box-shadow:0 16px 48px #0006}
+.gu-detail-cover-background .game-full-image{filter:blur(24px) brightness(.45);transform:scale(1.1)}
+.gu-detail-content{padding-block:48px 64px;scroll-margin-top:24px}
+.gu-detail-description{max-width:880px;white-space:pre-line;font-size:14px;line-height:1.9;color:#d1c5db}
+.gu-detail-error{padding-block:64px;min-height:60vh}
+@media(max-width:760px){.gu-catalog-detail .game-full-layout{grid-template-columns:minmax(0,1fr);gap:32px}.gu-catalog-detail .gu-detail-cover{width:160px;justify-self:start;grid-row:1}.gu-catalog-detail .game-full-copy h1{font-size:clamp(32px,8vw,48px);letter-spacing:-.04em}.gu-detail-content{padding-block:32px 48px}}
+@media(forced-colors:active){.gu-detail-cover-background{display:none}.gu-detail-description{color:CanvasText}.gu-detail-cover .game-portrait-cover{box-shadow:none;border:1px solid CanvasText}}

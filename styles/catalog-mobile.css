@@ -1,0 +1,62 @@
+/* The same flow as game home/detail: art, identity, actions and content.
+ * Scope all changes to film/series catalogs and details on mobile. */
+@media(max-width:700px){
+ .movies-home .void-catalog-hero--pending .void-home-hero-inner{margin-top:var(--site-navigation-height,90px);min-height:300px;padding:36px 0}
+ .movies-home .void-catalog-hero .void-home-hero-selection h1{overflow-wrap:anywhere}
+ .movies-home .void-catalog-hero .void-home-hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%}
+ .movies-home .void-catalog-hero .void-home-hero-actions>:is(a,button){display:flex;align-items:center;justify-content:center;gap:8px;min-width:0;min-height:44px;padding:11px 10px;font-size:12px;white-space:normal;text-align:center}
+ .movies-home .void-catalog-hero .void-home-hero-actions .void-icon{flex-shrink:0}
+ .movies-home .void-catalog-hero .void-home-hero-navigation{gap:6px;flex-wrap:wrap}
+ .movies-home .void-catalog-hero .void-home-hero-dots{min-width:0;gap:0;flex:1}
+ .movies-home .void-catalog-hero .void-home-hero-dots button{width:clamp(18px,5.5vw,28px);min-height:44px;padding-inline:3px}
+ .movies-home .void-catalog-hero .void-home-hero-controls button{width:44px;height:44px}
+ .movies-home .void-catalog-hero .void-home-hero-count{margin-right:0;flex-shrink:0}
+
+ .movie-detail{font-size:12px}
+ .movie-detail .md-container{width:90%;min-width:0}
+ .movie-detail .md-hero{height:auto;aspect-ratio:4/3;margin-top:var(--site-navigation-height,94px);isolation:isolate}
+ .movie-detail .md-hero .md-backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+ .movie-detail .md-hero-gradient{background:linear-gradient(180deg,#0b090f80,transparent 18%,transparent 62%,#0b090f)}
+ .movie-detail .md-hero:after{display:none}
+ .movie-detail .md-title-strip{margin-top:-12px;gap:12px;padding:0 0 18px;min-height:0}
+ /* The main h1 beside the poster supplies the identity, without a second title. */
+ .movie-detail .md-title-strip>p{display:none}
+ .movie-detail .md-title-strip>div{width:100%;gap:10px;min-width:0}
+ .movie-detail .md-title-strip button{min-height:44px;font-size:12px!important;padding:10px 12px}
+ .movie-detail .md-tmdb-score{font-size:11px;line-height:1.6;flex-wrap:wrap}
+ .movie-detail .md-tmdb-score strong{font-size:22px}
+ .movie-detail .md-tmdb-score small{font-size:10px}
+ .movie-detail .md-main-grid{grid-template-columns:clamp(90px,28vw,140px) minmax(0,1fr);align-items:start;gap:22px 16px;padding:24px 0}
+ .movie-detail .md-poster-column,.movie-detail .md-info{display:contents}
+ .movie-detail .md-poster-column>:is(img,.m-missing-image){grid-column:1;grid-row:1;width:100%;height:auto;max-height:none;aspect-ratio:2/3;object-fit:cover;align-self:start}
+ .movie-detail .md-info-heading{grid-column:2;grid-row:1;min-width:0;align-self:center}
+ .movie-detail .md-info h1{font-size:clamp(23px,6.5vw,32px);line-height:1.15;letter-spacing:-.035em;overflow-wrap:anywhere;margin-bottom:10px}
+ .movie-detail .md-tagline{font-size:12px;line-height:1.7;overflow-wrap:anywhere;margin-bottom:12px}
+ .movie-detail .md-metadata{font-size:11px;line-height:1.6;gap:8px;padding:0;margin:0;border:0;overflow-wrap:anywhere}
+ .movie-detail .md-metadata>button{min-height:44px;font-size:11px!important}
+ .movie-detail .md-poster-actions{grid-column:1/-1;grid-row:2;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;min-width:0}
+ .movie-detail .md-poster-actions>button,.movie-detail .md-poster-actions .vs-recommend{min-height:44px;font-size:12px!important;padding:11px 10px;white-space:normal;overflow-wrap:anywhere}
+ .movie-detail .md-poster-actions>.vs-work-actions{margin:0;min-width:0}
+ .movie-detail .md-poster-actions>.md-primary{grid-column:1/-1}
+ .movie-detail .md-poster-actions>:is(.sd-new-episode,.sd-personal-average){grid-column:1/-1}
+ .movie-detail .md-facts-cast{grid-column:1/-1;grid-row:3;gap:24px;min-width:0}
+ .movie-detail .md-facts{font-size:12px;line-height:1.7}
+ .movie-detail .md-facts>div{grid-template-columns:minmax(80px,28%) minmax(0,1fr);gap:12px}
+ .movie-detail h2{font-size:20px;line-height:1.3}
+ .movie-detail .md-cast-list strong{font-size:12px;overflow-wrap:anywhere}
+ .movie-detail .md-cast-list small{font-size:11px;line-height:1.5}
+ .movie-detail .md-gallery{grid-column:1/-1;grid-row:4;min-width:0;padding-top:22px}
+ .movie-detail .md-gallery-thumbs{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:44%;gap:10px;max-width:100%;overflow-x:auto;scroll-snap-type:x proximity;overscroll-behavior-x:contain;padding-bottom:10px}
+ .movie-detail .md-gallery-thumbs>button{scroll-snap-align:start;min-height:44px}
+ .movie-detail .md-tabs{gap:24px;overscroll-behavior-x:contain;scrollbar-width:thin}
+ .movie-detail .md-tabs>button{min-height:55px;font-size:12px;flex-shrink:0}
+ .movie-detail .md-synopsis>p{font-size:13px;line-height:1.85}
+ .movie-detail .md-text-action{min-height:44px;font-size:12px!important}
+ .movie-detail .md-full-credits .md-cast-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .movie-detail .md-similar .m-section-title{padding-right:0}
+ .movie-detail .md-similar .m-section-title h2{white-space:normal;font-size:20px}
+ .movie-detail .md-similar-sort{max-width:100%;font-size:11px}
+ .movie-detail .md-similar-sort select{min-height:44px}
+ .movie-detail .md-modal-heading>button{min-width:44px;min-height:44px}
+ .movie-detail :is(input:not([type=checkbox]),select,textarea){font-size:16px}
+}

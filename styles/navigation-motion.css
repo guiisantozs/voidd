@@ -1,0 +1,8 @@
+.void-tab-static{position:relative}
+.void-tab-navigation .void-nav-item{transition:color .2s ease,background-color .2s ease;transform:none!important}
+.void-tab-navigation .void-nav-item::before,.void-tab-navigation .void-nav-item::after{content:none!important}
+.void-tab-navigation .void-nav-item:is([aria-selected=true],[aria-pressed=true],[aria-current=page],[aria-current=location],[data-void-current=true]){color:#b69ade!important;border-color:transparent!important;box-shadow:none!important;background:transparent!important}
+.void-tab-navigation .void-nav-item:hover:not(:disabled),.void-tab-navigation .void-nav-item:focus-visible{color:#cfb1ef!important}
+.void-nav-indicator{position:absolute;left:0;top:0;height:2px;max-width:none!important;min-height:0!important;min-width:0!important;padding:0!important;margin:0!important;border:0!important;border-radius:2px;background:#b69ade!important;box-shadow:0 0 8px #b69ade2b;pointer-events:none;opacity:0;z-index:2;transition:transform .24s cubic-bezier(.2,.75,.25,1),width .24s cubic-bezier(.2,.75,.25,1),opacity .16s ease}
+@media(prefers-reduced-motion:reduce){.void-nav-indicator,.void-tab-navigation .void-nav-item{transition:none!important}}
+@media(forced-colors:active){.void-nav-indicator{background:Highlight!important;box-shadow:none}.void-tab-navigation .void-nav-item[data-void-current=true]{color:LinkText!important}}

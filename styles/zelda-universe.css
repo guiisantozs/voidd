@@ -1,0 +1,47 @@
+/* Zelda's cinematic landing uses the same sections and catalog as GTA/God of War. */
+body:has(.zelda-universe){--bg:#0a1514;background:#0a1514}
+.zelda-universe{--zelda-bg:#0a1514;--game-purple:#d8bd78;--library-surface:var(--zelda-bg);background:var(--zelda-bg)}
+.zelda-universe :is(.tlou-landing,.tlou-about,.gu-other-universes,.gu-timeline li,.games-footer){background:var(--zelda-bg)}
+.zelda-universe .tlou-landing{--game-accent:#d8bd78;color:#f4f3e8}
+.zelda-universe .tlou-hero{background:#10232a}
+.zelda-universe .tlou-hero-shade{background:linear-gradient(0deg,#0a1514,transparent 25%),linear-gradient(270deg,#07191bea,#07191bb3 25%,#07191b36 53%,transparent 78%),linear-gradient(180deg,#0a151466,transparent 30%)}
+.zelda-universe .tlou-hero:after{clip-path:none;height:90px;background:linear-gradient(0deg,#0a1514,transparent)}
+.zelda-universe .tlou-hero-copy{padding-block:128px 100px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);column-gap:24px}
+.zelda-universe .tlou-hero-copy>*{grid-column:2;min-width:0}
+.zelda-universe .tlou-hero-copy>.tlou-back{grid-column:1/-1;justify-self:start}
+.zelda-universe .tlou-hero-copy>.gu-release-countdown{justify-self:start;width:auto}
+@media(max-width:760px){.zelda-universe .tlou-hero-copy>.gu-release-countdown{justify-self:end}}
+.zelda-universe .tlou-hero-copy h1{max-width:340px;margin-block:24px}
+.zelda-universe .tlou-hero-copy h1 .u-shortcut-logo{height:218px;filter:drop-shadow(0 3px 24px #06141080)}
+.zelda-universe .tlou-back{color:#f6f3df;text-shadow:0 2px 10px #061410}
+.zelda-universe .tlou-tagline{color:#dedfcf;max-width:380px;font-size:15px}
+.zelda-universe .tlou-hero-actions :is(a,button){border-radius:4px}
+.zelda-universe .tlou-hero-actions .tlou-primary{background:linear-gradient(110deg,#d8bd78,#ead7a2);border-color:#d8bd78;color:#16251d}
+.zelda-universe .tlou-hero-actions .tlou-secondary{background:#0c282270;border-color:#d8bd7866;color:#f3eedb}
+.zelda-universe .tlou-hero-caption{color:#c2cbbd;margin-top:28px}
+.zelda-universe .tlou-section-nav{background:#0a1514f5}
+.zelda-universe .tlou-section-nav>a{color:#c0c9bd}
+.zelda-universe .tlou-section-nav>a[aria-current=location]{color:#d8bd78}
+.zelda-universe .tlou-section-dots a[aria-current=location]>span{box-shadow:0 0 0 5px #d8bd7822}
+.zelda-universe .tlou-about-art{opacity:1;mask-image:linear-gradient(90deg,transparent,#000 30%)}
+.zelda-universe .tlou-about-art:after{background:linear-gradient(0deg,#0a1514,transparent 20%,transparent 94%,#0a1514),linear-gradient(90deg,#0a1514a6,transparent 30%)}
+.zelda-universe .tlou-about h2{font-size:clamp(32px,3.6vw,50px);text-transform:none;letter-spacing:-.04em;max-width:440px}
+.zelda-universe .tlou-about-copy>p:not(.m-eyebrow){color:#c4cfc5}
+.zelda-universe .tlou-facts span,.zelda-universe .tlou-avatars-heading :is(p,span),.zelda-universe .gu-other-universes .m-eyebrow{color:#b9c9ba}
+.zelda-universe .gu-control-panel{background:#11231f;border-color:#d8bd7826}
+.zelda-universe .gu-controls :is(input,select){background:#0a1a17;border-color:#d8bd7830}
+.zelda-universe .gu-start-card{background:radial-gradient(ellipse at 80% 0,#d8bd7812,transparent 65%),#11231f;border-color:#d8bd7833}
+.zelda-universe :is(.gu-selection-note,.gu-attribution,.va-character-name,.va-in-use,.va-feedback){color:#cbd4c5}
+.zelda-universe :is(.tlou-media,.tlou-avatars,.gu-other-universes){border-color:#d8bd7820}
+.zelda-universe .tlou-avatars .va-picker{background:linear-gradient(130deg,#203b2c80,#0c1b18);border-color:#d8bd7830}
+.zelda-universe .tlou-avatars .va-use-button{background:#d8bd780a;border-color:#d8bd7840;color:#e6d7ae}
+.zelda-universe .tlou-avatars .va-option.is-selected{background:#d8bd7810;border-color:#d8bd78}
+.zelda-universe .tlou-avatars .va-portrait{border-color:#d8bd7833}
+.zelda-universe .tlou-avatars :is(.va-option.is-selected,.va-option.is-current) .va-portrait{box-shadow:0 8px 24px #d8bd7814}
+.zelda-universe .gu-release-countdown{display:inline-flex;align-items:center;gap:12px;max-width:100%;min-height:50px;padding:10px 14px;margin:0 0 26px;border:1px solid #d8bd783d;border-radius:7px;background:#0c221cb3;text-decoration:none;box-shadow:0 6px 24px #06141020;color:#e0c789}
+.zelda-universe .gu-release-countdown small{color:#c5c8ad}
+.zelda-universe .gu-release-countdown strong{color:#efe1b7}
+.zelda-universe :is(a,button,input,select,h1,h2):focus-visible{outline-color:#d8bd78}
+@media(hover:hover){.zelda-universe .tlou-hero-actions .tlou-primary:hover{background:linear-gradient(110deg,#ebd399,#f4e6bd)}.zelda-universe .gu-release-countdown:hover{border-color:#d8bd7880;background:#19372cb3}.zelda-universe .tlou-avatars .va-option:hover{border-color:#d8bd7866;background:#d8bd780a}}
+@media(max-width:760px){.zelda-universe .tlou-hero-copy{padding-block:112px 76px;grid-template-columns:minmax(0,1fr);column-gap:0}.zelda-universe .tlou-hero-copy>*{grid-column:1;width:100%;max-width:310px;justify-self:end}.zelda-universe .tlou-hero-copy>.tlou-back{width:auto;justify-self:start}.zelda-universe .tlou-hero-shade{background:linear-gradient(0deg,#0a1514 0%,#0a1514e0 22%,#0a151470 55%,#0a151414 82%,#0a151470 100%)}.zelda-universe .tlou-hero-copy h1{max-width:230px;margin-block:18px}.zelda-universe .tlou-hero-copy h1 .u-shortcut-logo{height:155px}.zelda-universe .tlou-tagline{font-size:13px;max-width:310px;margin:16px 0 20px}.zelda-universe .gu-release-countdown{min-height:46px;gap:10px;padding:8px 12px;margin-bottom:22px}.zelda-universe .gu-release-countdown small{font-size:8px}.zelda-universe .tlou-hero-actions{flex-direction:row;gap:10px;max-width:352px}.zelda-universe .tlou-hero-actions :is(a,button){width:auto;flex:1;min-height:46px;padding:12px 10px;font-size:10px;gap:8px;white-space:nowrap}.zelda-universe .tlou-hero-actions .tlou-trailer{flex:0 0 100%;justify-content:flex-start}.zelda-universe .tlou-hero-caption{font-size:10px;margin-top:22px}.zelda-universe .tlou-about{padding-top:260px}.zelda-universe .tlou-about-art{mask-image:linear-gradient(0deg,transparent,#000 48%)}.zelda-universe .tlou-about-art img{object-position:100% 25%}.zelda-universe .tlou-about-content{padding-block:42px 56px}.zelda-universe .tlou-about h2{font-size:36px}.zelda-universe .tlou-about-copy>p:not(.m-eyebrow){font-size:13px}}
+@media(forced-colors:active){.zelda-universe,.zelda-universe :is(.tlou-landing,.tlou-hero,.tlou-about,.tlou-section-nav,.gu-other-universes,.gu-control-panel,.gu-start-card),.zelda-universe .tlou-avatars .va-picker{background:Canvas;color:CanvasText}.zelda-universe .gu-release-countdown{background:Canvas;color:CanvasText;border-color:CanvasText;box-shadow:none}.zelda-universe .gu-release-countdown :is(small,strong){color:CanvasText}.zelda-universe .tlou-hero-actions .tlou-primary{background:ButtonFace;color:ButtonText;border-color:ButtonText}}

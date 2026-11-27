@@ -1,0 +1,23 @@
+.void-friend-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:16px 0;border-bottom:1px solid #9679ae33}
+.void-friend-row>a{display:flex;align-items:center;gap:12px;min-width:0;flex:1}
+.void-friend-row strong{display:block;font-size:13px;overflow-wrap:anywhere}
+.void-friend-row small,.void-person-handle{display:block;font-size:11px;font-weight:400;color:#a18ab7;overflow-wrap:anywhere;margin-top:4px}
+.void-friend-row button{min-height:40px;padding:8px 12px;border-radius:5px;color:inherit;border:1px solid #9473ad88;background:#a67ec522;font:inherit;font-size:12px;cursor:pointer}
+.void-friend-row>div{display:flex;gap:8px;flex-wrap:wrap}
+.void-username-field{margin:16px 0;min-width:0}
+.void-username-field label{display:grid;gap:8px;font-size:12px}
+.void-username-field input{display:block;width:100%;min-width:0;padding:12px;border:1px solid #9879b0;border-radius:6px;color:inherit;background:#ffffff08;font:inherit;min-height:44px}
+.void-username-field>small{display:block;font-size:11px;line-height:1.7;color:#a895b9}
+.void-username-status{font-size:12px;min-height:20px;margin:8px 0;line-height:1.6}
+.void-username-status.is-available{color:#85c99c}
+.void-username-status.is-invalid,.void-username-status.is-taken,.void-username-status.is-cooldown,.void-username-status.is-error,.void-username-status.is-limited{color:#eab0bb}
+.void-onboarding{min-height:100svh;display:grid;place-items:center;padding:28px 20px;background:radial-gradient(ellipse at top,#392147,#100c17 65%);color:#f1e5fa;font-family:Poppins,Arial,sans-serif}
+.void-onboarding>section{width:100%;max-width:470px;padding:30px;border:1px solid #a47dc644;border-radius:14px;background:#1d1428}
+.void-onboarding .logo{display:block;color:#bc93ec;margin-bottom:30px}
+.void-onboarding h1{font-size:29px;margin-bottom:15px}
+.void-onboarding p{font-size:13px;line-height:1.8}
+.void-onboarding form>small{font-size:11px;color:#c1aacd;line-height:1.7;display:block}
+.void-onboarding button{display:block;min-height:44px;margin-top:16px;padding:11px 16px;border:1px solid #a67ec566;border-radius:6px;background:#8155ad;color:white;font:inherit;font-size:13px;cursor:pointer}
+.void-onboarding button:disabled{opacity:.45;cursor:default}
+.void-onboarding input:focus-visible{outline:2px solid #d5b4f9;outline-offset:3px}
+@media(max-width:650px){.void-friend-row{gap:10px}.void-friend-row .vp-avatar{width:36px;height:36px}.void-onboarding>section{padding:22px}.void-onboarding h1{font-size:25px}.void-username-field input{font-size:16px}}

@@ -1,0 +1,6 @@
+import MovieReviewForm from '../movies/MovieReviewForm';
+import DetailModal from '../movies/DetailModal';
+import {useSeriesUnits} from '../../lib/use-series-units';
+import {unitKey,unitReleased} from '../../lib/series-units';
+import {dateLabel} from '../series/SeriesSeasons';
+export default function AnimeReviewModal({work,unit,onClose,onSaved}){const units=useSeriesUnits(work);return <DetailModal title={unit?`${unit.episodeNumber?'Avaliar episódio':'Avaliar temporada'} · ${work.displayTitle||work.titulo}`:'Avaliar anime'} onClose={onClose} trapFocus className="sd-review-modal" backdropClassName="sd-review-backdrop">{unit&&units.loading?<p role="status">Carregando sua avaliação…</p>:unit&&units.error?<button onClick={units.refresh}>Tentar novamente</button>:<MovieReviewForm movie={work} onSaved={onSaved} controller={unit?{key:`animes:${work.id}:${unitKey(unit)}`,label:unit.episodeNumber?'episódio':'temporada',airDate:unit.airDate,allowed:unitReleased(unit),releaseMessage:`Disponível após a estreia confirmada: ${dateLabel(unit.airDate)}.`,record:units.reviews[unitKey(unit)]||null,highlightsAvailable:units.highlightsAvailable,save:(form,deleting)=>units.write(unit,deleting?'remove':'review',units.highlightsAvailable?form:(({highlights,...rest})=>rest)(form))}:undefined}/>}</DetailModal>;}

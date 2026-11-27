@@ -1,0 +1,7 @@
+const base=new URL(process.argv[2]||'http://localhost:3000');
+if(!['localhost','127.0.0.1','[::1]'].includes(base.hostname)||!['http:','https:'].includes(base.protocol))throw Error('Use the local development server URL.');
+const response=await fetch(new URL('/api/animes/diagnostics',base),{signal:AbortSignal.timeout(90000)});
+if(!response.ok)throw Error(`Development diagnostics unavailable (${response.status}). Run npm run dev first.`);
+const {candidates,sources,sourceStats,funnel,updatedAt,stale}=await response.json();
+console.log(JSON.stringify({updatedAt,stale,sources,sourceStats,funnel}));
+for(const row of candidates)console.log(JSON.stringify({id:row.id,title:row.displayTitle||row.title,canonicalTitle:row.title,production:row.production,status:row.status,sourceStatus:row.sourceStatus,selected:row.selected,selectedSections:row.selectedSections,source:row.source,observedAt:row.observedAt,score:Math.round(row.analysis.score*100)/100,currentScore:row.analysis.currentScore,regionalScore:row.analysis.regionalScore,globalScore:row.analysis.globalScore,recognitionScore:row.analysis.recognitionScore,recognitionReach:row.analysis.recognitionReach,confidence:row.analysis.confidence,daysSincePremiere:row.analysis.ageDays,episodeDate:row.episodeDate,episodeNumber:row.episodeNumber,activityGrowth:row.analysis.growth,regionalEvidence:row.analysis.regionalSources,regionalHints:row.regionalHints,availability:row.availability,reasons:row.reasons}));

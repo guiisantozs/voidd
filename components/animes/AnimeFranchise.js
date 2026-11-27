@@ -1,0 +1,7 @@
+import Image from './AnimeImage';
+import Link from 'next/link';
+import {formatRating} from '../../lib/catalog';
+import {useVisibleSection} from '../../lib/use-visible-section';
+import {useAnimeResource} from '../../lib/use-anime-resource';
+export function AnimeSeasonCards({rows,currentId}){return <div className="ad-season-rail">{rows.map(row=><Link key={row.id} href={`/obra/animes/${row.id}`} className={`ad-season-card ${row.id===currentId?'is-current':''}`} aria-current={row.id===currentId?'page':undefined}>{row.poster&&<Image src={row.poster} width={240} height={360} sizes="(max-width:600px) 40vw,180px" alt={`Pôster de ${row.displayTitle||row.titulo}`}/>}<strong>{row.seasonLabel||row.displayTitle||row.titulo}</strong><span>{row.displayTitle||row.titulo}</span><small>{row.ano||'Ano a confirmar'}{row.numberOfEpisodes!=null?` · ${row.numberOfEpisodes} episódios`:''}</small><small>{row.nota!=null?`${formatRating(row.nota)}/5 · MyAnimeList`:'Nota não informada'}</small><small>{row.statusLabel}</small>{row.id===currentId&&<b>Nesta página</b>}</Link>)}</div>;}
+export default function AnimeFranchise({item}){const [ref,visible]=useVisibleSection(),state=useAnimeResource(item.id,'franchise',visible);return <div ref={ref} className="ad-franchise">{state.data?.seasons?.length>1&&<section><h2>Temporadas</h2><AnimeSeasonCards rows={state.data.seasons} currentId={item.id}/></section>}{state.data?.specials?.length>0&&<section><h2>Filmes e especiais</h2><AnimeSeasonCards rows={state.data.specials} currentId={item.id}/></section>}</div>;}

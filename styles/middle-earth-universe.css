@@ -1,0 +1,42 @@
+body:has(.middle-earth-universe){--bg:#090e0c;background:#090e0c}
+body:has(.middle-earth-universe) .account-bar.site-navigation:before{height:calc(100% + 48px);background:linear-gradient(180deg,#090e0ceb,#090e0ca6 35%,#090e0c40 70%,#090e0c00)}
+.middle-earth-universe{--sw-bg:#090e0c;--sw-gold:#c7b66f;--m-surface:#141b16;--m-muted:#b9bdb1;--m-purple:var(--sw-gold)}
+.middle-earth-universe .sw-hero{background:var(--sw-bg)}
+.middle-earth-universe :is(.sw-hero-art,.sw-about-art){z-index:0}
+.middle-earth-universe .sw-hero:after{z-index:1}
+.middle-earth-universe :is(.sw-hero-copy,.sw-about-copy){position:relative;z-index:2}
+.middle-earth-universe .sw-hero:after{background:linear-gradient(0deg,#090e0c,transparent 32%),linear-gradient(90deg,#090e0cf2 0%,#090e0cb3 28%,#090e0c26 60%,transparent 85%)}
+.middle-earth-universe .sw-hero h1{max-width:300px}
+.middle-earth-universe .sw-tagline{color:#e2e4d8}
+.middle-earth-universe .sw-actions a{border-color:#c7b66f55;color:#e6deba}
+.middle-earth-universe .sw-actions .sw-primary{color:#171a10;border-color:var(--sw-gold)}
+.middle-earth-universe .sw-nav{background:linear-gradient(180deg,#090e0c,#141b12 50%,#090e0c)}
+.middle-earth-universe .sw-nav a{color:#ded7b6}
+.middle-earth-universe .sw-about-art:after{background:linear-gradient(0deg,#090e0c,transparent 75%)}
+.middle-earth-universe .sw-about-copy>p:not(.sw-eyebrow),.middle-earth-universe .sw-facts span{color:#b9bdb1}
+.middle-earth-universe .u-controls :is(button,select){background:#141b16;border-color:#c7b66f33;color:#e2e4d8}
+.middle-earth-universe .u-controls button[aria-pressed=true]{background:#c7b66f0c;border-color:var(--sw-gold);color:var(--sw-gold)}
+.middle-earth-universe :is(.u-hint,.u-controls label){color:#b9bdb1}
+.middle-earth-universe .u-order-number{background:#090e0ced;border-color:#c7b66f55}
+@media(min-width:701px){
+ .middle-earth-universe .sw-hero-art img{object-position:74% center!important}
+ .middle-earth-universe .sw-about-art{right:25%}
+ .middle-earth-universe .sw-about-art img{object-position:38% center!important}
+ .middle-earth-universe .sw-about-art:after{background:linear-gradient(0deg,#090e0c,transparent 24%,transparent 80%,#090e0c),linear-gradient(270deg,#090e0c,transparent 68%)}
+ .middle-earth-universe .sw-about-copy{padding-left:53%}
+ .middle-earth-universe .sw-about h2{font-size:clamp(34px,3vw,46px)}
+}
+@media(min-width:701px) and (max-width:1000px){.middle-earth-universe .sw-about-copy{padding-left:45%}.middle-earth-universe .sw-about-art{right:15%;opacity:.72}}
+@media(max-width:700px){
+ .middle-earth-universe .sw-hero{min-height:max(740px,100svh)}
+ .middle-earth-universe .sw-hero-art img{top:calc(var(--site-navigation-height,90px) + 12px)!important;height:58%!important;object-position:76% top!important}
+ .middle-earth-universe .sw-hero:after{background:linear-gradient(0deg,#090e0c 0%,#090e0c 27%,#090e0cc7 41%,#090e0c00 66%)}
+ .middle-earth-universe .sw-hero-heading{padding-top:240px}
+ .middle-earth-universe .sw-hero h1{max-width:180px;margin-bottom:16px}
+ .middle-earth-universe .sw-eyebrow{max-width:300px}
+ .middle-earth-universe .sw-about{padding-top:245px}
+ .middle-earth-universe .sw-about-art{height:330px}
+ .middle-earth-universe .sw-about-art img{object-position:38% center!important}
+ .middle-earth-universe .sw-about h2{font-size:32px}
+}
+@media(forced-colors:active){.middle-earth-universe .sw-hero,.middle-earth-universe .sw-about,.middle-earth-universe .sw-nav{background:Canvas;color:CanvasText}.middle-earth-universe .sw-actions a{border-color:ButtonText;color:LinkText}.middle-earth-universe .sw-actions .sw-primary{background:ButtonFace;color:ButtonText}}

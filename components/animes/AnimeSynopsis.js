@@ -1,0 +1,2 @@
+import {useState} from 'react';
+export default function AnimeSynopsis({item}){const [expanded,setExpanded]=useState(false),text=item.sinopse||'A sinopse deste anime ainda não está disponível.',long=text.length>620;return <section className="md-synopsis"><h2>{item.synopsisLabel||'Sinopse'}</h2><p>{long&&!expanded?text.slice(0,620).replace(/\s+\S*$/,'')+'…':text}</p>{long&&<button className="md-text-action" aria-expanded={expanded} onClick={()=>setExpanded(v=>!v)}>{expanded?'Ler menos':'Ler mais'}</button>}</section>;}

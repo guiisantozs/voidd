@@ -1,0 +1,77 @@
+/* Mobile-only composition. Desktop styles, assets and carousel behavior stay
+ * untouched. Game, film and series spotlights share a compact image-led layout. */
+@media(max-width:700px){
+ .void-home-hero .void-home-hero-inner{min-height:max(100svh,680px);padding:calc(var(--site-navigation-height,90px) + 230px) 0 100px}
+ .void-home-hero .void-home-hero-copy{width:100%;max-width:330px}
+ .void-home-hero .void-home-hero-eyebrow{font-size:7px;gap:10px;letter-spacing:1.2px;margin-bottom:10px}
+ .void-home-hero .void-home-hero-eyebrow>span{height:10px}
+ .void-home-hero.has-artwork h1{font-size:18px;line-height:1.14;margin-bottom:12px}
+ .void-home-hero .void-home-hero-logo-frame{width:168px;margin-bottom:6px}
+ .void-home-hero.is-gta-vi .void-home-hero-logo-frame{width:112px}
+ .void-home-hero .void-home-hero-selection{margin-bottom:10px}
+ .void-home-hero .void-home-hero-feature-name,.void-home-hero .void-home-hero-selection>.void-home-hero-feature-name{font-size:11px;line-height:1.5}
+ .void-home-hero .void-home-hero-description{font-size:11px;line-height:1.65;max-width:290px;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .void-home-hero .void-home-hero-actions{gap:8px;flex-wrap:wrap}
+ .void-home-hero :is(.void-home-hero-cta,.void-home-hero-secondary){min-height:44px;padding:11px 12px;font-size:10px;gap:10px}
+ .void-home-hero .void-home-hero-credit,.void-home-hero .void-catalog-hero-credit{font-size:7px;margin-top:12px;line-height:1.5}
+ .void-home-hero .void-home-hero-navigation{bottom:20px}
+ .void-home-hero .void-home-hero-controls{gap:6px}
+ .void-home-hero .void-home-hero-controls button{width:38px;height:42px}
+ .void-catalog-hero .void-home-hero-selection h1{font-size:27px;line-height:1.12;margin-bottom:10px}
+ .void-catalog-hero .game-highlight-logo-frame{width:112px}
+ .void-catalog-hero .game-highlight-logo:not(.game-highlight-logo-frame){width:150px;max-height:84px}
+ .void-catalog-hero .game-highlight-logo-frame .game-highlight-logo-cropped{max-width:none}
+ /* Image, overlapping identity and controls share one continuous flow. No
+  * viewport-height spacer separates a landscape image from its caption. */
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies){min-height:0;background:#0d0b12}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-images{position:relative;inset:auto;height:clamp(260px,78vw,390px);margin-top:var(--site-navigation-height,90px);z-index:0}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-backdrop img,:is(.void-catalog-hero--games,.void-catalog-hero--movies) .catalog-art--panorama img{object-fit:cover;object-position:var(--catalog-art-mobile-position,center)}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-shade{top:var(--site-navigation-height,90px);bottom:auto;height:clamp(260px,78vw,390px);z-index:1;background:linear-gradient(0deg,#0d0b12 0%,#0d0b12b3 12%,transparent 42%),linear-gradient(180deg,#0d0b12 0%,#0d0b12a6 30px,transparent 100px)}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-inner{display:block;min-height:0;width:90%;padding:0 0 12px;margin-top:-28px;position:relative;z-index:2}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-copy{max-width:none;width:100%}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-selection h1{font-size:25px;line-height:1.16;letter-spacing:-.035em;margin-bottom:10px}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-eyebrow{margin-bottom:9px}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-description{max-width:100%;margin-bottom:14px}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-home-hero-navigation{position:relative;left:auto;right:auto;bottom:auto;width:90%;margin:0 auto;padding:10px 0 22px;z-index:2}
+ :is(.void-catalog-hero--games,.void-catalog-hero--movies) .void-catalog-hero-credit{margin-bottom:4px}
+ .void-catalog-hero .void-catalog-hero-meta{font-size:9px;gap:6px 10px;margin-bottom:12px}
+ .void-home-hero.is-cyberpunk .void-home-hero-inner{justify-content:flex-end;align-items:flex-start}
+ .void-home-hero.is-cyberpunk .void-home-hero-copy{width:100%;max-width:300px}
+ /* Keep the header avatar square even when navigation space gets tight. */
+ .account-bar .header-profile-link{width:40px;height:40px;min-width:40px;min-height:40px;flex:0 0 40px;aspect-ratio:1;box-sizing:border-box;padding:3px;border-radius:50%;overflow:hidden}
+ .account-bar .header-profile-link .vp-avatar{display:flex;position:relative;width:32px;height:32px;min-width:32px;min-height:32px;flex:0 0 32px;aspect-ratio:1;border-radius:50%;margin:0;transform:none;overflow:hidden}
+ .account-bar .header-profile-link .vp-avatar>img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 25%;transform:none;border-radius:50%}
+ /* Universe covers: compact identity at the bottom leaves faces unobstructed. */
+ .cinematic-universe .tlou-hero{min-height:max(100svh,680px);align-items:flex-end}
+ .cinematic-universe .tlou-hero-copy{position:relative;display:flex;flex-direction:column;align-items:flex-start;padding-block:calc(var(--site-navigation-height,90px) + 260px) 42px;column-gap:0}
+ .cinematic-universe .tlou-hero-copy>.tlou-back{position:absolute;top:calc(var(--site-navigation-height,90px) + 14px);left:0;width:auto;min-height:44px;margin:0;font-size:10px;grid-column:auto;justify-self:auto}
+ .cinematic-universe .tlou-hero-copy>.m-eyebrow{font-size:8px;line-height:1.6;letter-spacing:.12em;margin-bottom:10px}
+ .cinematic-universe .tlou-hero-copy h1{width:220px;max-width:220px;margin:8px 0 14px}
+ .cinematic-universe .tlou-hero-copy h1 .u-shortcut-logo{height:94px;object-position:left center}
+ .gow-universe .tlou-hero-copy h1 .u-shortcut-logo{height:72px}
+ .gta-universe .tlou-hero-copy h1{width:112px;max-width:112px}
+ .gta-universe .tlou-hero-copy h1 .u-shortcut-logo{height:90px}
+ .cinematic-universe .tlou-tagline{font-size:12px;line-height:1.7;max-width:300px;margin:0 0 16px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .cinematic-universe .tlou-hero-actions{display:flex;flex-direction:row;flex-wrap:wrap;gap:8px;max-width:340px;width:100%;align-items:stretch}
+ .cinematic-universe .tlou-hero-actions :is(a,button){width:auto;flex:1;min-height:44px;padding:11px 10px;font-size:10px;gap:8px;white-space:nowrap}
+ .cinematic-universe .tlou-hero-actions .tlou-trailer{flex:0 0 100%;min-height:36px;padding-block:6px;justify-content:flex-start}
+ .cinematic-universe .tlou-hero-caption{font-size:9px;gap:10px;margin-top:16px}
+ .cinematic-universe .tlou-hero-caption>span+span:before{margin-right:10px}
+ .cinematic-universe .gu-release-countdown{min-height:42px;padding:7px 10px;margin-bottom:16px;gap:8px;max-width:310px}
+ .cinematic-universe .gu-release-countdown small{font-size:8px}
+ .cinematic-universe .gu-release-countdown strong{font-size:10px}
+ .zelda-universe .tlou-hero-copy{align-items:flex-end}
+ .zelda-universe .tlou-hero-copy>*{grid-column:auto;justify-self:auto}
+ .zelda-universe .tlou-hero-copy h1{width:210px;max-width:210px}
+ .zelda-universe .tlou-hero-copy h1 .u-shortcut-logo{height:100px}
+ .sw-hero-heading{padding-top:250px}
+ .sw-hero h1{max-width:180px;margin-bottom:16px}
+ .sw-eyebrow{font-size:8px;margin-bottom:12px}
+ .sw-tagline{font-size:12px;line-height:1.7;margin-bottom:18px}
+ .sw-actions{gap:8px}
+ .sw-actions a{min-height:44px;padding:10px 12px;font-size:10px}
+ .sw-discover{margin-top:22px}
+ .mu-doom-hero .mu-title-logo{width:180px;max-width:65vw}
+ .mu-doom-hero .mu-hero-intro{font-size:12px;line-height:1.7;max-width:310px}
+}
+@media(max-width:700px) and (prefers-reduced-motion:reduce){.void-home-hero .void-home-hero-copy *{animation:none!important}}

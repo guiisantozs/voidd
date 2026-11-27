@@ -1,0 +1,57 @@
+.va-picker{--va-accent:#ba97ec;color:#eee7f7;min-width:0;font-size:14px;line-height:1.6}
+.va-picker button,.va-picker input,.va-picker select,.va-photo-tabs button,.va-work-tabs button{font:inherit}
+.va-picker button,.va-picker a,.va-photo-tabs button,.va-work-tabs button{transition:background-color .2s,border-color .2s,transform .2s,color .2s}
+.va-picker button:focus-visible,.va-picker a:focus-visible,.va-picker input:focus-visible,.va-picker select:focus-visible,.va-photo-tabs button:focus-visible,.va-work-tabs button:focus-visible{outline:2px solid #d4b6fc;outline-offset:4px}
+.va-picker-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:24px}
+.va-picker .va-eyebrow{font-size:12px;letter-spacing:2px;color:#b998e3;margin:0 0 8px}
+.va-picker-heading h3{font-size:clamp(22px,3vw,28px);letter-spacing:-.6px;line-height:1.3;margin:0 0 8px;font-weight:700}
+.va-picker-heading p,.va-selection-preview p{font-size:12px;color:#b6a6c7;margin:0}
+.va-picker-heading>svg{width:32px;height:32px;color:#b998e3;flex-shrink:0}
+.va-portrait{position:relative;display:flex;align-items:center;justify-content:center;width:128px;height:128px;max-width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;flex-shrink:0;border:1px solid #e7d4ff26;box-shadow:0 8px 24px #0004}
+.va-portrait img{width:100%;height:100%;object-fit:cover}.va-portrait>svg{width:40%;height:40%;color:#c4a0e8}
+.va-selection-preview{display:flex;align-items:center;gap:32px;padding:24px;margin-bottom:24px;border:1px solid #c7a6ea26;border-radius:16px;background:radial-gradient(ellipse at 0% 100%,#7739bc26,transparent 70%),#18121f}
+.va-portrait-large{width:192px;height:192px;outline:1px solid #c6a2f03b;outline-offset:8px}
+.va-selection-preview strong{display:block;font-size:22px;font-weight:700;line-height:1.4;margin-bottom:8px}
+.va-selection-preview>div>span{display:inline-flex;font-size:12px;color:#c5a7ec;margin-top:8px}
+.va-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.va-picker .va-actions button,.va-picker .va-empty button{padding:8px 16px;border:1px solid #b98fe24d;border-radius:24px;background:#282031;color:#e9dcf7;cursor:pointer;font-size:12px;min-height:40px}
+.va-picker button.va-primary{background:#b998e3;color:#160f20;border-color:#b998e3;font-weight:600}
+.va-picker button:disabled{opacity:.5;cursor:default}
+.va-picker button:not(:disabled):hover,.va-picker a:hover{border-color:#d1b3f6}
+.va-filters{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:16px;margin-bottom:32px}
+.va-filters label{display:flex;flex-direction:column;gap:8px;font-size:12px;color:#c4b2d6}
+.va-filters label>span:last-child{position:relative;display:block}
+.va-filters label>span>svg{position:absolute;top:14px;left:16px;width:16px;height:16px;pointer-events:none}
+.va-picker .va-filters input,.va-picker .va-filters select{width:100%;height:48px;min-width:0;margin:0;border:1px solid #b58ad133;border-radius:12px;background:#1c1524;color:#ede4f7;line-height:1.5;padding:8px 16px;font-size:12px;color-scheme:dark}
+.va-picker .va-filters input{padding-left:40px}.va-picker input::placeholder{color:#9685a6}
+.va-work-group{min-width:0;margin-bottom:32px}
+.va-row-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+.va-row-heading h4{font-size:18px;font-weight:600;line-height:1.4;margin:0;letter-spacing:-.3px}
+.va-row-heading>span{font-size:12px;color:#a891be;white-space:nowrap}
+.va-avatar-row{display:flex;overflow-x:auto;gap:16px;padding:8px 8px 16px;scroll-snap-type:x proximity}
+.va-avatar-row .va-option{flex:0 0 136px;scroll-snap-align:start}
+.va-avatar-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(136px,1fr));gap:24px 16px}
+.va-option{position:relative;display:flex;flex-direction:column;align-items:center;min-width:0;gap:8px;text-align:center}
+.va-picker .va-option>button[role=radio]{position:relative;display:flex;flex-direction:column;align-items:center;gap:16px;padding:0;border:0;background:transparent;color:inherit;width:100%;cursor:pointer}
+.va-character-name{font-size:12px;line-height:1.5;font-weight:500;overflow-wrap:anywhere}
+.va-option.is-selected .va-portrait{outline:2px solid #a77ce2;outline-offset:4px;box-shadow:0 8px 32px #9052cb26}
+.va-option.is-current .va-portrait{outline:3px solid #c29bf1;outline-offset:4px}
+.va-current-check{position:absolute;top:88px;left:calc(50% + 32px);display:grid;place-items:center;width:24px;height:24px;border:2px solid #160f20;border-radius:50%;background:#bc98ef;color:#180f22}.va-current-check svg{width:16px;height:16px}
+.va-in-use{color:#d1b4f4;font-size:12px;line-height:1.5}
+.va-picker .va-use-button{margin-top:auto;display:inline-flex;justify-content:center;align-items:center;font-size:12px;line-height:1.5;padding:8px 16px;min-height:40px;border:1px solid #c59de133;border-radius:24px;background:#251a31;color:#d5bee9;text-decoration:none;cursor:pointer}
+.va-empty{padding:40px 24px;border:1px dashed #b491d34d;border-radius:16px;text-align:center;background:#1b142244;font-size:14px;color:#bcabce}.va-empty>svg{width:48px;height:48px;margin:0 auto 16px;color:#a080c2}
+.va-feedback{font-size:12px;color:#d3b5f0;min-height:24px;margin:16px 0 0}.va-help{font-size:12px;color:#aa96ba}
+.va-skeletons{display:flex;overflow:hidden;gap:24px;padding:8px}.va-skeletons>span{flex:0 0 128px;height:128px;border-radius:50%;background:linear-gradient(100deg,#241a2f 20%,#3a2a49 50%,#241a2f 80%);background-size:250% 100%;animation:va-shimmer 2s ease-in-out infinite}
+.md-modal.va-editor-modal{width:min(960px,calc(100vw - 32px));max-width:960px}.va-editor-modal .vp-editor-fields{min-width:0}
+.va-editor-modal .vp-editor{max-width:none;width:100%;padding:8px 24px 24px}
+.va-photo-tabs,.va-work-tabs{display:flex;gap:8px;border-bottom:1px solid #c79be12b;margin-bottom:24px;overflow-x:auto}
+.va-photo-tabs button,.va-work-tabs button{flex-shrink:0;border:0;border-bottom:2px solid transparent;padding:16px 24px;background:transparent;color:#ac97be;font-size:14px;cursor:pointer}
+.va-photo-tabs button[aria-selected=true],.va-work-tabs button[aria-selected=true]{color:#dfc3ff;border-bottom-color:#bb94ec;background:linear-gradient(0deg,#a36ede16,transparent)}
+.va-photo-tabs~[hidden],.va-work-tabs~[hidden]{display:none!important}
+.va-work-panel{padding:24px 0}.va-work-tabs small{font-size:12px;margin-left:8px;color:#d2b6ef}
+@keyframes va-shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+@media(hover:hover) and (pointer:fine){.va-option button[role=radio]:hover .va-portrait{transform:scale(1.04)}.va-portrait{transition:transform .2s,box-shadow .2s,outline-color .2s}}
+@media(max-width:600px){.va-selection-preview{gap:24px;flex-direction:column;align-items:center;text-align:center;padding:24px 16px}.va-selection-preview .va-actions{justify-content:center}.va-filters{grid-template-columns:1fr}.va-portrait{width:96px;height:96px}.va-portrait-large{width:160px;height:160px}.va-avatar-row .va-option{flex-basis:112px}.va-current-check{top:64px;left:calc(50% + 24px)}.va-avatar-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.va-picker-heading>svg{display:none}.md-modal.va-editor-modal{width:calc(100vw - 16px);padding:16px}.va-picker .va-use-button{padding:8px;font-size:12px}.va-photo-tabs button{padding:16px}.va-picker-heading h3{font-size:22px}}
+@media(prefers-reduced-motion:reduce){.va-picker *,.va-photo-tabs *,.va-work-tabs *{animation:none!important;transition:none!important;scroll-behavior:auto!important}.va-option button[role=radio]:hover .va-portrait{transform:none}}
+@media(max-width:600px){.va-editor-modal .vp-editor{padding:8px 0}}
+@media(forced-colors:active){.va-portrait,.va-selection-preview,.va-picker .va-filters input,.va-picker .va-filters select,.va-picker .va-actions button,.va-picker .va-use-button,.va-empty{background:Canvas!important;color:CanvasText!important;border:1px solid CanvasText}.va-option.is-selected .va-portrait,.va-option.is-current .va-portrait{outline-color:Highlight}.va-current-check{background:Highlight;color:HighlightText;border-color:Canvas}.va-photo-tabs button[aria-selected=true],.va-work-tabs button[aria-selected=true]{background:Canvas;color:Highlight;border-color:Highlight}.va-picker button:focus-visible,.va-picker a:focus-visible{outline-color:Highlight}.va-skeletons>span{animation:none;background:Canvas;border:1px solid CanvasText}}

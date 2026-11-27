@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">void.</title><desc id="desc">Seu universo de filmes, séries, animes e jogos.</desc>
+  <defs><radialGradient id="glow"><stop stop-color="#50326a"/><stop offset="1" stop-color="#0d0b12"/></radialGradient></defs>
+  <rect width="1280" height="320" rx="16" fill="#0d0b12"/>
+  <ellipse cx="1100" cy="160" rx="500" ry="300" fill="url(#glow)"/>
+  <text x="76" y="158" fill="#faf5ff" font-family="Poppins,Arial,sans-serif" font-size="100" font-weight="800" letter-spacing="-6">void<tspan fill="#c4a0e7">.</tspan></text>
+  <text x="80" y="222" fill="#c8b7db" font-family="Poppins,Arial,sans-serif" font-size="28">Seu universo de filmes, séries, animes e jogos.</text>
+</svg>

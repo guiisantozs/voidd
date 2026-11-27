@@ -1,0 +1,67 @@
+export const movieUniverseLandings = {
+ jurassic: {
+  slug:'jurassic',prefix:'jp',className:'jurassic-universe',
+  hero:'/universos/jurassic/hero.jpg',heroSizes:'(max-width:700px) max(750px, 70svh), 100vw',heroStyle:{objectPosition:'62% center'},
+  about:'/universos/jurassic/about.jpg',aboutSizes:'(max-width:700px) max(100vw, 600px), 75vw',aboutStyle:{objectPosition:'30% center'},
+  eyebrow:'A VIDA SEMPRE ENCONTRA UM CAMINHO',
+  tagline:['O fascínio nunca foi extinto.','A aventura está só começando.'],
+  discover:'BEM-VINDO A UM MUNDO EXTRAORDINÁRIO',navLabel:'Neste mundo jurássico',
+  aboutEyebrow:'ENTRE A DESCOBERTA E A SOBREVIVÊNCIA',aboutTitle:['Milhões de anos.','Uma aventura sem limites.'],
+  description:[
+   'Dos portões de Jurassic Park a um mundo transformado pela presença dos dinossauros, descubra histórias em que a admiração e o perigo caminham lado a lado.',
+   'Reviva os encontros que marcaram gerações e acompanhe os novos capítulos de Jurassic World. Escolha seu próximo filme e explore a saga no seu ritmo.',
+  ],
+ },
+ 'terra-media': {
+  slug:'terra-media',prefix:'tm',className:'middle-earth-universe',
+  hero:'/universos/terra-media/hero.jpg',heroSizes:'(max-width:700px) max(900px, 90svh), 100vw',heroStyle:{objectPosition:'74% center'},
+  about:'/universos/terra-media/about.jpg',aboutSizes:'(max-width:700px) max(100vw, 600px), 75vw',aboutStyle:{objectPosition:'38% center'},
+  eyebrow:'ATÉ A MENOR PESSOA PODE MUDAR O DESTINO DO MUNDO',
+  tagline:['Grandes jornadas começam com um passo.','Encontre o seu caminho na Terra-média.'],
+  discover:'UMA JORNADA ALÉM DO CONDADO',navLabel:'Nesta jornada pela Terra-média',
+  aboutEyebrow:'ENTRE A ESPERANÇA E A SOMBRA',aboutTitle:['Um mundo extraordinário.','Uma jornada inesquecível.'],
+  description:[
+   'Das colinas do Condado às sombras de Mordor, acompanhe histórias de amizade, coragem e escolhas que mudam o destino da Terra-média.',
+   'Reencontre Bilbo, Frodo, Gandalf e a Sociedade do Anel. Explore O Hobbit, O Senhor dos Anéis e outras histórias deste mundo, escolhendo a ordem da sua maratona.',
+  ],
+ },
+ dc: {
+  slug:'dc',prefix:'dc',className:'dc-universe',
+  hero:'/universos/dc/hero.jpg',heroSizes:'(max-width:700px) max(1000px, 130svh), 100vw',heroStyle:{objectPosition:'72% center'},
+  about:'/universos/dc/about.jpg',aboutSizes:'(max-width:700px) max(100vw, 600px), 75vw',aboutStyle:{objectPosition:'52% center'},
+  eyebrow:'O MUNDO PRECISA DE HERÓIS',
+  tagline:['Toda era precisa de esperança.','Encontre os seus heróis.'],
+  discover:'ALÉM DOS SÍMBOLOS, GRANDES HISTÓRIAS',navLabel:'Neste universo de heróis',
+  aboutEyebrow:'ENTRE A ESPERANÇA E AS SOMBRAS',aboutTitle:['Muitos mundos.','Heróis inesquecíveis.'],
+  description:[
+   'Do céu de Metrópolis às ruas de Gotham, acompanhe histórias de coragem, escolhas e sacrifício. Superman, Batman, Mulher-Maravilha e muitos outros mostram diferentes formas de ser um herói.',
+   'Explore diferentes eras, versões e continuidades do universo DC. Escolha sua próxima história e acompanhe os filmes no seu ritmo.',
+  ],
+ },
+ 'star-wars': {
+  slug:'star-wars',prefix:'sw',className:'star-wars-universe',
+  hero:'/universos/star-wars/hero.webp',heroSizes:'(max-width:700px) max(1000px, 132svh), 100vw',heroStyle:{height:'74%',objectPosition:'73% top'},
+  about:'/universos/star-wars/about.webp',aboutSizes:'(max-width:700px) max(100vw, 650px), 70vw',aboutStyle:{objectPosition:'32% center'},
+  eyebrow:'HÁ MUITO TEMPO, EM UMA GALÁXIA DISTANTE…',
+  tagline:['Toda geração tem uma história.','Encontre o seu lugar na galáxia.'],
+  discover:'UMA GALÁXIA PARA EXPLORAR',navLabel:'Nesta galáxia',
+  aboutEyebrow:'ENTRE A LUZ E O LADO SOMBRIO',aboutTitle:['Uma galáxia.','Infinitas histórias.'],
+  description:[
+   'Entre Jedi e Sith, o Império e a Rebelião, cada escolha pode mudar o destino da galáxia. Uma saga de esperança, laços e coragem que atravessa gerações.',
+   'Reencontre a família Skywalker e descubra histórias além dela. Escolha a ordem da sua maratona e acompanhe cada capítulo no seu ritmo.',
+  ],
+ },
+ 'harry-potter': {
+  slug:'harry-potter',prefix:'hp',className:'harry-potter-universe',
+  hero:'/universos/harry-potter/hero.jpg',heroSizes:'(max-width:700px) max(900px, 105svh), 100vw',heroStyle:{objectPosition:'50% center'},
+  about:'/universos/harry-potter/about.jpg',aboutSizes:'(max-width:700px) max(100vw, 650px), 70vw',aboutStyle:{objectPosition:'50% center'},
+  eyebrow:'SEMPRE HAVERÁ UM LUGAR PARA VOCÊ EM HOGWARTS',
+  tagline:['Algumas histórias são pura magia.','A sua começa aqui.'],
+  discover:'O MUNDO BRUXO ESPERA POR VOCÊ',navLabel:'Neste mundo mágico',
+  aboutEyebrow:'AMIZADE, CORAGEM E UM POUCO DE MAGIA',aboutTitle:['Além da magia.','Histórias que ficam.'],
+  description:[
+   'Da primeira carta de Hogwarts à última batalha, acompanhe Harry, Rony e Hermione em uma jornada de amizade, escolhas e coragem diante das trevas.',
+   'Volte ao castelo, descubra o mundo de Animais Fantásticos e escolha a ordem da sua maratona. Cada filme é um novo encontro com a magia.',
+  ],
+ },
+};

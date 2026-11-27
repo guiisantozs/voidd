@@ -1,0 +1,108 @@
+/* Homepage spotlight follows the full-screen composition of the games hero. */
+body:has(.void-home-page .void-home-hero) .account-bar{position:absolute;inset:0 0 auto;z-index:30;background:transparent;border:0;color:#f4effa}
+body:has(.void-home-page .void-home-hero) .account-bar :is(.account-bar-links>a,.account-bar-status,.header-account-settings,.void-people-menu-button){color:#f4effa;text-shadow:0 1px 6px #0009}
+.void-home-hero{--hero-accent:#d2c2f4;--ink:#f3edf9;position:relative;isolation:isolate;min-height:100svh;overflow:hidden;background:#0d0b12;color:var(--ink)}
+.void-home-hero.is-doomsday{--hero-accent:#d9dfb9}
+.void-home-hero.is-lupin{--hero-accent:#d6e8ff}
+.void-home-hero.is-lupin .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#0a1b2d55 18%,transparent 65%,#0a1b2d33 100%),linear-gradient(90deg,#0a1b2d55,transparent 65%)}
+.void-home-hero.is-gta-vi{--hero-accent:#f0bdd3}
+.void-home-hero.is-gta-vi .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#18112777 16%,transparent 60%,#18112733 100%),linear-gradient(90deg,#18112766,transparent 65%)}
+.void-home-hero.is-gta-vi .void-home-hero-logo-frame{width:280px}
+.void-home-hero.is-cyberpunk{--hero-accent:#f1ed57}
+.void-home-hero.is-cyberpunk .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#08081b55 12%,transparent 42%,transparent 88%,#08081b33 100%),linear-gradient(270deg,#08081b55,transparent 45%)}
+.void-home-hero-images,.void-home-hero-backdrop,.void-home-hero-shade{position:absolute;inset:0;pointer-events:none;z-index:-3}
+.void-home-hero-images{overflow:hidden;background:#0c1712}
+.void-home-hero-backdrop{z-index:0;opacity:0;transition:opacity .65s ease-in-out}
+.void-home-hero-backdrop.is-visible{opacity:1}
+.void-home-hero-backdrop img{width:100%;height:100%;display:block;object-fit:cover;object-position:65% center}
+/* Keep the original artwork intact and turn its presentation to landscape. */
+.void-home-hero-backdrop.is-rotated-art{container-type:size}
+.void-home-hero-backdrop.is-rotated-art img{position:absolute;left:50%;top:50%;width:100cqh;height:100cqw;max-width:none;object-fit:cover;object-position:center;transform:translate(-50%,-50%) rotate(-90deg)}
+.void-home-hero-shade{z-index:-2;background:linear-gradient(0deg,#0d0b12 0%,#0d0b1290 15%,transparent 65%,#0d0b1245 100%),linear-gradient(90deg,#0d0b1266,transparent 70%)}
+.void-home-hero.is-doomsday .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#06110b70 19%,transparent 65%,#04100955 100%),linear-gradient(90deg,#02130c66,transparent 65%)}
+.void-home-hero:after{content:'';position:absolute;inset:auto 0 0;height:24px;z-index:0;background:linear-gradient(180deg,transparent,var(--bg));pointer-events:none}
+.void-home-hero-inner{position:relative;z-index:1;width:90%;max-width:1296px;margin:auto;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding:160px 0 112px}
+.void-home-hero-copy{max-width:430px}
+.void-home-hero.is-cyberpunk .void-home-hero-inner{width:94%;max-width:none;align-items:flex-end;justify-content:center}
+.void-home-hero.is-cyberpunk .void-home-hero-copy{width:clamp(260px,18vw,320px);max-width:100%}
+.void-home-hero-copy :is(.void-home-hero-eyebrow,h1,.void-home-hero-feature-name,.void-home-hero-description,.void-home-hero-actions){animation:void-home-content-emerge .8s .08s cubic-bezier(.16,1,.3,1) both}
+.void-home-hero-copy h1{animation-delay:.12s}
+.void-home-hero-selection h2{animation:void-home-logo-emerge 1s .18s cubic-bezier(.16,1,.3,1) both}
+.void-home-hero-copy .void-home-hero-feature-name{animation-delay:.32s}
+.void-home-hero-copy .void-home-hero-description{animation-delay:.4s}
+.void-home-hero-copy .void-home-hero-actions{animation-delay:.5s}
+.void-home-hero.is-leaving .void-home-hero-copy{opacity:0;transform:translateY(-8px);transition:opacity .18s ease,transform .18s ease;pointer-events:none}
+.void-home-hero-eyebrow{display:flex;align-items:center;gap:16px;font-size:10px;letter-spacing:2px;color:#e6eadb;font-weight:600;margin:0 0 20px;text-transform:uppercase}
+.void-home-hero-eyebrow>span{height:14px;width:1px;background:#ffffff66;box-shadow:none}
+.void-home-hero h1{font-size:clamp(32px,3vw,46px);font-weight:600;line-height:1.12;letter-spacing:-.045em;margin:0 0 18px;text-wrap:balance}
+.void-home-hero h1 em{font-style:normal;color:var(--hero-accent)}
+.void-home-hero.has-artwork h1{font-size:clamp(24px,2.1vw,32px);margin-bottom:28px}
+/* Frame the supplied transparent margins, as with the GTA logo, without editing the asset. */
+.void-home-hero-logo-frame{display:block;position:relative;width:340px;max-width:100%;aspect-ratio:1254/550;overflow:hidden;margin:0 0 10px}
+.void-home-hero-logo-frame img{position:absolute;left:var(--logo-left,0);top:var(--logo-top,-66.3636%);display:block;width:var(--logo-width,100%);height:auto;max-width:none}
+.void-home-hero-selection>.void-home-hero-feature-name{font-size:13px;font-weight:600;letter-spacing:.3px;color:#f4f6ed;margin-top:0}
+.void-home-hero-description{max-width:360px;font-size:13px;line-height:1.8;color:#f0f0e8;margin:0 0 22px;text-shadow:0 1px 8px #0006}
+.void-home-hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.void-home-hero-cta,.void-home-hero-secondary{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:48px;padding:14px 23px;border:1px solid transparent;border-radius:5px;background:var(--hero-accent);color:#20271c;font-size:12px;font-weight:500;transition:background .2s,transform .2s}
+.void-home-hero-cta:hover{background:#eef2df;transform:translateY(-2px)}
+.void-home-hero-cta .void-icon,.void-home-hero-secondary .void-icon{font-size:14px;flex-shrink:0}
+.void-home-hero-secondary{background:#0d181633;border-color:#e7ecda80;color:#f4f6ed}
+.void-home-hero-secondary:hover{background:#d9dfb922;border-color:#f0f3e4}
+.void-home-hero-selection{max-width:100%;min-width:0;margin-bottom:16px}
+.void-home-hero-selection h2{margin:0;font-size:13px;line-height:1.5;font-weight:600;letter-spacing:.2px;overflow-wrap:anywhere;color:#f4f6ed}
+.void-home-hero-selection h2 a{color:inherit}
+.void-home-hero-selection h2 a:hover{color:var(--hero-accent)}
+.void-home-hero-selection h2 .void-icon{font-size:12px;margin-left:8px}
+.void-home-hero-selection>p{font-size:10px;margin:6px 0 0;color:#d1d5c7}
+.void-home-hero-credit{font-size:9px;color:#d9ded0;letter-spacing:.3px;margin:17px 0 0}
+.void-home-hero-navigation{position:absolute;z-index:2;right:max(5%,calc((100% - 1296px)/2));bottom:43px;display:flex;align-items:center;gap:22px}
+.void-home-hero-dots{display:flex;align-items:center;gap:4px}
+.void-home-hero-dots button{display:grid;place-items:center;width:34px;height:44px;padding:0 5px;background:transparent}
+.void-home-hero-dots button>span{display:block;width:100%;height:3px;border-radius:2px;background:#e4e9dd66;transition:background .2s}
+.void-home-hero-dots button[aria-pressed=true]>span{background:var(--hero-accent)}
+.void-home-hero-count{font-size:12px;color:#f1f3e9;font-variant-numeric:tabular-nums;white-space:nowrap}
+.void-home-hero-count small{font-size:11px;color:#d0d6c5}
+.void-home-hero-controls{display:flex;gap:10px}
+.void-home-hero-controls button{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid #e7ecda52;background:#ffffff08;color:#f4f6ed;font-size:15px;transition:background .2s,border-color .2s}
+.void-home-hero-controls button:hover{background:#d9dfb922;border-color:#d9dfb9}
+.void-home-hero-controls button:disabled{opacity:.45;cursor:default}
+.void-home-hero-load-error{font-size:12px;color:#f4effa;margin:12px 0 0}
+.void-home-hero-load-error button{background:transparent;color:inherit;font:inherit;text-decoration:underline;min-height:44px;padding:4px 0}
+.void-home-hero :focus-visible,.void-home-hero:focus-visible{outline:2px solid var(--hero-accent);outline-offset:4px}
+@keyframes void-home-content-emerge{from{opacity:0;transform:translate3d(0,28px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@keyframes void-home-logo-emerge{from{opacity:0;transform:translate3d(0,44px,0) scale(.94)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+@media(max-width:700px){
+ .void-home-hero-inner{padding:180px 0 112px;min-height:max(100svh,700px)}
+ .void-home-hero-copy{max-width:350px}
+ .void-home-hero.is-cyberpunk .void-home-hero-inner{width:90%;justify-content:flex-end}
+ .void-home-hero.is-cyberpunk .void-home-hero-copy{width:280px}
+ .void-home-hero h1{font-size:clamp(30px,8vw,40px);margin-bottom:14px}
+ .void-home-hero.has-artwork h1{font-size:21px;margin-bottom:16px}
+ .void-home-hero-logo-frame{width:215px;margin-bottom:8px}
+ .void-home-hero.is-gta-vi .void-home-hero-logo-frame{width:220px}
+ .void-home-hero-selection>.void-home-hero-feature-name{font-size:12px}
+ .void-home-hero-eyebrow{font-size:8px;letter-spacing:1.6px;margin-bottom:14px;gap:12px}
+ .void-home-hero-description{font-size:11px;line-height:1.65;max-width:290px;margin-bottom:16px}
+ .void-home-hero-selection{margin-bottom:10px}
+ .void-home-hero-selection h2{font-size:12px}
+ .void-home-hero-actions{gap:10px}
+ .void-home-hero-cta,.void-home-hero-secondary{padding:13px 14px;font-size:11px;gap:12px}
+ .void-home-hero-backdrop img{object-position:62% center}
+ .void-home-hero.is-lupin .void-home-hero-backdrop img{object-position:76% center}
+ .void-home-hero.is-lupin .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#0a1b2db3 24%,#0a1b2d33 55%,transparent 82%,#0a1b2d33 100%)}
+ .void-home-hero-backdrop.is-rotated-art img{object-position:center}
+ .void-home-hero.is-gta-vi .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#181127cc 25%,#18112733 60%,transparent 82%,#18112733 100%)}
+ .void-home-hero-backdrop.is-cyberpunk-art img{object-position:32% center}
+ .void-home-hero.is-cyberpunk .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#08081bb3 22%,#08081b33 54%,transparent 72%,transparent 90%,#08081b33 100%)}
+ .void-home-hero.is-doomsday .void-home-hero-shade{background:linear-gradient(0deg,#0d0b12 0%,#041009d9 20%,#04100944 53%,transparent 80%,#04100955 100%)}
+ .void-home-hero-navigation{left:5%;right:5%;bottom:30px;gap:8px}
+ .void-home-hero-dots{margin-right:auto;gap:1px}
+ .void-home-hero-dots button{width:22px;padding:0 3px}
+ .void-home-hero-count{font-size:11px}
+ .void-home-hero-controls{gap:6px}
+ .void-home-hero-controls button{width:40px;height:44px}
+}
+@media(max-height:700px) and (min-width:701px){.void-home-hero-inner{padding-top:120px;padding-bottom:90px}.void-home-hero h1{font-size:34px}.void-home-hero-description{font-size:12px;margin-bottom:16px}.void-home-hero-navigation{bottom:25px}}
+@media(max-height:700px) and (min-width:701px){.void-home-hero.has-artwork h1{font-size:24px;margin-bottom:18px}.void-home-hero-logo-frame{width:245px}}
+@media(prefers-reduced-motion:reduce){.void-home-hero *{transition:none!important;animation:none!important}}
+@media(forced-colors:active){.void-home-hero h1 em{color:CanvasText}.void-home-hero-cta,.void-home-hero-secondary,.void-home-hero-controls button{border:1px solid ButtonText}.void-home-hero-dots button[aria-pressed=true]{border:2px solid Highlight}}

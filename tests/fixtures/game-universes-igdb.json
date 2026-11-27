@@ -1,0 +1,5836 @@
+{
+  "the-last-of-us": [
+    {
+      "id": 6036,
+      "name": "The Last of Us Remastered",
+      "slug": "the-last-of-us-remastered",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1406332800,
+      "cover": {
+        "image_id": "co5zks"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 102082,
+      "name": "The Last of Us: Survival Edition",
+      "slug": "the-last-of-us-survival-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1371168000,
+      "version_parent": 1009,
+      "cover": {
+        "image_id": "coa1gk"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 340226,
+      "name": "The Last of Us Complete: Collector's Edition",
+      "slug": "the-last-of-us-complete-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1752105600,
+      "version_parent": 340213,
+      "cover": {
+        "image_id": "co9orb"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 382537,
+      "name": "The Last of Us Part II Remastered: Patch 2.0.0",
+      "slug": "the-last-of-us-part-ii-remastered-patch-2-dot-0-0",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1743638400,
+      "cover": {
+        "image_id": "cob3kw"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 279776,
+      "name": "The Last of Us Part II Remastered: W.L.F. Edition",
+      "slug": "the-last-of-us-part-ii-remastered-wlf-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1705622400,
+      "version_parent": 277143,
+      "cover": {
+        "image_id": "co7irs"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 386719,
+      "name": "The Last of Us Online",
+      "slug": "the-last-of-us-online",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "game_status": {
+        "id": 6,
+        "status": "Cancelled"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 251381,
+      "name": "The Last of Us Part II: Grounded Update",
+      "slug": "the-last-of-us-part-ii-grounded-update",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1597276800,
+      "cover": {
+        "image_id": "co6nds"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "name": "The Last of Us",
+      "slug": "the-last-of-us",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1371168000,
+      "cover": {
+        "image_id": "co1r7f"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 382539,
+      "name": "The Last of Us Part II Remastered: Chronological Experience",
+      "slug": "the-last-of-us-part-ii-remastered-chronological-experience",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1751932800,
+      "cover": {
+        "image_id": "cob3lb"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 215089,
+      "name": "The Last of Us Part I: Firefly Edition",
+      "slug": "the-last-of-us-part-i-firefly-edition",
+      "game_type": {
+        "id": 8,
+        "type": "Remake"
+      },
+      "first_release_date": 1662076800,
+      "version_parent": 204350,
+      "cover": {
+        "image_id": "co7iqz"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 11790,
+      "name": "The Last of Us: Left Behind",
+      "slug": "the-last-of-us-left-behind",
+      "game_type": {
+        "id": 4,
+        "type": "Standalone Expansion"
+      },
+      "first_release_date": 1392336000,
+      "cover": {
+        "image_id": "co5xg8"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 204350,
+      "name": "The Last of Us Part I",
+      "slug": "the-last-of-us-part-i",
+      "game_type": {
+        "id": 8,
+        "type": "Remake"
+      },
+      "first_release_date": 1662076800,
+      "cover": {
+        "image_id": "coa1gq"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 277143,
+      "name": "The Last of Us Part II Remastered",
+      "slug": "the-last-of-us-part-ii-remastered",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1705622400,
+      "cover": {
+        "image_id": "coa1gr"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 26192,
+      "name": "The Last of Us Part II",
+      "slug": "the-last-of-us-part-ii",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1592524800,
+      "cover": {
+        "image_id": "co5ziw"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 135955,
+      "name": "The Last of Us Part II: Collector's Edition",
+      "slug": "the-last-of-us-part-ii-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1592524800,
+      "version_parent": 26192,
+      "cover": {
+        "image_id": "co7hac"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 340213,
+      "name": "The Last of Us Complete",
+      "slug": "the-last-of-us-complete",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1744243200,
+      "cover": {
+        "image_id": "co9og5"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 102083,
+      "name": "The Last of Us: Post-Pandemic Edition",
+      "slug": "the-last-of-us-post-pandemic-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1371168000,
+      "version_parent": 1009,
+      "cover": {
+        "image_id": "coa1gl"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 288169,
+      "name": "The Last of Us Part III",
+      "slug": "the-last-of-us-part-iii",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "game_status": {
+        "id": 7,
+        "status": "Rumored"
+      },
+      "cover": {
+        "image_id": "co97b1"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 2289,
+            "name": "Sony Interactive Entertainment Worldwide Studios"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ]
+    },
+    {
+      "id": 219027,
+      "name": "The Last of Us: Left Behind - Remastered",
+      "slug": "the-last-of-us-left-behind-remastered",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1406592000,
+      "cover": {
+        "image_id": "co7ha7"
+      },
+      "collections": [
+        {
+          "id": 864
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 135986,
+      "name": "The Last of Us Part II: Ellie Edition",
+      "slug": "the-last-of-us-part-ii-ellie-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1592524800,
+      "version_parent": 26192,
+      "cover": {
+        "image_id": "co68y1"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 135956,
+      "name": "The Last of Us Part II: Special Edition",
+      "slug": "the-last-of-us-part-ii-special-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1592524800,
+      "version_parent": 26192,
+      "cover": {
+        "image_id": "co7ha5"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 401,
+            "name": "Naughty Dog"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    }
+  ],
+  "god-of-war": [
+    {
+      "id": 136128,
+      "name": "God of War: Bonus Edition",
+      "slug": "god-of-war-bonus-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 19560,
+      "cover": {
+        "image_id": "co3di7"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 1291,
+      "name": "God of War: Ascension",
+      "slug": "god-of-war-ascension",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1363046400,
+      "cover": {
+        "image_id": "co3die"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 45206,
+      "name": "God of War III: Collector's Edition",
+      "slug": "god-of-war-iii-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1268956800,
+      "version_parent": 499,
+      "cover": {
+        "image_id": "co2eni"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 224438,
+      "name": "God of War: Ghost of Sparta",
+      "slug": "god-of-war-ghost-of-sparta--1",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1315872000,
+      "cover": {
+        "image_id": "co5qi1"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 209805,
+      "name": "God of War Ragnarök: Collector's Edition",
+      "slug": "god-of-war-ragnarok-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1667952000,
+      "version_parent": 112875,
+      "cover": {
+        "image_id": "co5qaw"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 389443,
+      "name": "God of War Sons of Sparta",
+      "slug": "god-of-war-sons-of-sparta",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1770854400,
+      "cover": {
+        "image_id": "cobigb"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15416,
+            "name": "Mega Cat Studios"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 389450,
+      "name": "God of War Remake",
+      "slug": "god-of-war-remake",
+      "game_type": {
+        "id": 8,
+        "type": "Remake"
+      },
+      "cover": {
+        "image_id": "cobikg"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 389451,
+      "name": "God of War II Remake",
+      "slug": "god-of-war-ii-remake",
+      "game_type": {
+        "id": 8,
+        "type": "Remake"
+      },
+      "cover": {
+        "image_id": "cobikh"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 43432,
+      "name": "God of War II: Special Edition",
+      "slug": "god-of-war-ii-special-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1177632000,
+      "version_parent": 551,
+      "cover": {
+        "image_id": "co2enk"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 83824,
+      "name": "God of War: Collector's Edition",
+      "slug": "god-of-war-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 19560,
+      "cover": {
+        "image_id": "co3dir"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 209807,
+      "name": "God of War Ragnarök: Launch Edition",
+      "slug": "god-of-war-ragnarok-launch-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1667952000,
+      "version_parent": 112875,
+      "cover": {
+        "image_id": "co5mka"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 389452,
+      "name": "God of War III Remake",
+      "slug": "god-of-war-iii-remake",
+      "game_type": {
+        "id": 8,
+        "type": "Remake"
+      },
+      "cover": {
+        "image_id": "cobiki"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 341416,
+      "name": "God of War: A Call from the Wilds",
+      "slug": "god-of-war-a-call-from-the-wilds",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1517443200,
+      "cover": {
+        "image_id": "co9pxm"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 11040,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Web browser"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "iOS"
+        }
+      ]
+    },
+    {
+      "id": 44664,
+      "name": "God of War: Ascension - Special Edition",
+      "slug": "god-of-war-ascension-special-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1365811200,
+      "version_parent": 1291,
+      "cover": {
+        "image_id": "co3did"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "name": "God of War III",
+      "slug": "god-of-war-iii",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1268697600,
+      "cover": {
+        "image_id": "co3koi"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "name": "God of War II",
+      "slug": "god-of-war-ii",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1173744000,
+      "cover": {
+        "image_id": "co3dik"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "name": "God of War: Chains of Olympus",
+      "slug": "god-of-war-chains-of-olympus",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1204588800,
+      "cover": {
+        "image_id": "co3dip"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation Portable"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "name": "God of War: Ghost of Sparta",
+      "slug": "god-of-war-ghost-of-sparta",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1288656000,
+      "cover": {
+        "image_id": "co3dio"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation Portable"
+        }
+      ]
+    },
+    {
+      "id": 83778,
+      "name": "God of War: Stone Mason's Edition",
+      "slug": "god-of-war-stone-masons-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 19560,
+      "cover": {
+        "image_id": "co3dis"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 83825,
+      "name": "God of War: Digital Deluxe Edition",
+      "slug": "god-of-war-digital-deluxe-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 19560,
+      "cover": {
+        "image_id": "co3dge"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 222603,
+      "name": "God of War Ragnarök: Digital Deluxe Edition",
+      "slug": "god-of-war-ragnarok-digital-deluxe-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1667952000,
+      "version_parent": 112875,
+      "cover": {
+        "image_id": "co5mkc"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 224439,
+      "name": "God of War: Chains of Olympus",
+      "slug": "god-of-war-chains-of-olympus--1",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1315872000,
+      "cover": {
+        "image_id": "co5qi2"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 209806,
+      "name": "God of War Ragnarök: Jötnar Edition",
+      "slug": "god-of-war-ragnarok-jotnar-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1667952000,
+      "version_parent": 112875,
+      "cover": {
+        "image_id": "co5mkg"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 11040,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 19959,
+      "name": "God of War III: Remastered",
+      "slug": "god-of-war-iii-remastered",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1436832000,
+      "cover": {
+        "image_id": "co3koh"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 18658,
+            "name": "Red Kite Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "name": "SoulCalibur: Broken Destiny",
+      "slug": "soulcalibur-broken-destiny",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1251331200,
+      "cover": {
+        "image_id": "co5pga"
+      },
+      "collections": [
+        {
+          "id": 226
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 248,
+            "name": "Bandai Namco Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 732,
+            "name": "Project Soul"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation Portable"
+        }
+      ]
+    },
+    {
+      "id": 117882,
+      "name": "God of War II",
+      "slug": "god-of-war-ii--1",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1258416000,
+      "cover": {
+        "image_id": "co3dim"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 117883,
+      "name": "God of War",
+      "slug": "god-of-war--2",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1258416000,
+      "cover": {
+        "image_id": "co3ddb"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 44653,
+      "name": "God of War Trilogy",
+      "slug": "god-of-war-trilogy",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1269475200,
+      "cover": {
+        "image_id": "co2en9"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 1030,
+            "name": "Bluepoint Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "name": "God of War",
+      "slug": "god-of-war",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1111449600,
+      "cover": {
+        "image_id": "co3ddc"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 411299,
+      "name": "Untitled God of War Sequel",
+      "slug": "untitled-god-of-war-sequel",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ]
+    },
+    {
+      "id": 389441,
+      "name": "God of War Trilogy Remake",
+      "slug": "god-of-war-trilogy-remake",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "cover": {
+        "image_id": "cobih2"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 115067,
+      "name": "God of War: Limited Edition",
+      "slug": "god-of-war-limited-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 19560,
+      "cover": {
+        "image_id": "co3dkw"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 118907,
+      "name": "God of War: Ascension - Ultimate Edition",
+      "slug": "god-of-war-ascension-ultimate-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1427155200,
+      "version_parent": 1291,
+      "cover": {
+        "image_id": "co3dif"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 19560,
+      "name": "God of War",
+      "slug": "god-of-war--1",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1524182400,
+      "cover": {
+        "image_id": "cobkt6"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 21233,
+      "name": "God of War: Betrayal",
+      "slug": "god-of-war-betrayal",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1182297600,
+      "cover": {
+        "image_id": "co2edk"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 243,
+            "name": "Sony Online Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 10529,
+            "name": "Javaground"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 27279,
+            "name": "Sony Pictures Digital"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Legacy Mobile Device"
+        }
+      ]
+    },
+    {
+      "id": 7390,
+      "name": "PlayStation All-Stars Battle Royale",
+      "slug": "playstation-all-stars-battle-royale",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1353369600,
+      "cover": {
+        "image_id": "co2ssv"
+      },
+      "collections": [
+        {
+          "id": 3275
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 3065,
+            "name": "SuperBot Entertainment"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 20068,
+      "name": "God of War Collection",
+      "slug": "god-of-war-collection",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1258416000,
+      "cover": {
+        "image_id": "co2enh"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 272550,
+      "name": "Soulcalibur: Broken Destiny",
+      "slug": "soulcalibur-broken-destiny--1",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 1697500800,
+      "cover": {
+        "image_id": "co7suf"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29936,
+            "name": "Bandai Namco Entertainment America Inc."
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 386715,
+      "name": "Untitled God of War Live-Service Game",
+      "slug": "untitled-god-of-war-live-service-game",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "game_status": {
+        "id": 6,
+        "status": "Cancelled"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 1030,
+            "name": "Bluepoint Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 154812,
+      "name": "God of War: Ascension - Collector's Edition",
+      "slug": "god-of-war-ascension-collectors-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1363046400,
+      "version_parent": 1291,
+      "cover": {
+        "image_id": "co3dig"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15512,
+            "name": "SCE Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 313040,
+      "name": "PlayStation All-Stars Battle Royale: Zeus",
+      "slug": "playstation-all-stars-battle-royale-zeus",
+      "game_type": {
+        "id": 1,
+        "type": "DLC"
+      },
+      "first_release_date": 1395360000,
+      "cover": {
+        "image_id": "co8njn"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 3065,
+            "name": "SuperBot Entertainment"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 404063,
+      "name": "God of War Laufey",
+      "slug": "god-of-war-laufey",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1802736000,
+      "cover": {
+        "image_id": "coc5rc"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 279623,
+      "name": "God of War Ragnarök: Valhalla",
+      "slug": "god-of-war-ragnarok-valhalla",
+      "game_type": {
+        "id": 1,
+        "type": "DLC"
+      },
+      "first_release_date": 1702339200,
+      "cover": {
+        "image_id": "co7jl8"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 112875,
+      "name": "God of War Ragnarök",
+      "slug": "god-of-war-ragnarok",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1667952000,
+      "cover": {
+        "image_id": "coba3d"
+      },
+      "collections": [
+        {
+          "id": 70
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 420579,
+      "name": "God of War Laufey: Digital Deluxe Edition",
+      "slug": "god-of-war-laufey-digital-deluxe-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1802736000,
+      "version_parent": 404063,
+      "cover": {
+        "image_id": "cod0jr"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 4357,
+            "name": "Santa Monica Studio"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 407463,
+      "name": "God of War Sons of Sparta: Digital Deluxe Edition",
+      "slug": "god-of-war-sons-of-sparta-digital-deluxe-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1770854400,
+      "version_parent": 389443,
+      "cover": {
+        "image_id": "cocaob"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 15416,
+            "name": "Mega Cat Studios"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 20579,
+      "name": "God of War: Origins Collection",
+      "slug": "god-of-war-origins-collection",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1315872000,
+      "cover": {
+        "image_id": "co2ene"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    },
+    {
+      "id": 23827,
+      "name": "God of War Saga",
+      "slug": "god-of-war-saga",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1346025600,
+      "cover": {
+        "image_id": "co2enc"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 431,
+            "name": "Ready At Dawn"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 13634,
+            "name": "Sony Computer Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        }
+      ]
+    }
+  ],
+  "grand-theft-auto": [
+    {
+      "id": 44870,
+      "name": "Grand Theft Auto",
+      "slug": "grand-theft-auto--1",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 940550400,
+      "cover": {
+        "image_id": "co2ms3"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Game Boy Color"
+        }
+      ]
+    },
+    {
+      "id": 98077,
+      "name": "Grand Theft Auto V: Premium Online Edition",
+      "slug": "grand-theft-auto-v-premium-online-edition",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1524182400,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co1twh"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 334647,
+      "name": "Grand Theft Auto V Enhanced",
+      "slug": "grand-theft-auto-v-enhanced--3",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1741046400,
+      "cover": {
+        "image_id": "co9ib0"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        }
+      ]
+    },
+    {
+      "id": 731,
+      "name": "Grand Theft Auto IV",
+      "slug": "grand-theft-auto-iv",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1209427200,
+      "cover": {
+        "image_id": "co2lbv"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 99753,
+      "name": "Grand Theft Auto PS Vita Collection",
+      "slug": "grand-theft-auto-ps-vita-collection",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1461024000,
+      "cover": {
+        "image_id": "co1tz7"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 733,
+      "name": "Grand Theft Auto: Vice City",
+      "slug": "grand-theft-auto-vice-city",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1035676800,
+      "cover": {
+        "image_id": "co2lbb"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox"
+        },
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Mac"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 143295,
+      "name": "Grand Theft Auto V: Premium Edition & Great White Shark Card Bundle",
+      "slug": "grand-theft-auto-v-premium-edition-and-great-white-shark-card-bundle",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1513641600,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co66j3"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 178123,
+      "name": "Grand Theft Auto III: The Definitive Edition",
+      "slug": "grand-theft-auto-iii-the-definitive-edition",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1636588800,
+      "cover": {
+        "image_id": "co65yy"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 39120,
+            "name": "Grove Street Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 27224,
+            "name": "Netflix"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        },
+        {
+          "name": "Nintendo Switch"
+        }
+      ]
+    },
+    {
+      "id": 378083,
+      "name": "BlueBirdRP",
+      "slug": "bluebirdrp",
+      "game_type": {
+        "id": 5,
+        "type": "Mod"
+      },
+      "cover": {
+        "image_id": "coav0u"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 71575,
+            "name": "BlueBirdRP"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        }
+      ]
+    },
+    {
+      "id": 3266,
+      "name": "Grand Theft Auto Advance",
+      "slug": "grand-theft-auto-advance",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1098748800,
+      "cover": {
+        "image_id": "co2lbf"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 888,
+            "name": "Digital Eclipse"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Game Boy Advance"
+        }
+      ]
+    },
+    {
+      "id": 400332,
+      "name": "Grand Theft Auto Online: The Chop Shop",
+      "slug": "grand-theft-auto-online-the-chop-shop",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1702339200,
+      "cover": {
+        "image_id": "coc0fd"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 41587,
+      "name": "Rockstar Games Collection: Edition 1",
+      "slug": "rockstar-games-collection-edition-1",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1352160000,
+      "cover": {
+        "image_id": "qlo4tyzfflk7mqiubs4o"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 263913,
+      "name": "Grand Theft Auto Online: The Doomsday Heist",
+      "slug": "grand-theft-auto-online-the-doomsday-heist",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1513036800,
+      "cover": {
+        "image_id": "co8hoa"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 119155,
+      "name": "Grand Theft Auto: Double Pack",
+      "slug": "grand-theft-auto-double-pack",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1066953600,
+      "cover": {
+        "image_id": "co1tvf"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 43853,
+      "name": "Grand Theft Auto: Collector's Edition",
+      "slug": "grand-theft-auto-collectors-edition",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1038009600,
+      "cover": {
+        "image_id": "co3ha2"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation"
+        }
+      ]
+    },
+    {
+      "id": 239060,
+      "name": "Grand Theft Auto V: Story Mode",
+      "slug": "grand-theft-auto-v-story-mode",
+      "game_type": {
+        "id": 2,
+        "type": "Expansion"
+      },
+      "first_release_date": 1647302400,
+      "cover": {
+        "image_id": "co66n7"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 93901,
+      "name": "Grand Theft Auto V: Premium Online Edition & Whale Shark Card Bundle",
+      "slug": "grand-theft-auto-v-premium-online-edition-and-whale-shark-card-bundle",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1513641600,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co66j4"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 3174,
+      "name": "Grand Theft Auto IV: The Ballad of Gay Tony",
+      "slug": "grand-theft-auto-iv-the-ballad-of-gay-tony",
+      "game_type": {
+        "id": 2,
+        "type": "Expansion"
+      },
+      "first_release_date": 1256774400,
+      "cover": {
+        "image_id": "co28od"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 3263,
+      "name": "Grand Theft Auto: Liberty City Stories",
+      "slug": "grand-theft-auto-liberty-city-stories",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1130112000,
+      "cover": {
+        "image_id": "co2lbg"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 308,
+            "name": "Rockstar Leeds"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation Portable"
+        }
+      ]
+    },
+    {
+      "id": 408002,
+      "name": "Grand Theft Auto VI: Vintage Vice City Pack",
+      "slug": "grand-theft-auto-vi-vintage-vice-city-pack",
+      "game_type": {
+        "id": 13,
+        "type": "Pack / Addon"
+      },
+      "first_release_date": 1795046400,
+      "cover": {
+        "image_id": "cocbha"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 3270,
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "slug": "grand-theft-auto-chinatown-wars",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1237248000,
+      "cover": {
+        "image_id": "co2lba"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 308,
+            "name": "Rockstar Leeds"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Android"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation Portable"
+        },
+        {
+          "name": "Nintendo DS"
+        }
+      ]
+    },
+    {
+      "id": 8235,
+      "name": "Grand Theft Auto: London 1969",
+      "slug": "grand-theft-auto-london-1969",
+      "game_type": {
+        "id": 2,
+        "type": "Expansion"
+      },
+      "first_release_date": 922838400,
+      "cover": {
+        "image_id": "co2lb1"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Game Boy Color"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "DOS"
+        },
+        {
+          "name": "PlayStation"
+        }
+      ]
+    },
+    {
+      "id": 400331,
+      "name": "Grand Theft Auto Online: San Andreas Mercenaries",
+      "slug": "grand-theft-auto-online-san-andreas-mercenaries",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1686614400,
+      "cover": {
+        "image_id": "coc0fc"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 215550,
+      "name": "Grand Theft Auto: Vice City",
+      "slug": "grand-theft-auto-vice-city--2",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 1359417600,
+      "cover": {
+        "image_id": "co565f"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "id": 200401,
+      "name": "Grand Theft Auto 2",
+      "slug": "grand-theft-auto-2--1",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 975888000,
+      "cover": {
+        "image_id": "co52xq"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Game Boy Color"
+        }
+      ]
+    },
+    {
+      "id": 334770,
+      "name": "Grand Theft Auto Online: Criminal Enterprise Starter Pack",
+      "slug": "grand-theft-auto-online-criminal-enterprise-starter-pack",
+      "game_type": {
+        "id": 13,
+        "type": "Pack / Addon"
+      },
+      "first_release_date": 1513123200,
+      "cover": {
+        "image_id": "co9icb"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 394521,
+      "name": "Grand Theft Auto Online: Agents of Sabotage",
+      "slug": "grand-theft-auto-online-agents-of-sabotage",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1733788800,
+      "cover": {
+        "image_id": "cobyy2"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 327467,
+      "name": "Grand Theft Auto: Director's Cut",
+      "slug": "grand-theft-auto-directors-cut",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 925430400,
+      "cover": {
+        "image_id": "co98u8"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 5176,
+            "name": "Sold Out Sales & Marketing"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 204,
+            "name": "Gathering of Developers"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "DOS"
+        },
+        {
+          "name": "PlayStation"
+        }
+      ]
+    },
+    {
+      "id": 394526,
+      "name": "Grand Theft Auto Online: Bottom Dollar Bounties",
+      "slug": "grand-theft-auto-online-bottom-dollar-bounties",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1719273600,
+      "cover": {
+        "image_id": "cobsdc"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 281320,
+      "name": "Grand Theft Auto Tokyo",
+      "slug": "grand-theft-auto-tokyo",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "game_status": {
+        "id": 6,
+        "status": "Cancelled"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 45131,
+      "name": "Grand Theft Auto V: Special Edition",
+      "slug": "grand-theft-auto-v-special-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1379376000,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co2nbc"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 200403,
+      "name": "Grand Theft Auto 2",
+      "slug": "grand-theft-auto-2--2",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 940550400,
+      "cover": {
+        "image_id": "co4s1j"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation"
+        }
+      ]
+    },
+    {
+      "id": 22930,
+      "name": "Grand Theft Auto III: 10 Year Anniversary Edition",
+      "slug": "grand-theft-auto-iii-10-year-anniversary-edition",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 1323907200,
+      "cover": {
+        "image_id": "co2ms6"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Android"
+        },
+        {
+          "name": "iOS"
+        }
+      ]
+    },
+    {
+      "id": 251244,
+      "name": "Grand Theft Auto Online: Heists",
+      "slug": "grand-theft-auto-online-heists",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1425945600,
+      "cover": {
+        "image_id": "co83ru"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 43687,
+      "name": "Grand Theft Auto: London Special Edition",
+      "slug": "grand-theft-auto-london-special-edition",
+      "game_type": {
+        "id": 4,
+        "type": "Standalone Expansion"
+      },
+      "first_release_date": 978220800,
+      "version_parent": 980,
+      "cover": {
+        "image_id": "co2myo"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation"
+        }
+      ]
+    },
+    {
+      "id": 194698,
+      "name": "Grand Theft Auto: San Andreas VR",
+      "slug": "grand-theft-auto-san-andreas-vr",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "platforms": [
+        {
+          "name": "Meta Quest 2"
+        }
+      ]
+    },
+    {
+      "id": 134710,
+      "name": "Grand Theft Auto Online",
+      "slug": "grand-theft-auto-online",
+      "game_type": {
+        "id": 4,
+        "type": "Standalone Expansion"
+      },
+      "first_release_date": 1416268800,
+      "cover": {
+        "image_id": "co4rq1"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox 360"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 5850,
+      "name": "Grand Theft Auto: The Trilogy",
+      "slug": "grand-theft-auto-the-trilogy",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1129507200,
+      "cover": {
+        "image_id": "co2ms5"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Mac"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 7003,
+      "name": "Grand Theft Auto: Episodes from Liberty City",
+      "slug": "grand-theft-auto-episodes-from-liberty-city",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1256774400,
+      "cover": {
+        "image_id": "co2lbe"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 306,
+            "name": "Rockstar Toronto"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 3265,
+      "name": "Grand Theft Auto IV: The Lost and Damned",
+      "slug": "grand-theft-auto-iv-the-lost-and-damned",
+      "game_type": {
+        "id": 2,
+        "type": "Expansion"
+      },
+      "first_release_date": 1234828800,
+      "cover": {
+        "image_id": "co1th2"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 306,
+            "name": "Rockstar Toronto"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 198246,
+      "name": "Grand Theft Auto 64",
+      "slug": "grand-theft-auto-64",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "game_status": {
+        "id": 6,
+        "status": "Cancelled"
+      },
+      "cover": {
+        "image_id": "co6w37"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Nintendo 64"
+        }
+      ]
+    },
+    {
+      "id": 143293,
+      "name": "Grand Theft Auto V: Premium Edition & Megalodon Shark Card Bundle",
+      "slug": "grand-theft-auto-v-premium-edition-and-megalodon-shark-card-bundle",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1513641600,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co66j2"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 819,
+      "name": "Grand Theft Auto 2",
+      "slug": "grand-theft-auto-2",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 940550400,
+      "cover": {
+        "image_id": "co2lb2"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Dreamcast"
+        }
+      ]
+    },
+    {
+      "id": 1020,
+      "name": "Grand Theft Auto V",
+      "slug": "grand-theft-auto-v",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1379376000,
+      "cover": {
+        "image_id": "co2lbd"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox 360"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 3262,
+      "name": "Grand Theft Auto: Vice City Stories",
+      "slug": "grand-theft-auto-vice-city-stories",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1162252800,
+      "cover": {
+        "image_id": "co2lc8"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 308,
+            "name": "Rockstar Leeds"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation Portable"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 980,
+      "name": "Grand Theft Auto",
+      "slug": "grand-theft-auto",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 877392000,
+      "cover": {
+        "image_id": "co2lb0"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 703,
+            "name": "BMG Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 704,
+            "name": "ASC Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 10560,
+            "name": "Syscom Entertainment"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "Nintendo 64"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "DOS"
+        },
+        {
+          "name": "PlayStation"
+        },
+        {
+          "name": "PlayStation Portable"
+        }
+      ]
+    },
+    {
+      "id": 380532,
+      "name": "Grand Theft Auto Online: A Safehouse in the Hills",
+      "slug": "grand-theft-auto-online-a-safehouse-in-the-hills",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1765324800,
+      "cover": {
+        "image_id": "cob1nf"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 213365,
+      "name": "PlayStation Classic",
+      "slug": "playstation-classic",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1543795200,
+      "cover": {
+        "image_id": "co530e"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 23260,
+            "name": "Sony Electronic Publishing Company"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 10100,
+            "name": "Sony Interactive Entertainment"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Plug & Play"
+        }
+      ]
+    },
+    {
+      "id": 53070,
+      "name": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+      "slug": "grand-theft-auto-the-trilogy-the-definitive-edition--1",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1636588800,
+      "cover": {
+        "image_id": "co65yx"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 39120,
+            "name": "Grove Street Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 27224,
+            "name": "Netflix"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        },
+        {
+          "name": "Nintendo Switch"
+        }
+      ]
+    },
+    {
+      "id": 178125,
+      "name": "Grand Theft Auto: Vice City - The Definitive Edition",
+      "slug": "grand-theft-auto-vice-city-the-definitive-edition",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1636588800,
+      "cover": {
+        "image_id": "co65yz"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 39120,
+            "name": "Grove Street Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 27224,
+            "name": "Netflix"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        },
+        {
+          "name": "Nintendo Switch"
+        }
+      ]
+    },
+    {
+      "id": 178126,
+      "name": "Grand Theft Auto: San Andreas - The Definitive Edition",
+      "slug": "grand-theft-auto-san-andreas-the-definitive-edition",
+      "game_type": {
+        "id": 9,
+        "type": "Remaster"
+      },
+      "first_release_date": 1636588800,
+      "cover": {
+        "image_id": "co65z0"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 39120,
+            "name": "Grove Street Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 27224,
+            "name": "Netflix"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        },
+        {
+          "name": "Nintendo Switch"
+        }
+      ]
+    },
+    {
+      "id": 334254,
+      "name": "Grand Theft Auto V Enhanced",
+      "slug": "grand-theft-auto-v-enhanced--2",
+      "game_type": {
+        "id": 10,
+        "type": "Expanded Game"
+      },
+      "first_release_date": 1741046400,
+      "cover": {
+        "image_id": "co9hz1"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        }
+      ]
+    },
+    {
+      "id": 309110,
+      "name": "Grand Theft Auto: Liberty City Stories",
+      "slug": "grand-theft-auto-liberty-city-stories--2",
+      "game_type": {
+        "id": 11,
+        "type": "Port"
+      },
+      "first_release_date": 1149552000,
+      "cover": {
+        "image_id": "co8jav"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 308,
+            "name": "Rockstar Leeds"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 134709,
+      "name": "Grand Theft Auto V",
+      "slug": "grand-theft-auto-v--1",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1649721600,
+      "cover": {
+        "image_id": "co66nd"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 732,
+      "name": "Grand Theft Auto: San Andreas",
+      "slug": "grand-theft-auto-san-andreas",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1098748800,
+      "cover": {
+        "image_id": "co2lb9"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox"
+        },
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Windows Phone"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "Mac"
+        },
+        {
+          "name": "Xbox 360"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    },
+    {
+      "id": 13233,
+      "name": "Grand Theft Auto: London 1961",
+      "slug": "grand-theft-auto-london-1961",
+      "game_type": {
+        "id": 2,
+        "type": "Expansion"
+      },
+      "first_release_date": 928195200,
+      "cover": {
+        "image_id": "co7hon"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "DOS"
+        }
+      ]
+    },
+    {
+      "id": 27912,
+      "name": "Grand Theft Auto IV: Complete Edition",
+      "slug": "grand-theft-auto-iv-complete-edition",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1288051200,
+      "version_parent": 731,
+      "cover": {
+        "image_id": "co1twe"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 3"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox 360"
+        }
+      ]
+    },
+    {
+      "id": 398950,
+      "name": "Grand Theft Auto Online: The Diamond Casino Heist",
+      "slug": "grand-theft-auto-online-the-diamond-casino-heist",
+      "game_type": {
+        "id": 14,
+        "type": "Update"
+      },
+      "first_release_date": 1576108800,
+      "cover": {
+        "image_id": "cobydo"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 409935,
+      "name": "Grand Theft Auto Online: The Kortz Center Heist",
+      "slug": "grand-theft-auto-online-the-kortz-center-heist",
+      "game_type": {
+        "id": 1,
+        "type": "DLC"
+      },
+      "first_release_date": 1783987200,
+      "cover": {
+        "image_id": "cocdz0"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 52189,
+      "name": "Grand Theft Auto VI",
+      "slug": "grand-theft-auto-vi",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1795046400,
+      "cover": {
+        "image_id": "cocv1v"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 62701,
+      "name": "Grand Theft Auto: iFruit",
+      "slug": "grand-theft-auto-ifruit",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1378944000,
+      "cover": {
+        "image_id": "co60ra"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Android"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "PlayStation Vita"
+        }
+      ]
+    },
+    {
+      "id": 407999,
+      "name": "Grand Theft Auto VI: Ultimate Edition",
+      "slug": "grand-theft-auto-vi-ultimate-edition",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1795046400,
+      "version_parent": 52189,
+      "cover": {
+        "image_id": "cocver"
+      },
+      "involved_companies": [
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 5"
+        }
+      ]
+    },
+    {
+      "id": 239064,
+      "name": "Grand Theft Auto V",
+      "slug": "grand-theft-auto-v--2",
+      "game_type": {
+        "id": 3,
+        "type": "Bundle"
+      },
+      "first_release_date": 1428969600,
+      "version_parent": 1020,
+      "cover": {
+        "image_id": "co9751"
+      },
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 365,
+            "name": "Rockstar North"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox Series X|S"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "PlayStation 5"
+        },
+        {
+          "name": "Xbox One"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "name": "Grand Theft Auto III",
+      "slug": "grand-theft-auto-iii",
+      "game_type": {
+        "id": 0,
+        "type": "Main Game"
+      },
+      "first_release_date": 1003708800,
+      "cover": {
+        "image_id": "co2lb8"
+      },
+      "collections": [
+        {
+          "id": 847
+        }
+      ],
+      "involved_companies": [
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 536,
+            "name": "DMA Design"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 139,
+            "name": "Take-Two Interactive"
+          }
+        },
+        {
+          "developer": true,
+          "publisher": false,
+          "company": {
+            "id": 1967,
+            "name": "TransGaming Inc."
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 29,
+            "name": "Rockstar Games"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 37,
+            "name": "Capcom"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 32363,
+            "name": "ak tronic"
+          }
+        },
+        {
+          "developer": false,
+          "publisher": true,
+          "company": {
+            "id": 3121,
+            "name": "1C-SoftClub"
+          }
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Xbox"
+        },
+        {
+          "name": "PlayStation 4"
+        },
+        {
+          "name": "Android"
+        },
+        {
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "Mac"
+        },
+        {
+          "name": "PlayStation 2"
+        }
+      ]
+    }
+  ]
+}

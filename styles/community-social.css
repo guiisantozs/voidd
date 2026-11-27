@@ -1,0 +1,59 @@
+.void-like-control{display:inline-flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.void-like-control>small:empty{display:none}.void-like-control>small{font-size:10px;color:#dbb2ce;max-width:220px}
+.movies-page .void-like-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:36px;padding:6px 10px;font:inherit;font-size:11px;line-height:1.4;color:#cbb1df;border:1px solid #b78cdb35;border-radius:8px;background:#a078c00b;text-decoration:none;cursor:pointer}
+.movies-page .void-like-button[aria-pressed=true]{color:#edc7ff;background:#9b5fce24;border-color:#be8ce97d}.void-like-button[aria-pressed=true]>.void-icon{fill:currentColor}.void-like-button:disabled{opacity:.55;cursor:wait}.movies-page .void-like-button:focus-visible{outline:2px solid #cb99f3;outline-offset:3px}.movies-page .void-like-button:hover{border-color:#bf91e3}
+.cr-card-footer{flex-wrap:wrap;gap:12px}.cr-card-footer .void-like-control{margin-right:auto}.vl-card-meta .void-like-button{padding:5px 8px;font-size:10px}.vl-card-meta{flex-wrap:wrap;gap:8px;min-height:44px;box-sizing:border-box}.vl-card-meta>.void-like-control{margin-left:auto}
+.circle-review-rating>.void-icon{vertical-align:-.12em}.circle-friend-menu summary>.void-icon{width:22px;height:22px;stroke-width:3}.circle-rich-actions .circle-profile-action{display:inline-flex;align-items:center;gap:6px}.circle-invite-card button.circle-edit-link{width:100%;font-family:inherit;cursor:pointer}
+@media(max-width:800px){.friends-page .circle-panel,.friends-page .circle-stats button{backdrop-filter:none;-webkit-backdrop-filter:none;background-color:#1b1424}.friends-page .circle-hero:before,.friends-page .circle-hero:after{filter:none;opacity:.18;background:radial-gradient(ellipse,#9463c0,transparent 70%)}.friends-page .circle-person{box-shadow:none}}
+@media(prefers-reduced-motion:reduce){.void-like-button{transition:none}}
+
+.movies-home .m-now--standalone{grid-template-columns:minmax(0,1fr)}
+.md-reviews--preview{margin-block:35px;}
+/* Friends' movie carousel shares navigation and actions with the catalogue. */
+.friend-movie-section{--friend-card-width:194px}
+.friend-movie-section .m-poster-track{align-items:stretch}
+.friend-movie-card{flex:0 0 var(--friend-card-width);width:var(--friend-card-width);min-width:0;display:flex;flex-direction:column;scroll-snap-align:start}
+.friend-movie-poster-wrap{position:relative;isolation:isolate}
+.friend-movie-poster-wrap:hover .m-card-overlay,.friend-movie-poster-wrap:focus-within .m-card-overlay{opacity:1;pointer-events:none}
+.friend-movie-poster-wrap .m-card-overlay a,.friend-movie-poster-wrap .m-card-overlay button{pointer-events:auto}
+.friend-skeleton-actions{display:none}
+.friend-movie-poster{display:block;aspect-ratio:2/3;width:100%;border-radius:9px;overflow:hidden;background:#18131f}
+.friend-movie-poster>img,.friend-movie-poster>.m-missing-image{display:block;width:100%;height:100%;object-fit:contain}
+.friend-movie-poster>.m-missing-image{display:grid}
+.friend-movie-caption{height:100px;padding-top:12px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.friend-movie-title{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f2ecf8;font-size:12px;line-height:18px;font-weight:500}
+.friend-movie-meta{margin:0;display:flex;gap:5px;align-items:center;color:#a39aaa;font-size:10px;line-height:16px;white-space:nowrap}
+.friend-movie-line{display:flex;align-items:center;gap:7px;min-height:40px;width:100%;padding:0;border:0;border-radius:5px;background:transparent;color:#d6c4e9;text-align:left}
+.friend-movie-line:hover{background:#c8a9e90b}
+.friend-movie-avatars{display:flex;align-items:center;flex-shrink:0;padding-left:0}
+.friend-movie-avatars .vp-avatar{width:24px;height:24px;min-width:24px;font-size:10px;outline:2px solid #0d0b12}
+.friend-movie-avatars>.vp-avatar+ .vp-avatar,.friend-movie-extra{margin-left:-7px}
+.friend-movie-extra{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#35243f;color:#e8d9f7;font-size:9px;outline:2px solid #0d0b12}
+.friend-movie-handle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
+.friend-movie-rating{display:inline-flex;align-items:center;justify-content:center;gap:4px;padding:4px 6px;border-radius:6px;background:#b596dd22;color:#d8b9fb;font-size:11px;font-weight:600;white-space:nowrap;flex-shrink:0;margin-left:auto}
+.friend-movie-rating>.void-icon{color:#c8a1f2;fill:#c8a1f226;stroke-width:1.8}
+.friend-movie-rating>small{font-size:9px;font-weight:400}
+.friend-movie-skeletons{overflow:hidden;pointer-events:none}
+.friend-skeleton-title{height:18px;width:85%}.friend-skeleton-meta{height:16px;width:65%}.friend-skeleton-line{height:40px;width:100%}
+.friend-movie-dialog{max-width:560px;width:100%}
+.friend-movie-dialog .md-modal-heading>button{display:grid;place-items:center;flex:0 0 40px;width:40px;height:40px;min-width:40px;padding:0!important;border:1px solid #c4a2e238;border-radius:8px;background:#ffffff08;color:#e4d2f5;appearance:none;line-height:1;cursor:pointer}
+.friend-movie-dialog .md-modal-heading>button>.void-icon{display:block;width:20px;height:20px;flex-shrink:0}
+.friend-movie-dialog .md-modal-heading>button:hover{background:#b594db22;border-color:#b594db80}
+.friend-movie-dialog .md-modal-heading>button:focus-visible{outline:2px solid #cbaaed;outline-offset:3px}
+.friend-movie-reviews{list-style:none;padding:0 22px 20px;margin:0}
+.friend-movie-reviews>li{padding:18px 0;border-bottom:1px solid #ffffff18}
+.friend-movie-reviews>li:last-child{border-bottom:0}
+.friend-movie-reviews header{display:flex;align-items:center;gap:10px}
+.friend-movie-reviews header>.vp-avatar{width:32px;height:32px;flex-shrink:0}
+.friend-movie-reviews header>div{min-width:0;flex:1}
+.friend-movie-reviews strong,.friend-movie-reviews header>div>span{display:block;overflow-wrap:anywhere}
+.friend-movie-reviews strong{font-size:13px;color:#f3edf9}.friend-movie-reviews header>div>span{font-size:11px;color:#b7a8c7}
+.friend-movie-reviews p{margin:12px 0 9px;color:#c7bbd3;font-size:12px;line-height:1.7;overflow-wrap:anywhere}
+.friend-movie-reviews a{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:#d5b7f3}
+@media(max-width:760px){.friend-movie-section{--friend-card-width:148px}.movies-home .friend-movie-section .m-poster-track{scrollbar-width:thin}.friend-movie-title{font-size:11px}.friend-movie-meta{font-size:9px}.friend-movie-handle{font-size:10px}.friend-movie-line{gap:5px}.friend-movie-rating{font-size:10px;padding:4px}.friend-movie-rating:has(small){display:grid;grid-template-columns:12px auto;column-gap:3px;row-gap:0}.friend-movie-rating>small{grid-column:1/-1;font-size:8px;text-align:center}.friend-movie-reviews{padding:0 14px 14px}}
+@media(forced-colors:active){.friend-movie-rating{border:1px solid currentColor}}
+@media(max-width:760px){.friend-movie-poster-wrap{display:contents}.friend-movie-caption{order:1}.friend-skeleton-actions{display:block;order:2;height:44px;margin-top:10px}}
+
+.m-recommendation-progress{margin:-10px 0 24px;color:#bdb0c8;font-size:12px}.m-recommendation-progress p{margin:8px 0}.m-recommendation-progress progress{display:block;width:min(360px,100%);height:4px;accent-color:#bd94dd;border:0;border-radius:8px;overflow:hidden;background:#302339}.m-recommendation-progress progress::-webkit-progress-bar{background:#302339}.m-recommendation-progress progress::-webkit-progress-value{background:#bd94dd}.m-recommendation-progress progress::-moz-progress-bar{background:#bd94dd}.m-card-caption .m-recommendation-reason{display:block;font-size:10px;line-height:1.6;color:#bdadca;margin-top:6px}
+
+.m-review-unavailable{display:inline-flex;align-items:center;justify-content:center;color:#bdb0c8;font-size:11px;padding:9px 10px;line-height:1.5;cursor:default}.m-hero-actions .m-review-unavailable{opacity:.8}

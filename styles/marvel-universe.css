@@ -1,0 +1,88 @@
+/* Only /universos/marvel-mcu. Existing movie cards and shelf controls are reused. */
+.marvel-universe{--m-bg:#0b0a10;--mu-accent:#c3a0ed;--universe-accent:#c3a0ed;background:var(--m-bg);overflow-x:clip;overflow-y:visible}
+html:has(.marvel-universe){scroll-padding-top:0}
+.marvel-universe .m-container{max-width:1400px}
+.marvel-universe .m-eyebrow{font-size:12px;line-height:1.6;letter-spacing:.16em;color:var(--mu-accent)}
+.mu-about h2 em{font-style:normal;color:#c3a0ed}
+.mu-down{transform:rotate(90deg)}
+.marvel-universe .m-button{min-height:48px;font-size:12px;padding:16px 24px;border-radius:8px}
+.mu-about{position:relative;isolation:isolate;min-height:640px;display:flex;align-items:center;overflow:hidden;background:#0b0a10}
+.mu-about-art{position:absolute;inset:0 28% 0 0;z-index:-1;mask-image:linear-gradient(270deg,transparent,black 40%)}
+.mu-about-art img{object-fit:cover;object-position:center center}
+.mu-about-art:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#0b0a10,transparent 22%,transparent 86%,#0b0a10),linear-gradient(270deg,#0b0a1080,transparent 55%)}
+.mu-about-copy{width:48%;max-width:480px;margin-left:auto;padding-block:96px}
+.mu-about h2{font-size:clamp(32px,3.8vw,56px);line-height:1.13;letter-spacing:-.045em;margin:16px 0 32px;font-weight:700}
+.mu-about-copy>p:not(.m-eyebrow){font-size:14px;line-height:1.9;color:#c8bdcf;max-width:416px;margin-bottom:24px}
+.mu-facts{display:flex;gap:48px;margin-top:32px}
+.mu-facts>div{display:grid;gap:8px}
+.mu-facts strong{font-size:32px;line-height:1.3;color:#f6f1fc}
+.mu-facts small{font-size:14px;color:#b5a7c4;font-weight:400}
+.mu-facts span{font-size:12px;color:#b5a7c4}
+.mu-about .u-progress{margin-top:32px;max-width:400px}
+.mu-catalog{padding-block:48px 80px}
+.mu-catalog-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px}
+.mu-catalog-heading h2{font-size:clamp(28px,3vw,40px);line-height:1.2;letter-spacing:-.04em;margin:8px 0 0}
+.mu-catalog-heading .m-eyebrow{margin-bottom:8px}
+.mu-catalog-heading label{display:grid;gap:8px;font-size:12px;color:#bfb0cf;min-width:176px}
+.mu-catalog-heading select{font:inherit;font-size:12px;border:1px solid #c3a0ed33;background:#17111e;color:#f3edf9;border-radius:8px;padding:12px 16px;min-height:48px}
+.mu-shelf-links{display:flex;gap:16px;overflow-x:auto;margin-bottom:48px;padding:8px 0;scrollbar-width:thin}
+.mu-shelf-links a{display:inline-flex;align-items:center;gap:16px;flex-shrink:0;font-size:12px;border:1px solid #c3a0ed26;border-radius:24px;padding:8px 16px;min-height:40px;color:#c8b5dc;background:#c3a0ed08;transition:border-color 200ms,background-color 200ms}
+.mu-shelf-links a:hover{border-color:#c3a0ed80;background:#c3a0ed14}
+.mu-shelf{scroll-margin-top:32px;margin-bottom:56px}
+.marvel-universe .mu-shelf .m-poster-section{margin:0;padding:0}
+.mu-shelf .m-section-title h2{font-size:24px;line-height:1.3}
+.mu-shelf .m-section-title{margin-bottom:16px}
+.mu-shelf-intro{font-size:12px;line-height:1.8;color:#aa9db8;margin-bottom:24px;max-width:800px}
+.mu-shelf .m-poster-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 120px)/6);align-items:start;gap:24px;padding-block:8px 16px}
+.mu-shelf .m-row-arrow{width:40px;height:48px;display:grid;place-items:center;border-radius:12px;background:#1c1425eb}
+.mu-movie{position:relative;min-width:0}
+.mu-media-label{display:block;margin:0 0 8px;font-size:11px;color:#c8b5dc}
+.u-shared-combined{min-width:0;margin-top:32px}
+.u-shared-combined>h3{font-size:22px;margin-bottom:24px}
+.u-catalog-toolbar{display:flex;flex-wrap:wrap;align-items:flex-end;gap:24px;margin-bottom:24px}
+.u-catalog-toolbar .u-progress{flex:1 1 280px;max-width:450px;margin:0}
+.u-catalog-toolbar .u-controls{margin-left:auto}
+.u-catalog-toolbar .u-catalog-filter{display:flex;flex-direction:column;align-items:stretch;gap:8px;min-width:160px}
+.u-catalog-toolbar .u-catalog-filter label{margin:0}
+@media(max-width:650px){.u-catalog-toolbar .u-controls{width:100%;margin-left:0}.u-catalog-toolbar .u-catalog-filter{width:100%;align-items:stretch}}
+.mu-movie .m-card{width:100%}
+.mu-movie .m-card-caption,.mu-movie .m-card-caption>span,.mu-movie .m-card-caption time{font-size:12px}
+.mu-movie .m-card-caption>a{font-size:12px}
+.mu-movie .m-card-upcoming .m-card-caption>p,.mu-movie .m-card-upcoming .m-card-caption>button{display:none}
+.mu-movie .m-card-upcoming .m-card-overlay .m-save{display:inline-flex}
+.mu-movie .m-poster-wrap{border-radius:12px;box-shadow:0 8px 24px #0003}
+.mu-order{position:absolute;top:8px;left:8px;z-index:3;display:grid;place-items:center;min-width:32px;height:32px;padding:8px;border-radius:8px;background:#15101ee6;border:1px solid #c3a0ed66;color:#f4eaff;font-size:12px;pointer-events:none}
+.mu-seen{display:flex;align-items:center;gap:8px;font-size:12px;color:#cdb2ee;margin-top:8px}
+.mu-note{font-size:12px;line-height:1.8;color:#b7a6c8}
+.mu-note button{font:inherit;color:#ddc2fc;background:none;text-decoration:underline}
+.mu-empty{padding:32px;border:1px dashed #c3a0ed40;border-radius:16px;background:#c3a0ed05;text-align:center;font-size:14px;color:#c7b7d8}
+.mu-empty>.void-icon{font-size:24px;color:#c3a0ed;margin-bottom:8px}
+@media(max-width:1100px){.mu-shelf .m-poster-track{grid-auto-columns:calc((100% - 72px)/4)}
+}
+@media(max-width:760px){.mu-about{min-height:0;padding-top:224px}
+.mu-about-art{inset:0 0 auto;height:480px;mask-image:linear-gradient(0deg,transparent,black 60%)}
+.mu-about-copy{width:100%;margin-left:0;padding-block:64px}
+.mu-about h2{font-size:40px}
+.mu-facts{gap:32px}
+.mu-catalog{padding-block:32px 48px}
+.mu-catalog-heading{align-items:flex-start;flex-direction:column}
+.mu-catalog-heading label{width:100%;min-width:0}
+.mu-shelf-links{margin-bottom:32px;gap:8px}
+.mu-shelf{margin-bottom:40px}
+.mu-shelf .m-section-title h2{font-size:22px}
+.mu-shelf .m-poster-track{grid-auto-columns:calc((100% - 32px)/3);gap:16px}
+}
+@media(max-width:600px){.mu-shelf .m-poster-track{grid-auto-columns:calc((100% - 16px)/2)}
+.mu-about h2{font-size:36px}
+.mu-facts strong{font-size:28px}
+}
+@media(prefers-reduced-motion:reduce){.marvel-universe *,.marvel-universe *:before,.marvel-universe *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+@media(forced-colors:active){.mu-about-art{display:none}
+.mu-about,.marvel-universe{background:Canvas;color:CanvasText}
+.mu-order,.mu-empty,.mu-shelf-links a{background:Canvas;color:CanvasText;border:1px solid CanvasText;box-shadow:none;backdrop-filter:none}
+.mu-about h2 em,.mu-shelf-intro,.mu-about-copy>p:not(.m-eyebrow),.mu-facts strong,.mu-facts span{color:CanvasText}
+}
+
+.marvel-universe :is(.u-shared-combined,.u-shared-series,.u-shared-films){margin-top:32px}
+.marvel-universe :is(.u-catalog-title,.u-shared-series>h3,.u-shared-combined>h3){font-size:22px;margin:0 0 24px}

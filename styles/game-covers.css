@@ -1,0 +1,26 @@
+/* Preserve each host card's size; all game posters share the same image pipeline. */
+.game-portrait-cover{position:relative;min-width:0;overflow:hidden}
+.poster>.game-portrait-cover{width:100%;height:100%;aspect-ratio:inherit}
+.vp-poster.game-portrait-cover{display:block;overflow:hidden}
+.game-portrait-cover>img,.game-cover-landscape>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.game-cover-skeleton{width:100%;height:100%;min-height:24px;background:linear-gradient(100deg,#21182d 20%,#35243f 50%,#21182d 80%);background-size:250% 100%;animation:game-cover-shimmer 2s ease-in-out infinite}
+.game-cover-image-loading{position:absolute;inset:0;pointer-events:none}
+.game-portrait-cover[data-image-pending=true]>img,.game-portrait-cover[data-image-pending=true]>.game-cover-landscape{opacity:0}
+.game-card-art>.game-portrait-cover{width:100%;height:100%}
+.game-card-art:has(>.game-portrait-cover){aspect-ratio:2/3}
+.cp-portrait .game-cover-landscape{position:relative;isolation:isolate}
+.cp-portrait .game-cover-landscape:before{content:'';position:absolute;inset:0;background-image:var(--cover-landscape-image);background-size:cover;background-position:center;filter:blur(17px) brightness(.45);z-index:0}
+.cp-portrait .game-cover-landscape>.cp-cover-image{object-fit:contain}
+.gc-game-cover>.game-portrait-cover{width:100%;height:100%;aspect-ratio:inherit}
+.gc-top-games>a>.game-portrait-cover{width:100%;aspect-ratio:2/3}
+.cp-picker-results .cp-portrait{width:100%;height:85px;aspect-ratio:auto;border-radius:0}
+.cp-portrait .game-cover-unavailable{gap:8px;text-align:center;padding:8px}
+.cp-portrait .game-cover-unavailable>span{font-size:16px;letter-spacing:-1px}
+.cp-portrait .game-cover-unavailable>small{font-size:12px}
+.cp-top-played .game-cover-unavailable{padding:0;gap:0}
+.cp-top-played .game-cover-unavailable>small,.cp-picker-results .game-cover-unavailable>small{display:none}
+.cp-top-played .game-cover-unavailable>span,.cp-picker-results .game-cover-unavailable>span{font-size:12px}
+@media(max-width:650px){.cp-picker-results .cp-portrait{height:80px}}
+@keyframes game-cover-shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+@media(prefers-reduced-motion:reduce){.game-cover-skeleton{animation:none}}
+@media(forced-colors:active){.game-cover-skeleton{background:Canvas;border:1px solid CanvasText;animation:none}}

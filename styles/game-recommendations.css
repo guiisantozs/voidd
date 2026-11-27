@@ -1,0 +1,68 @@
+.recommended-games{margin:0 0 48px;--recommended-gap:20px;--recommended-card:calc((100% - 100px)/6)}
+.recommended-games.m-container{margin:38px auto 48px}
+.recommended-heading{align-items:center;gap:20px;margin-bottom:16px}
+.recommended-heading>div{order:0;flex-shrink:0}
+.recommended-heading h2{margin:0;font-size:23px;letter-spacing:-.025em}
+.recommended-heading h2 .void-icon{font-size:17px;color:#b69ade}
+.recommended-heading>div>p{margin:7px 0 0;color:#a99ab7;font-size:11px}
+.recommended-heading>a{white-space:nowrap;text-decoration:none}
+.recommended-source{font-size:10px;color:#a99ab7;margin:0 0 15px}
+.recommended-carousel{position:relative;animation:recommended-enter var(--recommended-fade) ease both}
+.recommended-track{display:flex;gap:var(--recommended-gap);overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding:10px 0 20px;mask-image:linear-gradient(90deg,transparent,#000 1.5%,#000 98.5%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 1.5%,#000 98.5%,transparent)}
+.recommended-track::-webkit-scrollbar{display:none;width:0;height:0}
+.recommended-track.is-marquee{display:block;overflow:hidden;scroll-snap-type:none;scroll-behavior:auto;touch-action:pan-y;cursor:grab}
+.recommended-rail{display:flex;width:100%;will-change:transform}
+.recommended-group{display:grid;grid-template-columns:repeat(var(--release-count),minmax(0,1fr));gap:var(--recommended-gap);flex:0 0 auto;padding-right:var(--recommended-gap);width:calc(var(--release-count) * (var(--recommended-card) + var(--recommended-gap)))}
+.recommended-card{flex:0 0 var(--recommended-card);min-width:0;scroll-snap-align:start;transition:transform .25s ease}
+.recommended-card:hover,.recommended-card:focus-within,.recommended-card.is-menu-open{transform:translate3d(0,-6px,0)}
+.recommended-art{aspect-ratio:2/3;position:relative;border-radius:8px;background:#21192b;transition:box-shadow .25s}
+.recommended-cover-link{display:block;width:100%;height:100%;overflow:hidden;border-radius:inherit;position:relative}
+.recommended-cover-link>.game-portrait-cover{width:100%;height:100%}
+.recommended-art img{transition:transform .35s ease}
+.recommended-card:hover .recommended-art,.recommended-card:focus-within .recommended-art,.recommended-card.is-menu-open .recommended-art{box-shadow:0 10px 28px #a468d540}
+.recommended-card:hover .recommended-art img,.recommended-card:focus-within .recommended-art img,.recommended-card.is-menu-open .recommended-art img{transform:scale(1.05)}
+.recommended-card h3{font-size:12px;line-height:1.5;font-weight:500;margin:12px 0 0;color:#eee7f5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.recommended-card h3 a{color:inherit;text-decoration:none}
+.recommended-card:hover h3,.recommended-card:focus-within h3{color:#f5eaff}
+.recommended-genre{position:absolute;top:9px;left:9px;max-width:calc(100% - 54px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;padding:5px 7px;font-size:8px;background:#140d20cc;color:#e5cffc;pointer-events:none}
+.recommended-overlay{position:absolute;inset:0;padding:12px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;background:linear-gradient(0deg,#100a19fa,#170e25c9 35%,transparent 75%);color:#ece2f7;opacity:0;transition:opacity .25s;pointer-events:none}
+.recommended-overlay p{display:flex;flex-wrap:wrap;gap:6px 10px;margin:0;font-size:9px;line-height:1.6}
+.recommended-overlay p>span{display:inline-flex;align-items:center;gap:4px}
+.recommended-overlay .void-icon{color:#d8b6f6;font-size:11px}
+.game-platform-icons{display:flex;align-items:center;gap:10px}
+.game-platform-icons img{width:18px;height:18px;object-fit:contain;display:block;opacity:.85}
+.game-cover-platforms{position:absolute;inset:auto 0 0;padding:30px 12px 12px;background:linear-gradient(0deg,#100a19f5,transparent);opacity:0;transition:opacity .25s;pointer-events:none}
+.upcoming-cover-card:hover .game-cover-platforms,.upcoming-cover-card:focus-within .game-cover-platforms{opacity:1}
+.recommended-card:hover .recommended-overlay,.recommended-card:focus-within .recommended-overlay,.recommended-card.is-menu-open .recommended-overlay{opacity:1}
+.recommended-add{position:absolute;right:8px;top:8px;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;border:1px solid #ceb0ed70;background:#1b1127e6;color:#f2e8fc;opacity:0;transition:opacity .2s,background .2s}
+.recommended-add:disabled{cursor:default;opacity:.3}
+.recommended-card:hover .recommended-add,.recommended-card:focus-within .recommended-add,.recommended-card.is-menu-open .recommended-add{opacity:1}
+.recommended-add:hover{background:#634783}
+.recommended-arrow{position:absolute;z-index:3;top:36%;width:32px;height:40px;border-radius:8px;padding:6px;display:grid;place-items:center;background:#17101feb;border:1px solid #bb9bdd40;color:#e8d5ff;opacity:0;pointer-events:none;transition:opacity .2s}
+.recommended-arrow.is-prev{left:-16px}.recommended-arrow.is-next{right:-16px}
+.recommended-carousel:hover .recommended-arrow,.recommended-carousel:focus-within .recommended-arrow{opacity:1;pointer-events:auto}
+.recommended-carousel .recommended-arrow:disabled{opacity:0;pointer-events:none}
+.recommended-feedback{font-size:11px;line-height:1.7;color:#cfb6e4;margin:10px 0}
+.recommended-feedback:empty{display:none}
+.recommended-feedback button{border:0;background:transparent;color:inherit;text-decoration:underline}
+.recommended-status-menu{position:fixed;z-index:1000;max-height:calc(100svh - 24px);overflow-y:auto;padding:8px;border:1px solid #bb92e35c;border-radius:12px;background:#21182e;color:#f3eafa;box-shadow:0 18px 50px #0009;font-family:'Poppins',Arial,sans-serif}
+.recommended-status-menu>p{font-size:11px;font-weight:600;padding:8px;margin:0 0 4px;border-bottom:1px solid #ffffff15}
+.recommended-status-menu>p>span{display:block;font-size:9px;font-weight:400;color:#bdaccd;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;margin-top:4px}
+.recommended-status-menu button{font:inherit;font-size:11px;min-height:36px;width:100%;display:flex;align-items:center;justify-content:space-between;padding:8px 10px;color:inherit;background:transparent;border:0;border-radius:6px;text-align:left;cursor:pointer}
+.recommended-status-menu button:hover,.recommended-status-menu button[aria-pressed=true]{background:#b28bda24;color:#e6c9ff}
+.recommended-status-menu button:focus-visible{outline:2px solid #d6b4ff;outline-offset:-2px}
+.recommended-skeleton{display:grid;grid-auto-flow:column;grid-auto-columns:var(--recommended-card);gap:var(--recommended-gap);overflow:hidden;padding:10px 0 20px}
+.recommended-skeleton>div>span:first-child{aspect-ratio:2/3;border-radius:8px}
+.recommended-skeleton>div>span:last-child{height:12px;width:75%;margin-top:14px}
+.games-platforms .platform-grid{padding-top:8px}
+.games-platforms .platform-grid button{transition:transform .25s,box-shadow .25s,border-color .25s,background .25s}
+.games-platforms .platform-grid button:hover{transform:translate3d(0,-4px,0);border-color:#b78ce16b;box-shadow:0 9px 26px #a168d229}
+.games-platforms .platform-grid button.selected{border-color:#c19be9;background:linear-gradient(135deg,#352343,#201a2d);box-shadow:0 0 20px #ab73df30,inset 0 0 0 1px #c4a2e333}
+.games-platforms .platform-mark img{width:44px;height:44px}.games-platforms .platform-mark{font-size:32px}
+@keyframes recommended-enter{from{opacity:0;transform:translate3d(0,6px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@media(min-width:1600px){.recommended-games{--recommended-card:calc((100% - 120px)/7)}}
+@media(max-width:1000px){.recommended-games{--recommended-card:calc((100% - 48px)/4);--recommended-gap:16px}}
+@media(max-width:600px){.recommended-games{--recommended-card:42%;--recommended-gap:14px}.recommended-heading{gap:10px}.recommended-heading h2{font-size:17px;gap:7px}.recommended-heading>div>p{font-size:10px}.recommended-heading:after{display:none}.recommended-arrow.is-prev{left:-10px}.recommended-arrow.is-next{right:-10px}.recommended-arrow{width:27px;height:34px}.recommended-art .recommended-add{opacity:1}.recommended-overlay{padding:10px}.games-platforms .platform-mark img{width:40px;height:40px}}
+@media(hover:none){.recommended-add{opacity:1}.recommended-arrow{opacity:1;pointer-events:auto}.game-cover-platforms{opacity:1}}
+@media(prefers-reduced-motion:reduce){.recommended-games *,.games-platforms .platform-grid button{animation:none!important;transition:none!important}.recommended-track{scroll-behavior:auto}}
+@media(forced-colors:active){.recommended-track{mask-image:none;-webkit-mask-image:none}.recommended-art,.recommended-status-menu,.games-platforms .platform-grid button.selected{border:1px solid Highlight}.recommended-arrow,.recommended-add{opacity:1}.recommended-overlay{background:Canvas;color:CanvasText}}

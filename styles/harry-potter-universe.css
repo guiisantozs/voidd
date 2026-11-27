@@ -1,0 +1,40 @@
+body:has(.harry-potter-universe){--bg:#0c0c10;background:#0c0c10}
+body:has(.harry-potter-universe) .account-bar.site-navigation:before{height:calc(100% + 48px);background:linear-gradient(180deg,#0c0c10eb,#0c0c10a6 35%,#0c0c1040 70%,#0c0c1000)}
+.harry-potter-universe{--sw-bg:#0c0c10;--sw-gold:#d8b16e;--m-surface:#17171c;--m-muted:#b9b7b0;--m-purple:var(--sw-gold)}
+.harry-potter-universe .sw-hero{background:#14110d}
+.harry-potter-universe .sw-hero:after{background:linear-gradient(0deg,#0c0c10 0%,#0c0c10d9 19%,#0c0c1066 44%,#0c0c1000 75%),linear-gradient(90deg,#0c0c1099,transparent 75%)}
+.harry-potter-universe .sw-hero h1{max-width:280px}
+.harry-potter-universe .sw-tagline{color:#e5ded2}
+.harry-potter-universe .sw-actions a{border-color:#d8b16e55;color:#eddec3}
+.harry-potter-universe .sw-actions .sw-primary{color:#19130d;border-color:var(--sw-gold)}
+.harry-potter-universe .sw-nav{background:linear-gradient(180deg,#0c0c10,#14120f 50%,#0c0c10)}
+.harry-potter-universe .sw-about-art:after{background:linear-gradient(0deg,#0c0c10,transparent 75%)}
+.harry-potter-universe .sw-about-copy>p:not(.sw-eyebrow),.harry-potter-universe .sw-facts span{color:#b9b7b0}
+.harry-potter-universe .u-controls :is(button,select){background:#17171c;border-color:#d8b16e33;color:#e3ddd5}
+.harry-potter-universe .u-controls button[aria-pressed=true]{background:#d8b16e0c;border-color:var(--sw-gold);color:var(--sw-gold)}
+.harry-potter-universe :is(.u-hint,.u-controls label){color:#b9b7b0}
+.harry-potter-universe .u-order-number{background:#0c0c10ed;border-color:#d8b16e55}
+@media(min-width:701px){
+ .harry-potter-universe .sw-hero-art img{object-position:50% center!important}
+ .harry-potter-universe .sw-hero:after{background:linear-gradient(0deg,#0c0c10,transparent 29%),linear-gradient(90deg,#0c0c10dc 0%,#0c0c1080 30%,#0c0c101a 60%,transparent 85%)}
+ .harry-potter-universe .sw-hero h1{max-width:340px}
+ .harry-potter-universe .sw-about{min-height:730px}
+ .harry-potter-universe .sw-about-art{right:25%}
+ .harry-potter-universe .sw-about-art img{height:auto!important;top:50%!important;bottom:auto!important;transform:translateY(-50%);object-position:50% center!important;mask-image:linear-gradient(0deg,transparent,#000 15%,#000 85%,transparent);-webkit-mask-image:linear-gradient(0deg,transparent,#000 15%,#000 85%,transparent)}
+ .harry-potter-universe .sw-about-art:after{background:linear-gradient(0deg,#0c0c10,transparent 24%,transparent 80%,#0c0c10),linear-gradient(270deg,#0c0c10,transparent 68%)}
+ .harry-potter-universe .sw-about-copy{padding-left:55%}
+ .harry-potter-universe .sw-about h2{font-size:clamp(34px,3vw,46px)}
+}
+@media(min-width:701px) and (max-width:1000px){.harry-potter-universe .sw-about-copy{padding-left:45%}.harry-potter-universe .sw-about-art{right:15%;opacity:.72}}
+@media(max-width:700px){
+ .harry-potter-universe .sw-hero{min-height:max(740px,100svh)}
+ .harry-potter-universe .sw-hero-art img{height:78%!important;object-position:42% top!important}
+ .harry-potter-universe .sw-hero:after{background:linear-gradient(0deg,#0c0c10 0%,#0c0c10 28%,#0c0c10cc 39%,#0c0c1000 64%)}
+ .harry-potter-universe .sw-hero-heading{padding-top:240px}
+ .harry-potter-universe .sw-hero h1{max-width:210px;margin-bottom:16px}
+ .harry-potter-universe .sw-about{padding-top:245px}
+ .harry-potter-universe .sw-about-art{height:310px}
+ .harry-potter-universe .sw-about-art img{object-position:50% center!important}
+ .harry-potter-universe .sw-about h2{font-size:32px}
+}
+@media(forced-colors:active){.harry-potter-universe .sw-hero,.harry-potter-universe .sw-about,.harry-potter-universe .sw-nav{background:Canvas;color:CanvasText}.harry-potter-universe .sw-actions a{border-color:ButtonText;color:LinkText}.harry-potter-universe .sw-actions .sw-primary{background:ButtonFace;color:ButtonText}}

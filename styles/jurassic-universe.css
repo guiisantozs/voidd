@@ -1,0 +1,43 @@
+body:has(.jurassic-universe){--bg:#060e0d;background:#060e0d}
+body:has(.jurassic-universe) .account-bar.site-navigation:before{height:calc(100% + 48px);background:linear-gradient(180deg,#060e0deb,#060e0da6 35%,#060e0d40 70%,#060e0d00)}
+.jurassic-universe{--sw-bg:#060e0d;--sw-gold:#70c89a;--m-surface:#101d18;--m-muted:#b0c1ba;--m-purple:var(--sw-gold)}
+.jurassic-universe .sw-hero{background:var(--sw-bg)}
+.jurassic-universe :is(.sw-hero-art,.sw-about-art){z-index:0}
+.jurassic-universe .sw-hero:after{z-index:1;background:linear-gradient(0deg,#060e0d,transparent 34%),linear-gradient(90deg,#060e0df2 0%,#060e0db3 25%,#060e0d26 58%,transparent 85%)}
+.jurassic-universe :is(.sw-hero-copy,.sw-about-copy){position:relative;z-index:2}
+.jurassic-universe .sw-hero h1{max-width:170px;margin-bottom:22px}
+.jurassic-universe .sw-hero h1 .u-shortcut-logo{aspect-ratio:1}
+.jurassic-universe .sw-tagline{color:#dce9e2}
+.jurassic-universe .sw-actions a{border-color:#70c89a55;color:#c9e9d7}
+.jurassic-universe .sw-actions .sw-primary{color:#0b1b12;border-color:var(--sw-gold)}
+.jurassic-universe .sw-nav{background:linear-gradient(180deg,#060e0d,#102019 50%,#060e0d)}
+.jurassic-universe .sw-nav a{color:#c9e9d7}
+.jurassic-universe .sw-about-art:after{background:linear-gradient(0deg,#060e0d,transparent 75%)}
+.jurassic-universe .sw-about-copy>p:not(.sw-eyebrow),.jurassic-universe .sw-facts span{color:#b0c1ba}
+.jurassic-universe .u-controls :is(button,select){background:#101d18;border-color:#70c89a33;color:#dce9e2}
+.jurassic-universe .u-controls button[aria-pressed=true]{background:#70c89a0c;border-color:var(--sw-gold);color:var(--sw-gold)}
+.jurassic-universe :is(.u-hint,.u-controls label){color:#b0c1ba}
+.jurassic-universe .u-order-number{background:#060e0ded;border-color:#70c89a55}
+@media(min-width:701px){
+ .jurassic-universe .sw-hero-art img{object-position:62% center!important}
+ .jurassic-universe .sw-hero-heading{padding-top:24px}
+ .jurassic-universe .sw-about-art{right:25%}
+ .jurassic-universe .sw-about-art img{object-position:30% center!important}
+ .jurassic-universe .sw-about-art:after{background:linear-gradient(0deg,#060e0d,transparent 24%,transparent 80%,#060e0d),linear-gradient(270deg,#060e0d,transparent 68%)}
+ .jurassic-universe .sw-about-copy{padding-left:53%}
+ .jurassic-universe .sw-about h2{font-size:clamp(34px,3vw,46px)}
+}
+@media(min-width:701px) and (max-width:1000px){.jurassic-universe .sw-about-copy{padding-left:45%}.jurassic-universe .sw-about-art{right:15%;opacity:.72}}
+@media(max-width:700px){
+ .jurassic-universe .sw-hero{min-height:740px}
+ .jurassic-universe .sw-hero-art img{top:calc(var(--site-navigation-height,90px) + 12px)!important;height:60%!important;object-position:64% center!important}
+ .jurassic-universe .sw-hero:after{background:linear-gradient(0deg,#060e0d 0%,#060e0d 28%,#060e0db3 40%,#060e0d00 63%)}
+ .jurassic-universe .sw-hero-heading{padding-top:190px}
+ .jurassic-universe .sw-hero h1{max-width:112px;margin-bottom:16px}
+ .jurassic-universe .sw-eyebrow{max-width:300px}
+ .jurassic-universe .sw-about{padding-top:245px}
+ .jurassic-universe .sw-about-art{height:330px}
+ .jurassic-universe .sw-about-art img{object-position:30% center!important}
+ .jurassic-universe .sw-about h2{font-size:32px}
+}
+@media(forced-colors:active){.jurassic-universe .sw-hero,.jurassic-universe .sw-about,.jurassic-universe .sw-nav{background:Canvas;color:CanvasText}.jurassic-universe .sw-actions a{border-color:ButtonText;color:LinkText}.jurassic-universe .sw-actions .sw-primary{background:ButtonFace;color:ButtonText}}

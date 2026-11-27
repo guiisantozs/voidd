@@ -1,0 +1,141 @@
+/* Cinematic universe landings. Shared cards/statuses stay intact. */
+.cinematic-universe{background:#080a09;overflow-x:clip;overflow-y:visible;--library-surface:#080a09;--universe-nav-height:64px}
+html:has(.cinematic-universe){scroll-padding-top:0}
+.tlou-landing{--game-accent:#9ab398;background:#080a09;color:#f2f3ed}
+body:has(.cinematic-universe) .account-bar{position:absolute;inset:0 0 auto;background:transparent;border-bottom-color:#ffffff18}
+body:has(.cinematic-universe) .account-bar :is(.account-bar-links>a,.account-bar-status,.header-account-settings,.void-people-menu-button){color:#f2f3ed;text-shadow:0 2px 8px #000}
+.cinematic-universe .m-container{width:86%;max-width:1280px}
+.tlou-hero{position:relative;isolation:isolate;min-height:100svh;display:flex;align-items:center;background:#15221b;overflow:hidden}
+.tlou-hero-art,.tlou-hero-shade{position:absolute;inset:0;z-index:-2}
+.tlou-hero-art{inset:-48px 0;transform:translate3d(0,var(--gu-parallax,0px),0)}
+.tlou-hero-art img{object-fit:cover}
+.tlou-hero-art.is-portrait{filter:blur(24px);transform:scale(1.1)}
+.tlou-hero-shade{z-index:-1;background:linear-gradient(180deg,#030604c9,transparent 24%,transparent 65%,#080a09ab),linear-gradient(90deg,#030805ed 0%,#030805c4 25%,#03080560 47%,#0308050d 75%)}
+.tlou-hero:after{content:'';position:absolute;inset:auto -1px -1px;height:56px;background:#080a09;clip-path:polygon(0 38%,3% 44%,5% 32%,8% 40%,11% 30%,14% 38%,17% 35%,20% 43%,24% 31%,27% 37%,30% 25%,33% 36%,37% 32%,41% 43%,45% 38%,49% 48%,52% 30%,56% 43%,60% 35%,64% 42%,69% 31%,73% 46%,77% 35%,81% 42%,85% 32%,89% 45%,93% 36%,97% 45%,100% 34%,100% 100%,0 100%);pointer-events:none}
+.tlou-hero-copy{padding-block:128px 112px}
+.tlou-back{display:inline-flex;gap:8px;align-items:center;margin-bottom:56px;color:#ced8cc;font-size:12px}
+.tlou-landing .m-eyebrow{font-size:12px;letter-spacing:.16em;color:var(--game-accent);line-height:1.7}
+.tlou-hero-copy h1{margin:24px 0;max-width:360px;line-height:1}
+.tlou-hero-copy h1 .u-shortcut-logo{display:block;width:100%;max-width:none;height:280px;object-fit:contain;object-position:left center;filter:drop-shadow(0 4px 24px #0008)}
+.tlou-tagline{font-size:16px;line-height:1.8;max-width:352px;margin:24px 0 32px;color:#dee5db;text-shadow:0 2px 8px #0008}
+.tlou-hero-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap;max-width:600px}
+.tlou-hero-actions :is(a,button){display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:48px;padding:16px 24px;border:1px solid var(--game-accent);border-radius:2px;font:inherit;font-size:12px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color 200ms,border-color 200ms,transform 200ms}
+.tlou-hero-actions .tlou-primary{background:var(--game-accent);color:#080d09}
+.tlou-hero-actions .tlou-secondary{background:#080d0970;color:#f1f4ef}
+.tlou-hero-actions .tlou-trailer{border-color:transparent;background:transparent;color:#e0e8dc;padding-inline:0}
+.tlou-hero-caption{display:flex;gap:24px;align-items:center;flex-wrap:wrap;font-size:12px;line-height:1.8;color:#bdcbb7;margin-top:40px}
+.tlou-hero-caption>span+span:before{content:'';display:inline-block;width:3px;height:3px;background:var(--game-accent);border-radius:50%;margin-right:24px;vertical-align:middle}
+.tlou-scroll{position:absolute;bottom:56px;left:3%;display:flex;align-items:center;flex-direction:column;color:var(--game-accent);gap:0;padding:8px;font-size:12px;text-decoration:none}
+.tlou-scroll>span{writing-mode:vertical-rl;letter-spacing:.2em;margin-bottom:16px}
+.tlou-scroll .void-icon{transform:rotate(90deg);width:20px;height:20px}
+.tlou-scroll .void-icon+.void-icon{margin-top:-12px}
+.tlou-section-nav{position:sticky;top:0;z-index:30;display:flex;justify-content:center;gap:32px;padding:16px 5%;border:0;background:#080a09f5;overflow-x:auto;scrollbar-width:thin;backdrop-filter:blur(16px)}
+.tlou-section-nav>a{flex-shrink:0;position:relative;display:flex;align-items:center;min-height:32px;font-size:12px;line-height:1.6;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:#b2bfb0}
+.tlou-section-nav>a[aria-current=location]{color:var(--game-accent)}
+.tlou-section-nav>a:after{content:'';position:absolute;inset:auto 0 -16px;height:2px;background:var(--game-accent);opacity:0;transition:opacity 200ms}
+.tlou-section-nav>a[aria-current=location]:after{opacity:1}
+.tlou-section-nav>a:focus-visible:after{opacity:1}
+@media(hover:hover) and (pointer:fine){.tlou-section-nav>a:hover:after{opacity:1}}
+@media(forced-colors:active){.tlou-section-nav>a:after{background:Highlight}}
+.tlou-section-dots{position:fixed;left:24px;top:40%;z-index:25;display:flex;flex-direction:column;gap:8px}
+.tlou-section-dots a{display:grid;place-items:center;width:24px;height:24px;text-decoration:none}
+.tlou-section-dots a>span{width:4px;height:4px;border-radius:50%;background:#d8e5d3;box-shadow:0 1px 5px #000;transition:box-shadow 200ms,background-color 200ms}
+.tlou-section-dots a[aria-current=location]>span{background:var(--game-accent);box-shadow:0 0 0 5px #a5bda226}
+.cinematic-universe :is(#sobre,#jogos,#gu-games-title,#gu-remasters,#midia,#avatares,#outros-universos){scroll-margin-top:calc(var(--universe-nav-height) + 16px)}
+.cinematic-universe #sobre{scroll-margin-top:var(--universe-nav-height)}
+.tlou-about{position:relative;isolation:isolate;overflow:hidden;min-height:640px;display:flex;align-items:center;background:#080a09}
+.tlou-about-art{position:absolute;inset:0 0 0 32%;z-index:-1;mask-image:linear-gradient(90deg,transparent,black 45%);opacity:.8}
+.tlou-about-art:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#080a09,transparent 30%,transparent 80%,#080a09),linear-gradient(90deg,#080a09a8,transparent 65%)}
+.tlou-about-art img{object-fit:cover;object-position:var(--about-position,58% center)}
+.tlou-about-content{padding-block:96px}
+.tlou-about-copy{width:100%;max-width:480px}
+.is-about-reversed .tlou-about-copy{margin-left:auto;width:44%}
+.is-about-reversed .tlou-about-art{inset:0 32% 0 0;mask-image:linear-gradient(90deg,black 50%,transparent)}
+.is-about-reversed .tlou-about-art:after{background:linear-gradient(0deg,#0a090b,transparent 30%,transparent 80%,#0a090b),linear-gradient(270deg,#0a090ba8,transparent 65%)}
+.tlou-landing h2{font-size:clamp(28px,3vw,44px);line-height:1.2;letter-spacing:-.035em;text-transform:uppercase;font-weight:700;text-wrap:balance}
+.tlou-about-content h2{position:relative;max-width:440px;padding-bottom:24px;margin:16px 0 32px}
+.tlou-about-content h2:after{content:'';position:absolute;left:0;bottom:0;width:80px;height:2px;background:var(--game-accent)}
+.tlou-about-copy>p:not(.m-eyebrow){max-width:416px;font-size:14px;line-height:1.9;color:#c4cdc1;margin-bottom:24px}
+.tlou-facts{display:flex;gap:24px;flex-wrap:wrap;max-width:480px;margin-top:40px}
+.tlou-facts>div{display:grid;gap:8px;max-width:200px}
+.tlou-facts strong{font-size:20px;color:#f3f5ef;font-weight:600}
+.tlou-facts span{font-size:12px;color:#a8b6a2;line-height:1.6}
+.tlou-about .u-progress{max-width:416px;margin-top:32px}
+.tlou-text-link{display:inline-flex;align-items:center;gap:16px;margin-top:32px;color:var(--game-accent);font-size:12px;text-decoration:none}
+.cinematic-universe .gu-games{padding-top:64px;padding-bottom:64px}
+.cinematic-universe .gu-control-panel{position:relative;top:auto;background:#111611;border-color:#a3b69830;box-shadow:none}
+.cinematic-universe .gu-controls :is(input,select){background:#0b100b;border-color:#a3b69838}
+.cinematic-universe .gu-timeline li{background:#080a09}
+.cinematic-universe .gu-start-card{background:radial-gradient(ellipse at 80% 0,#8caa7312,transparent 65%),#101510;border-color:#a3b69833}
+.cinematic-universe .gu-section-heading h2{font-size:24px}
+.cinematic-universe .gu-section-heading>i{background:linear-gradient(90deg,var(--game-accent),transparent)}
+.cinematic-universe .gu-selection-note,.cinematic-universe .gu-attribution{color:#b0bca9}
+.tlou-media,.tlou-avatars{padding-block:64px 80px;border-top:1px solid #9bb28e26}
+.tlou-media .gp-section{margin-block:16px 0}
+.tlou-media .gp-section-heading{margin-bottom:32px}
+.tlou-media .gp-overline{display:none}
+.tlou-media .gp-media-grid{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 32px)/3);grid-template-columns:none;gap:16px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:16px}
+.tlou-media .gp-media-grid>button{scroll-snap-align:start;aspect-ratio:16/10;border-radius:4px;border:1px solid #bfd4ae26;overflow:hidden}
+.tlou-media .gp-media-grid img{width:100%;height:100%;object-fit:cover}
+.tlou-media .gp-empty{border-color:#a3b69826;background:#101510}
+.tlou-media-error{font-size:12px;color:#b7c3b0;line-height:1.8}
+.tlou-media-error button{font:inherit;color:var(--game-accent);background:none;text-decoration:underline}
+.tlou-media-skeleton{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.tlou-media-skeleton>.m-skeleton{display:block;aspect-ratio:16/10;border-radius:4px}
+.tlou-avatars-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:32px}
+.tlou-avatars-heading h2{font-size:clamp(24px,2.5vw,32px);margin:8px 0 16px;line-height:1.25}
+.tlou-avatars-heading>div>p:last-child{font-size:14px;line-height:1.7;color:#b3c0ae;margin:0;max-width:544px}
+.tlou-avatars-heading>span{display:inline-flex;align-items:center;gap:8px;font-size:12px;line-height:1.6;color:#a7b89f;flex-shrink:0;padding-bottom:4px}
+.tlou-avatars-heading>span .void-icon{width:16px;height:16px;color:var(--game-accent)}
+.tlou-avatars .va-picker{padding:24px;border:1px solid #a3b69826;border-radius:16px;background:linear-gradient(130deg,#14201480,#0c110d);box-shadow:inset 0 1px #ffffff05;--va-accent:var(--game-accent)}
+.tlou-avatars .va-picker>div[role=radiogroup]{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
+.tlou-avatars :is(.va-work-group,.va-avatar-grid){display:contents}
+.tlou-avatars .va-option{padding:24px 16px 16px;gap:16px;border:1px solid #c8ddba1a;border-radius:12px;background:#ffffff03;transition:background-color 200ms,border-color 200ms}
+.tlou-avatars .va-portrait{width:112px;height:112px;border-color:#c8ddba33;box-shadow:0 8px 24px #0003}
+.tlou-avatars .va-picker .va-option>button[role=radio]{gap:16px}
+.tlou-avatars .va-character-name{font-size:13px;font-weight:600;color:#e8eee4}
+.tlou-avatars .va-picker .va-use-button{width:100%;min-height:40px;padding:8px;font-size:12px;white-space:nowrap;border:1px solid #b9cfaa40;border-radius:8px;background:#a3bd8e0a;color:#c8d8bc}
+.tlou-avatars .va-option.is-selected{border-color:#b8d09f80;background:#9ab4810a}
+.tlou-avatars .va-option.is-selected .va-portrait,.tlou-avatars .va-option.is-current .va-portrait{outline-color:var(--game-accent);box-shadow:0 8px 24px #9ab48114}
+.tlou-avatars .va-in-use,.tlou-avatars .va-feedback{color:#c6d8b8}
+.tlou-avatars .va-feedback{margin:16px 0 0;min-height:0}
+.tlou-avatars .va-feedback:empty{display:none}
+@media(hover:hover) and (pointer:fine){.tlou-avatars .va-option:hover{background:#a3bd8e0a;border-color:#b8d09f66}.tlou-avatars .va-picker .va-use-button:hover{background:var(--game-accent);border-color:var(--game-accent);color:#0a1009}}
+@media(max-width:1100px){.tlou-avatars .va-picker>div[role=radiogroup]{grid-template-columns:repeat(3,minmax(0,1fr))}.tlou-avatars-heading>span{display:none}}
+@media(max-width:600px){.tlou-avatars-heading{margin-bottom:24px}.tlou-avatars-heading>div>p:last-child{font-size:12px}.tlou-avatars .va-picker{padding:16px}.tlou-avatars .va-picker>div[role=radiogroup]{grid-template-columns:repeat(2,minmax(0,1fr))}.tlou-avatars .va-option{padding:16px 8px;gap:16px}.tlou-avatars .va-portrait{width:96px;height:96px}}
+.cinematic-universe .gu-other-universes{background:#080a09;border-top-color:#a3b69826;padding-block:64px}
+.cinematic-universe .gu-other-universes .m-eyebrow{color:#b6cbaa}
+.cinematic-universe :is(a,button,input,select,h1,h2):focus-visible{outline:2px solid #c8dfb9;outline-offset:4px}
+.tlou-will-reveal{opacity:0;transform:translateY(16px);transition:opacity 600ms,transform 600ms}
+.tlou-will-reveal.is-visible{opacity:1;transform:none}
+.gow-universe{background:#0a090b;--library-surface:#0a090b}
+.gow-universe .tlou-landing,.gow-universe .tlou-about,.gow-universe .gu-other-universes,.gow-universe .gu-timeline li{background:#0a090b}
+.gow-universe .tlou-hero{background:#161416}
+.gow-universe .tlou-hero-copy h1{max-width:560px}
+.gow-universe .tlou-hero-copy h1 .u-shortcut-logo{height:184px}
+.gow-universe .tlou-hero-shade{background:linear-gradient(180deg,#09070bd9,transparent 24%,transparent 65%,#0a090bab),linear-gradient(90deg,#0a090bf5 0%,#0a090bd9 24%,#0a090b70 46%,#0a090b0d 78%)}
+.gow-universe .tlou-hero:after{background:#0a090b}
+.gow-universe .tlou-section-nav{background:#0a090bf5}
+.gow-universe .tlou-hero-caption,.gow-universe .tlou-back,.gow-universe .tlou-facts span,.gow-universe .tlou-about-copy>p:not(.m-eyebrow){color:#d0c6c8}
+.gow-universe .gu-control-panel{background:#141115;border-color:#ffffff20}
+.gow-universe .gu-controls :is(input,select){background:#0e0b10;border-color:#ffffff26}
+.gow-universe .gu-start-card{background:radial-gradient(ellipse at 80% 0,#d5687312,transparent 65%),#141115;border-color:#d5687333}
+.gow-universe .tlou-avatars .va-picker{background:linear-gradient(130deg,#2c151a80,#100c10);border-color:#d5687333}
+.gow-universe .tlou-avatars .va-use-button{background:#d568730a;border-color:#d5687340;color:#edd0d4}
+.gow-universe .tlou-avatars :is(.va-character-name,.va-in-use,.va-feedback),.gow-universe .gu-selection-note,.gow-universe .gu-attribution{color:#d9cdd0}
+.gow-universe .tlou-avatars .va-option.is-selected{border-color:var(--game-accent);background:#d5687314}
+.gow-universe .tlou-avatars .va-portrait{border-color:#d5687333}
+.gow-universe .tlou-avatars :is(.va-option.is-selected,.va-option.is-current) .va-portrait{box-shadow:0 8px 24px #d5687314}
+.gow-universe .tlou-avatars-heading :is(p,span),.gow-universe .gu-other-universes .m-eyebrow{color:#c9b9be}
+.gow-universe :is(.tlou-media,.tlou-avatars,.gu-other-universes){border-color:#d5687326}
+.gow-universe .tlou-section-dots a[aria-current=location]>span{box-shadow:0 0 0 5px #d5687326}
+.gow-universe :is(a,button,input,select,h1,h2):focus-visible{outline-color:var(--game-accent,#d56873)}
+@media(hover:hover) and (pointer:fine){.gow-universe .tlou-hero-actions .tlou-primary:hover{background:#e9949e}.gow-universe .tlou-avatars .va-option:hover{border-color:#d5687366;background:#d568730a}}
+@media(max-width:1000px){.gow-universe .tlou-hero-copy h1{max-width:440px}.gow-universe .tlou-hero-copy h1 .u-shortcut-logo{height:152px}}
+@media(max-width:760px){.is-about-reversed .tlou-about-art{inset:0 0 auto;height:400px;mask-image:linear-gradient(0deg,transparent,black 70%)}.is-about-reversed .tlou-about-art img{object-position:25% 30%}.is-about-reversed .tlou-about-copy{width:100%;margin-left:0;max-width:none}.gow-universe .tlou-hero-copy h1{max-width:320px}.gow-universe .tlou-hero-copy h1 .u-shortcut-logo{height:112px}.gow-universe .tlou-hero-shade{background:linear-gradient(0deg,#0a090bfa 0%,#0a090be6 26%,#0a090b55 70%,#0a090ba8 100%)}.gow-universe .tlou-about{padding-top:256px}}
+@media(hover:hover) and (pointer:fine){.tlou-hero-actions :is(a,button):hover{transform:translateY(-2px)}.tlou-hero-actions .tlou-primary:hover{background:#c6d3b5}.tlou-section-nav>a:hover,.tlou-text-link:hover{color:#e4eedc}}
+@media(max-width:1000px){.tlou-section-dots{left:8px}.tlou-hero-copy h1{max-width:280px}.tlou-hero-copy h1 .u-shortcut-logo{height:248px}.tlou-section-nav{gap:24px;justify-content:flex-start}.tlou-about-art{left:20%;opacity:.55}}
+@media(max-width:760px){.cinematic-universe .m-container{width:88%}.tlou-hero{min-height:100svh;align-items:flex-end}.tlou-hero-copy{padding-block:112px 72px}.tlou-back{margin-bottom:32px}.tlou-hero-copy h1{max-width:224px;margin-block:16px}.tlou-hero-copy h1 .u-shortcut-logo{height:200px}.tlou-hero-shade{background:linear-gradient(0deg,#080a09f5 0%,#080a09cf 28%,#080a0970 60%,#080a0999 100%)}.tlou-hero-art img{object-position:var(--hero-mobile-position,58% center)!important}.tlou-tagline{font-size:14px;max-width:320px;margin-bottom:24px}.tlou-hero-actions{max-width:352px;gap:16px;align-items:stretch;flex-direction:column}.tlou-hero-actions :is(a,button){width:100%;min-height:48px}.tlou-hero-caption{gap:16px;margin-top:24px}.tlou-hero-caption>span:last-child{display:none}.tlou-hero-caption>span+span:before{margin-right:16px}.tlou-scroll,.tlou-section-dots{display:none}.tlou-section-nav{gap:24px;padding-block:8px}.tlou-section-nav>a{min-height:40px}.tlou-section-nav>a:after{bottom:-8px}.tlou-about{min-height:0;padding-top:184px}.tlou-about-art{inset:0 0 auto;height:400px;opacity:.7;mask-image:linear-gradient(0deg,transparent,black 70%)}.tlou-about-art img{object-position:65% 25%}.tlou-about-content{padding-block:64px}.tlou-about-copy>p:not(.m-eyebrow){max-width:none}.tlou-facts{gap:24px}.tlou-facts strong{font-size:18px}.tlou-media,.tlou-avatars{padding-block:48px}.tlou-media .gp-media-grid{grid-auto-columns:84%}.tlou-media .gp-section-heading{gap:16px;align-items:flex-start;flex-direction:column}.tlou-media .gp-empty{padding:24px}.cinematic-universe .gu-section-heading h2{font-size:22px}.tlou-media-skeleton{grid-template-columns:1fr}.tlou-media-skeleton>.m-skeleton:not(:first-child){display:none}}
+@media(prefers-reduced-motion:reduce){.cinematic-universe *,.cinematic-universe *:before,.cinematic-universe *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.tlou-hero-art{transform:none}.tlou-will-reveal{opacity:1;transform:none}}
+@media(forced-colors:active){.tlou-hero-art,.tlou-hero-shade,.tlou-hero:after,.tlou-about-art{display:none}.tlou-landing,.tlou-hero,.tlou-about,.tlou-section-nav{background:Canvas;color:CanvasText}.tlou-landing .m-eyebrow,.tlou-tagline,.tlou-hero-caption,.tlou-about-copy>p:not(.m-eyebrow),.tlou-section-nav>a,.tlou-facts span{color:CanvasText}.tlou-hero-actions :is(a,button){background:ButtonFace!important;color:ButtonText!important;border-color:ButtonText}.tlou-section-nav>a[aria-current=location]{color:Highlight}.tlou-section-dots a>span{background:CanvasText}.tlou-section-dots a[aria-current=location]>span{outline:2px solid Highlight}.cinematic-universe :focus-visible{outline-color:Highlight}}
+@media(forced-colors:active){.gow-universe,.gow-universe :is(.tlou-landing,.tlou-hero,.tlou-about,.tlou-section-nav,.gu-other-universes,.gu-control-panel,.gu-start-card),.gow-universe .tlou-avatars .va-picker{background:Canvas;color:CanvasText}.gow-universe :is(.tlou-hero-caption,.tlou-back,.tlou-facts span,.tlou-about-copy>p:not(.m-eyebrow),.va-character-name,.va-in-use,.va-feedback,.gu-attribution,.gu-selection-note){color:CanvasText}.gow-universe .tlou-avatars .va-use-button{background:ButtonFace;color:ButtonText;border-color:ButtonText}.gow-universe :is(a,button,input,select,h1,h2):focus-visible{outline-color:Highlight}}

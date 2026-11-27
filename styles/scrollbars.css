@@ -1,0 +1,10 @@
+/* Native scrolling everywhere; one palette, with a WebKit fallback. */
+:root{--void-scrollbar-thumb:#86669e;--void-scrollbar-hover:#b391ca;--void-scrollbar-track:#17121e}
+html,*{scrollbar-width:thin;scrollbar-color:var(--void-scrollbar-thumb) var(--void-scrollbar-track)!important}
+*::-webkit-scrollbar{width:9px;height:9px}
+*::-webkit-scrollbar-track{background:var(--void-scrollbar-track);border-radius:999px}
+*::-webkit-scrollbar-thumb{background:var(--void-scrollbar-thumb);border:2px solid var(--void-scrollbar-track);border-radius:999px;min-height:36px}
+*::-webkit-scrollbar-thumb:hover{background:var(--void-scrollbar-hover)}
+*::-webkit-scrollbar-button{display:none;width:0;height:0}
+*::-webkit-scrollbar-corner{background:var(--void-scrollbar-track)}
+@media(forced-colors:active){html,*{scrollbar-color:auto!important}}
